@@ -244,10 +244,19 @@ ul.task-list input[type="checkbox"] {
 // Navbar customization
 
 .navbar {
-  box-shadow: none;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+}
+
+.navbar-brand .brand-avatar {
+  height: 38px;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  vertical-align: middle;
 }
 
 .navbar .dropdown-menu {
@@ -478,8 +487,9 @@ footer.fixed-bottom {
 
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    line-height: 1.15;
     text-align: center;
   }
 
@@ -939,6 +949,8 @@ html.transition *:after {
 }
 
 progress {
+  --reading-progress-color: #6de5f2;
+
   /* Positioning */
   position: fixed;
   left: 0;
@@ -947,7 +959,7 @@ progress {
 
   /* Dimensions */
   width: 100%;
-  height: 1px;
+  height: 4px;
 
   /* Reset the appearance */
   -webkit-appearance: none;
@@ -961,19 +973,24 @@ progress {
   background-color: transparent;
 
   /* Progress bar value for IE10  */
-  color: var(--global-theme-color);
+  color: var(--reading-progress-color) !important;
+  accent-color: var(--reading-progress-color);
 }
 
 progress::-webkit-progress-bar {
   background-color: transparent;
 }
 
+progress[value] {
+  accent-color: var(--reading-progress-color);
+}
+
 progress::-webkit-progress-value {
-  background-color: var(--global-theme-color);
+  background-color: var(--reading-progress-color) !important;
 }
 
 progress::-moz-progress-bar {
-  background-color: var(--global-theme-color);
+  background-color: var(--reading-progress-color) !important;
 }
 
 .progress-container {
@@ -982,15 +999,42 @@ progress::-moz-progress-bar {
   position: fixed;
   top: 56px;
   left: 0;
-  height: 5px;
+  height: 20px;
   display: block;
 }
 
 .progress-bar {
-  background-color: var(--global-theme-color);
+  background-color: #6de5f2 !important;
   width: 0%;
   display: block;
   height: inherit;
+}
+
+#back-to-top {
+  border: 1px solid rgba(255, 255, 255, 0.9) !important;
+  background: rgba(255, 255, 255, 0.68) !important;
+  box-shadow: 0 0.35rem 0.9rem rgba(0, 0, 0, 0.24) !important;
+  color: var(--global-text-color) !important;
+  transition:
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out,
+    border-width 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out,
+    color 0.15s ease-in-out;
+
+  &:hover,
+  &:focus {
+    border: 3px solid var(--global-theme-color) !important;
+    background: rgba(33, 37, 41, 0.72) !important;
+    box-shadow: 0 0.45rem 1.1rem rgba(0, 0, 0, 0.32) !important;
+    color: var(--global-hover-text-color) !important;
+  }
+
+  svg {
+    width: 40px !important;
+    height: 40px !important;
+    margin: 4px auto 0 !important;
+  }
 }
 
 /* Copy button */
