@@ -13,16 +13,21 @@ permalink: /
 #    <p>123 your address street</p>
 #    <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+# Template section kept for future use:
+# selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false
+# social: true # includes social icons at the bottom of the page
+social: false
 
 announcements:
-  enabled: true # includes a list of news items
+  # enabled: true # includes a list of news items
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  # enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -184,6 +189,79 @@ latest_posts:
             background-color: var(--about-developer-accent);
             padding: 1rem;
         }
+    .about-contact-section {
+        width: calc(100vw - var(--page-scrollbar-width, 0px));
+        max-width: calc(100vw - var(--page-scrollbar-width, 0px));
+        margin-left: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
+        margin-right: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
+        padding: 7rem 1rem 7.5rem;
+        background-color: #fff;
+        color: #212529;
+    }
+        .about-contact-inner {
+            width: min(100%, 610px);
+            margin: 0 auto;
+            text-align: center;
+        }
+        .about-contact-avatar {
+            width: 200px;
+            max-width: 68vw;
+            height: auto;
+            margin-bottom: 1.5rem;
+        }
+        .about-contact-message {
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.25;
+            margin-bottom: 1.5rem;
+        }
+        .about-contact-divider {
+            width: 100%;
+            margin: 0 auto 1.25rem;
+            border: 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.22);
+        }
+        .about-contact-name {
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.15;
+        }
+        .about-contact-pronouns {
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+    .about-contact-email {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.25;
+    }
+    .about-contact-section p,
+    .about-contact-section small,
+    .about-contact-section span {
+        color: #212529;
+    }
+    .about-contact-social-links {
+        justify-content: center;
+    }
+    .about-contact-section .profile-social-button {
+        color: #212529 !important;
+    }
+    .about-contact-section .profile-social-button:hover,
+    .about-contact-section .profile-social-button:focus {
+        color: #fff !important;
+    }
+        .about-bottom-band {
+            width: calc(100vw - var(--page-scrollbar-width, 0px));
+            max-width: calc(100vw - var(--page-scrollbar-width, 0px));
+            height: calc(5.25rem + 70px);
+            margin-left: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
+            margin-right: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
+            margin-bottom: -70px;
+            background-color: #212529;
+        }
         .intro-divider {
             width: 38rem;
             max-width: 80%;
@@ -247,6 +325,10 @@ latest_posts:
             }
             .about-developer-inner {
                 padding: 4rem 1.5rem;
+            }
+            .about-contact-section {
+                padding-top: 5rem;
+                padding-bottom: 5.5rem;
             }
             .about-developer-copy {
                 margin-top: 2.5rem;
@@ -389,7 +471,10 @@ latest_posts:
                 <div class="container-fluid text-left text-start">
                     <h1 class="profile-about-title about-developer-title"><i class="fa-solid fa-palette"></i> About Me as <span class="developer-title-accent">Developer:</span></h1>
                     <p class="fs-5 fw-light lh-sm mb-4 about-developer-body">
-                        I'm also a 2D/3D game artist, multi-skilled interactive media developer, designer, and bartender. Before embarking on a career as an HCI researcher, I completed a Bachelor's program in Video Game and Animation at the <a href="https://english.hifa.edu.cn/" target="_blank" rel="noopener noreferrer">Hubei Institute of Fine Arts</a> (HIFA) in Wuhan, China, in 2018. I instructed the game studio courses for the HIFA School of Animation as a Teaching Assistant, while founded my own game company, <strong><u>Wuhan KBOOM Network Technology Co. LTD</u></strong>, driven by my entrepreneurial spirit. These experiences motivated me to contemplate the interrelation among computational media, identity, and cultural backgrounds; consequently, this led to my decision to pursue a career in HCI research.
+                        As a multi-skilled digital artist, developer, and designer, I treat making as part of my research practice. My background in game art, animation, 2D/3D asset creation, film production, technical art, audio/music, interaction design, and prototyping allows me to move from conceptual analysis to working artifacts. Before becoming an HCI and computational media researcher, I received my Bachelor's degree in Video Game and Animation from the <a href="https://english.hifa.edu.cn/" target="_blank" rel="noopener noreferrer">Hubei Institute of Fine Arts</a> (HIFA) in Wuhan, China, in 2018, where I later served as a teaching assistant for game studio courses. I also founded Wuhan KBOOM Network Technology Co., Ltd., an early entrepreneurial experience that shaped how I think about creative production, collaboration, and cultural context.
+                    </p>
+                    <p class="fs-5 fw-light lh-sm mb-4 about-developer-body">
+                        These experiences continue to shape my research practice. I approach development not only as implementation, but also as a way to test ideas, build experiential arguments, and understand how design choices affect people’s feelings, interpretations, and actions. My background in art, game development, and interactive systems helps me move between critical analysis and hands-on prototyping, which is central to the way I conduct research.
                     </p>
                     <hr class="about-developer-rule">
                 </div>
@@ -398,11 +483,51 @@ latest_posts:
     </div>
 </section>
 
+<section class="about-contact-section">
+    <div class="about-contact-inner">
+        <img src="{{ '/assets/img/about/avatar_03.png' | relative_url }}" class="about-contact-avatar img-fluid" width="200" height="300" alt="Shano Liang illustrated avatar">
+        <p class="about-contact-message">
+            Please feel free to contact me if you are interested in my work or simply want to chat about cultures in games, and that could be the beginning of a wonderful tale!
+        </p>
+        <hr class="about-contact-divider">
+        <p class="about-contact-name">
+            Shano Liang <small class="about-contact-pronouns">(she/her)</small>
+        </p>
+        <p class="about-contact-email">
+            <span class="font-weight-bold">Email:</span> sliang1 AT wpi DOT edu
+        </p>
+        <p class="mb-1 profile-social-links about-contact-social-links">
+            <a href="mailto:sliang1@wpi.edu" class="btn btn-outline-dark profile-social-button" title="Email" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://github.com/ShanoLiang" class="btn btn-outline-dark profile-social-button" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://scholar.google.com/citations?user=ufro9ysAAAAJ" class="btn btn-outline-dark profile-social-button" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
+                <i class="ai ai-google-scholar"></i>
+            </a>
+            <a href="https://twitter.com/ShanoLiang" class="btn btn-outline-dark profile-social-button" target="_blank" rel="noopener noreferrer" title="X" aria-label="X">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/shano-liang-49a968204/" class="btn btn-outline-dark profile-social-button" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://orcid.org/0000-0003-1976-9680" class="btn btn-outline-dark profile-social-button" target="_blank" rel="noopener noreferrer" title="ORCID" aria-label="ORCID">
+                <i class="ai ai-orcid"></i>
+            </a>
+        </p>
+    </div>
+</section>
+
+<div class="about-bottom-band" aria-hidden="true"></div>
+
+<!-- Template content kept for future use:
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+-->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.dots.min.js"></script>
