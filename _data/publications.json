@@ -1,0 +1,308 @@
+[
+  {
+    "id": "2026-XXXXXXX-XX-XXXXXXXX-XXXXXXXX-XXXXXXX-XXXX-XXXXXXXXXX-XXXXXXXXX-XXX-XXXXXXXXXX-XXXXXXXXXXXXX-XXXXXXX",
+    "year": 2026,
+    "status": "under_review",
+    "title": "XXXXXXX-XX: XXXXXXXX XXXXXXXX XXXXXXX XXXX XXXXXXXXXX, XXXXXXXXX, XXX XXXXXXXXXX XXXXXXXXXXXXX XXXXXXX",
+    "authors": [
+      "Shano Liang",
+      "XXX XXXX",
+      "XXXX XXXXXXXX"
+    ],
+    "venue": "XXXX XXXXXXXXXXXX XX XXXXXXXXXXXXX XXX XXXXXXXX XXXXXXXX, 2026",
+    "image": "publications/2026_UR1_1.png"
+  },
+  {
+    "id": "2026-XXXXX-XXXXXXXXXXX-XXXXXXXXXXXXX-XXXXXXXXXX-XXX-XXXXXXXXX-XXXXXXXX-XXXXXX-XXXXXX-XXXXXXXXXXXXX-XXXXXXXXXX",
+    "year": 2026,
+    "status": "under_review",
+    "title": "XXXXX XXXXXXXXXXX XXXXXXXXXXXXX: XXXXXXXXXX XXX XXXXXXXXX XXXXXXXX XXXXXX XXXXXX XXXXXXXXXXXXX XXXXXXXXXX",
+    "authors": [
+      "Shano Liang",
+      "XXX XXXX",
+      "XXXX XXXXXXXX"
+    ],
+    "venue": "XXXX XXXXXXXXXXXX XX XXXXXXXXXXXXX XXX XXXXXXXX XXXXXXXX, 2026",
+    "image": "publications/2026_UR2_1.png"
+  },
+  {
+    "id": "2026-XXXXXXX-XXXXX-XXXXXXXXXX-XXXXXXXX-XXXXXXXXXX-XX-XXXXXX-XXXXXXXXXX-XXXXXXX",
+    "year": 2026,
+    "status": "under_review",
+    "title": "XXXXXXX-XXXXX: XXXXXXXXXX XXXXXXXX XXXXXXXXXX XX XXXXXX XXXXXXXXXX XXXXXXX",
+    "authors": [
+      "Shano Liang",
+      "XXX XXXX",
+      "XXXXXXX XXXXX",
+      "XXXX XXXXXXXX"
+    ],
+    "venue": "XXXX XXXXXXXXXXXX XX XXXXXXXXXXXXX XXX XXXXXXXX XXXXXXXX, 2026",
+    "image": "publications/2026_UR3_1.png"
+  },
+  {
+    "id": "2026-XXXXXXXXXXX-XXXXXXXXX-XXXXXXXX-XXXXXXXXXXX-XXXXXX-XXXXXXXX-XXXXXXXXXX-XX-XXXXXXXXXXX",
+    "year": 2026,
+    "status": "under_review",
+    "title": "XXXXXXXXXXX & XXXXXXXXX XXXXXXXX: XXXXXXXXXXX XXXXXX XXXXXXXX XXXXXXXXXX XX XXXXXXXXXXX",
+    "authors": [
+      "Shano Liang",
+      "XXX XXXX",
+      "XXXXXXX XXXXXX-XXXXXXXXXX",
+      "XXXXXXXXX XXXX",
+      "XXXX XXXXXXX",
+      "XXXX XXXXX",
+      "XXXXXXXX X. XXXXXXX",
+      "XXXXXXX XXXXX",
+      "XXXX XXXXXXXX",
+      "XXXXXX X. XXXXX XXXXX"
+    ],
+    "venue": "XXXXXXXXXXX XX XXX XXX XX XXXXX-XXXXXXXX XXXXXXXXXXX XXX XXXX, 2026",
+    "image": "publications/2026_UR4_1.png"
+  },
+  {
+    "id": "2026-radical-gender-neutrality-agender-euphoria-in-gaming-and-play-experiences",
+    "year": 2026,
+    "status": "published",
+    "title": "Radical Gender Neutrality: Agender Euphoria in Gaming and Play Experiences",
+    "authors": [
+      "Katie Seaborn",
+      "Shano Liang",
+      "Rua Mae Williams",
+      "Phoebe O Toups Dugas"
+    ],
+    "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+    "link_type": "DOI",
+    "link_url": "https://doi.org/10.1145/3772318.3790659",
+    "cite": "@inproceedings{Seaborn2026Radical,\nauthor = {Seaborn, Katie and Liang, Shano and Mae Williams, Rua and Toups Dugas, Phoebe O.},\ntitle = {Radical Gender Neutrality: Agender Euphoria in Gaming and Play Experiences},\nyear = {2026},\nisbn = {9798400722783},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\ndoi = {10.1145/3772318.3790659},\nbooktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\narticleno = {1308},\nnumpages = {20},\nseries = {CHI '26}\n}",
+    "abstract": "Agender euphoria is a new term representing the powerful feelings of happiness, joy, and contentment derived from experiences in gender-free embodiments, spaces, and activities. People with and without agender and adjacent identities (e.g., genderless, gender-free, non-binary, gender-apathetic) may have such experiences under the right circumstances. Video games can offer gender minorities a safe haven for gender euphoric experiences. However, the possibility of agender euphoric experiences was unexplored. We considered this overlooked frame of self-actualization with 142 people who identified as having or desiring agender euphoric experiences. Using the critical incident technique (CIT), we uncovered how games and play experiences create (and inhibit) agender euphoria. We surface this experiential phenomenon and provide empirically-grounded criteria for the design of games to elicit agender euphoric experiences for everyone, but especially agender and agender adjacent players. This work adds to the growing critical literatures on marginalized experiences in games research and human-computer interaction.",
+    "image": "publications/2026_Radical Gender Neutrality.png"
+  },
+  {
+    "id": "2026-developing-a-video-game-with-gender-euphoria-themes-a-postmortem-of-rainborough",
+    "year": 2026,
+    "status": "published",
+    "title": "Developing A Video Game with Gender Euphoria Themes: A Postmortem of Rainborough",
+    "authors": [
+      "Max Chen",
+      "Shano Liang",
+      "Bastión Toledo-Altamirano",
+      "Elizabeth Papa",
+      "Crow Zubrick",
+      "Thea Cloyd"
+    ],
+    "venue": "Journal of Games, Self, & Society, Volume 4, 2026",
+    "link_type": "DOI",
+    "link_url": "https://doi.org/10.17613/wvepr-20076",
+    "cite": "@article{Chen2026developing,\n  title={Developing A Video Game with Gender Euphoria Themes: A Postmortem of Rainborough},\n  author={Chen, Max and Liang, Shano and Toledo-Altamirano, Basti{\\'o}n and Papa, Elizabeth and Zubrick, Crow and Cloyd, Thea},\n  year = {2026},\n  doi={10.17613/wvepr-20076},\n  ISSN={2328-9414}, \n  pages={19--35},\n  volume = {4},\n  publisher = {Play Story Press},\n  address = {Pittsburgh, PA, USA},\n  journal = {Journal of Games, Self, \\& Society}\n}",
+    "abstract": "This paper presents a postmortem of Rainborough, a video game prototype developed to explore how transgender gender euphoria themes can be implemented into game design and development. While studies on trans identities have often emphasized gender dysphoria, recent scholarship highlights gender euphoria as an important yet understudied phenomenon linked to affirmation, resilience, and well-being. Building on previous theoretical work, Rainborough was created by a team of queer and trans developers, incorporating lived experiences into its narrative and mechanics. The game combines simulation and interactive novel elements, with design choices that aim to foster expression, affirmation, and destigmatization. Using a postmortem approach, we reflect on the design and development process, examining what worked well, where challenges emerged, and what might be done differently. Our analysis contributes to designers and developers by demonstrating how the gender euphoria topic can be enacted into interactive media practice, and by offering insights for future designers and researchers interested in creating inclusive and affirming game experiences.",
+    "image": "publications/2026_Developing A Video Game with Gender Euphoria Themes.png"
+  },
+  {
+    "id": "2025-the-three-steps-to-trans-death-introducing-trans-cyber-necropolitics-in-digital-media",
+    "year": 2025,
+    "status": "published",
+    "title": "The Three Steps to Trans Death: Introducing Trans Cyber-Necropolitics in Digital Media",
+    "authors": [
+      "Shano Liang",
+      "Michelle V Cormier",
+      "Phoebe O Toups Dugas",
+      "Rose Bohrer"
+    ],
+    "venue": "ACM Transactions on Computer-Human Interaction 32 (5), 2025",
+    "link_type": "DOI",
+    "link_url": "https://doi.org/10.1145/3745767",
+    "cite": "@article{Liang2025TheThreeSteps,\nauthor = {Liang, Shano and Cormier, Michelle V. and Toups Dugas, Phoebe O. and Bohrer, Rose},\ntitle = {The Three Steps to Trans Death: Introducing Trans Cyber-Necropolitics in Digital Media},\nyear = {2025},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {32},\nnumber = {5},\nissn = {1073-0516},\ndoi = {10.1145/3745767},\njournal = {ACM Trans. Comput.-Hum. Interact.},\nmonth = oct,\narticleno = {54},\nnumpages = {34}\n}",
+    "abstract": "Many trans people experience marginalization and violence in cyberspace. This violence is characterized by intricate dynamics surrounding voice, identities, bodies, and social interactions. To comprehend and provide a theoretical framework for this enduring phenomenon of digital violence, the present research introduces the concept of Trans Cyber-Necropolitics (TCN). TCN is a necropolitical system that explains how digital media enforce the disposability of trans people in cyberspace. We decompose this digital death into three steps: sensing, targeting, and invisible killing. Combining with the authors’ positionality as transgender gamers, we provide a critical analysis of how each step operates, conducted via a meticulous examination of games, as well as an exploration of the discourse from game design and community-side comments through the lens of critical discourse analysis. Building on this analysis, we ideate how each step could be disrupted with resistance strategies and technological measures.",
+    "image": "publications/2025_The Three Steps to Trans Death.png"
+  },
+  {
+    "id": "2025-the-collaborative-sensemaking-play-of-jubensha-games-a-deconstruction-taxonomy-and-analysis",
+    "year": 2025,
+    "status": "published",
+    "title": "The Collaborative Sensemaking Play of Jubensha Games: A Deconstruction, Taxonomy, and Analysis",
+    "authors": [
+      "Shano Liang",
+      "Max Chen",
+      "Phoebe O Toups Dugas",
+      "Gillian Smith",
+      "Rose Bohrer"
+    ],
+    "venue": "ACM Journal of Games: Research and Practice 3(1), 2025",
+    "link_type": "DOI",
+    "link_url": "https://doi.org/10.1145/3721121",
+    "cite": "@article{Liang2025Jubensha,\nauthor = {Liang, Shano and Chen, Max and Toups Dugas, Phoebe O. and Smith, Gillian and Bohrer, Rose},\ntitle = {The Collaborative Sensemaking Play of Jubensha Games: A Deconstruction, Taxonomy, and Analysis},\nyear = {2025},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {3},\nnumber = {1},\ndoi = {10.1145/3721121},\njournal = {ACM Games},\nmonth = mar,\narticleno = {6},\nnumpages = {34}\n}",
+    "abstract": "Jubensha games, popular in China, combine storytelling, social deduction, and script-centered group play, sparking widespread interest among gamers and researchers worldwide. However, enthusiasts and researchers have struggled to accurately describe Jubensha, often defaulting to comparisons with genres like murder mystery and live-action role-playing games. This reliance on comparisons hinders efforts to generalize Jubensha or to deconstruct and adapt its unique design components, dynamics of player interaction, and playing experience into other games. This research provides a taxonomy and analysis of Jubensha games, based on a thematic analysis of over 80 Jubensha games accessed through mobile applications and physical copies. The analysis combines the authors’ positionalities as native Chinese and English speakers and lenses from close reading of the games, discourse analysis, and distributed cognition. We provide summative case studies to exemplify our taxonomy and discuss design implications for Jubensha games for future projects. Our work provides a descriptive tool and vocabulary for researchers and designers to facilitate communication and theorize the evolving Jubensha gaming phenomenon highlighting how gameplay centers collaborative sensemaking. In addition, we argue that the design of game narratives in Jubensha games, including structures in scripts and the evolving performance of players, can be generalized and transferred to the design of a wider range of analog and video games.",
+    "image": "publications/2025_The Collaborative Sensemaking Play of Jubensha Games.png"
+  },
+  {
+    "id": "2025-designed-discovered-euphoria-insights-from-trans-femme-players-experiences-of-gender-euphoria-in-video-games",
+    "year": 2025,
+    "status": "published",
+    "title": "Designed & Discovered Euphoria: Insights from Trans-Femme Players' Experiences of Gender Euphoria in Video Games",
+    "authors": [
+      "Shano Liang",
+      "Michelle V Cormier",
+      "Rose Bohrer",
+      "Phoebe O Toups Dugas"
+    ],
+    "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+    "award": "Honorable Mention Award",
+    "link_type": "DOI",
+    "link_url": "https://doi.org/10.1145/3706598.3714081",
+    "cite": "@inproceedings{Liang2025Euphoria,\nauthor = {Liang, Shano and Cormier, Michelle V and Bohrer, Rose and Toups Dugas, Phoebe O.},\ntitle = {Designed \\& Discovered Euphoria: Insights from Trans-Femme Players' Experiences of Gender Euphoria in Video Games},\nyear = {2025},\nisbn = {9798400713941},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\ndoi = {10.1145/3706598.3714081},\nbooktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},\narticleno = {104},\nnumpages = {21},\nseries = {CHI '25}\n}",
+    "abstract": "Many transgender (and cisgender) people experience gender euphoria -- satisfaction and relief caused by self-actualization and gender congruence -- a term that has been overlooked by the design community. Video games create intense experiences involving identities, bodies, and social interaction, providing opportunities to empower people through gender euphoria. We develop themes for creating and supporting gender euphoria in games within the Design, Dynamics, Experience Game Design Framework from a reflexive thematic analysis of 25 games, with an in-depth analysis of four of them. The analysis combines the authors’ positionalities as trans gamers with close reading and content analysis of the games, employing perspectives from critical discourse analysis. We contribute an operational understanding of gender euphoria to support design, in-depth case studies of particularly euphoric game experiences, and identify themes that designers and researchers can use to develop new games and analyze existing ones.",
+    "image": "publications/2025_Designed & Discovered Euphoria.png"
+  },
+  {
+    "id": "2025-this-game-sux-why-how-to-design-sh-y-user-experiences",
+    "year": 2025,
+    "status": "published",
+    "title": "This Game SUX: Why & How to Design Sh@*!y User Experiences",
+    "authors": [
+      "Michelle V Cormier",
+      "Shano Liang",
+      "Bill Hamilton",
+      "Nicolas LaLone",
+      "Rose Bohrer",
+      "Phoebe O Toups Dugas"
+    ],
+    "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+    "link_type": "DOI",
+    "link_url": "https://doi.org/10.1145/3706598.3713246",
+    "cite": "@inproceedings{Cormier2025SUX,\nauthor = {Cormier, Michelle V and Liang, Shano and Hamilton, Bill and LaLone, Nicolas and Bohrer, Rose and Toups Dugas, Phoebe O.},\ntitle = {This Game SUX: Why \\& How to Design Sh@*!y User Experiences},\nyear = {2025},\nisbn = {9798400713941},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\ndoi = {10.1145/3706598.3713246},\nbooktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},\narticleno = {469},\nnumpages = {15},\nseries = {CHI '25}\n}",
+    "abstract": "While normative -- “good” -- game design and user experiences have been established, we look to games that challenge those notions. Intentional frustration and failure can be worthwhile. Through a reflexive thematic analysis of 31 games we identify how intentionally non-normative design choices lead to meaningful experiences. Working within the established Mechanics Dynamics Aesthetics (MDA) Game Design Framework, we lay out themes to design Shitty User Experiences (SUX). We contribute SUX MDA themes for designers and researchers to counter the status quo and identify new forms of play and interaction.",
+    "image": "publications/2025_This Game SUX.png"
+  },
+  {
+    "id": "2025-transnational-lgbtq-sig",
+    "year": 2025,
+    "status": "published",
+    "title": "Transnational lgbTq+ SIG",
+    "authors": [
+      "Rose Bohrer",
+      "Shano Liang",
+      "Michelle V Cormier",
+      "Takao Fujii",
+      "Phoebe O Toups Dugas",
+      "Rua Mae Williams",
+      "Amy J Ko",
+      "Katie Seaborn",
+      "Oliver L Haimson"
+    ],
+    "venue": "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems 2025",
+    "link_type": "DOI",
+    "link_url": "https://doi.org/10.1145/3706599.3716287",
+    "cite": "@inproceedings{Bohrer2025TransSIG,\nauthor = {Bohrer, Rose and Liang, Shano and Cormier, Michelle V and Fujii, Takao and Toups Dugas, Phoebe O. and Williams, Rua Mae and Ko, Amy J and Seaborn, Katie and Haimson, Oliver L.},\ntitle = {Transnational lgbTq+ SIG},\nyear = {2025},\nisbn = {9798400713958},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\ndoi = {10.1145/3706599.3716287},\nbooktitle = {Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems},\narticleno = {864},\nnumpages = {5},\nseries = {CHI EA '25}\n}",
+    "abstract": "This Special Interest Group (SIG) serves to support the needs of the LGBTQ+ communities within CHI. Following tradition, the primary focus is on community-building and support, with research as a secondary interest. This year’s event builds on the Queer-in-HCI SIGs of previous years, but adopts a new name to emphasize two points of focus this year. First, it is transnational: we place special emphasis on enabling connections among LGBTQ+ people from different nations. Second, it is lgbTq+: we welcome attendance from all members of the LGBTQ+ community and allies, but place special emphasis on the needs of the transgender community, which are significantly impacted by global political events at the time of this writing.",
+    "image": "publications/2025_Transnational lgbTq+ SIG.png"
+  },
+  {
+    "id": "2025-mobile-maps-continue-to-fail-pedestrians-synthesised-reflective-auto-aggro-ethnographies-of-walking",
+    "year": 2025,
+    "status": "published",
+    "title": "Mobile Maps Continue to Fail Pedestrians: Synthesised Reflective Auto-Aggro-Ethnographies of Walking",
+    "authors": [
+      "Phoebe O Toups Dugas",
+      "Bhavani Seetharaman",
+      "Rebecca J Fleming",
+      "Shano Liang",
+      "Don Samitha Elvitigala",
+      "Jennifer A Rode",
+      "Nicolas LaLone"
+    ],
+    "venue": "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems 2025",
+    "link_type": "DOI",
+    "link_url": "https://doi.org/10.1145/3706599.3716217",
+    "cite": "@inproceedings{ToupsDugas2025MobileMaps,\nauthor = {Toups Dugas, Phoebe O. and Seetharaman, Bhavani and Fleming, Rebecca J. and Liang, Shano and Elvitigala, Don Samitha and Rode, Jennifer A. and LaLone, Nicolas},\ntitle = {Mobile Maps Continue to Fail Pedestrians: Synthesised Reflective Auto-Aggro-Ethnographies of Walking},\nyear = {2025},\nisbn = {9798400713958},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\ndoi = {10.1145/3706599.3716217},\nbooktitle = {Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems},\narticleno = {638},\nnumpages = {12},\nseries = {CHI EA '25}\n}",
+    "abstract": "We consider mobile maps, the everyday smart-device-based programs that locate the user, provide insights into local space, and support wayfinding -- or do they? The authors collectively reflect on past infuriating experiences with failures of mobile maps as pedestrians. We synthesise these thick descriptions, what we call reflective auto-aggro-ethnographies, to identify shortcomings in mobile maps: hidden verticality, missing local detail, incorrect sensor data, and poor pathing. We turn to human-centred design to point out how these shortcomings should be (or, rather, should have been) addressed.",
+    "image": "publications/2025_Mobile Maps Continue to Fail Pedestrians.png"
+  },
+  {
+    "id": "2024-workshop-on-queer-play",
+    "year": 2024,
+    "status": "published",
+    "title": "Workshop on Queer Play",
+    "authors": [
+      "Rachel Donley",
+      "Shano Liang",
+      "Ari Gass",
+      "Anne Sullivan"
+    ],
+    "venue": "Proceedings of the 19th International Conference on the Foundations of Digital Games, 2024",
+    "link_type": "Website",
+    "link_url": "https://sites.gatech.edu/queerplay/",
+    "cite": "@misc{Donley2024session,\n  title={Session details: Workshop on Queer Play},\n  author={Donley, Rachel and Liang, Shano and Gass, Ari and Sullivan, Anne},\n  booktitle={Proceedings of the 19th International Conference on the Foundations of Digital Games},\n  howpublished = {Conference Workshop},\n  url={https://sites.gatech.edu/queerplay/},\n  year={2024}\n}",
+    "abstract": "In keeping with the fluidity of the concept of “queer”, “Queer Play” is a term we keep intentionally open to allow for a range of interpretations and contributions to the workshop. Being queer means consistently engaging in processes of reinterpreting, evolving, and restructuring the environments we navigate. Considering that existing world structures and disciplines are not built for catering to the needs of queer people, it becomes necessary for queer people to creatively navigate and explore beyond conventional narratives to include their own perspectives for time, place, life, form, and desire. Therefore, we aim to move beyond focusing on LGBTQ characters and representations inside games, and to actively explore and discuss queer forms, queer playing, and queer approaches to gameplay design.",
+    "image": "publications/2024_Workshop on Queer Play.png"
+  },
+  {
+    "id": "2023-analyzing-trans-mis-representation-in-video-games-to-remediate-gender-dysphoria-triggers",
+    "year": 2023,
+    "status": "published",
+    "title": "Analyzing Trans (Mis)Representation in Video Games to Remediate Gender Dysphoria Triggers",
+    "authors": [
+      "Shano Liang",
+      "Michelle V Cormier",
+      "Phoebe O Toups Dugas",
+      "Rose Bohrer"
+    ],
+    "venue": "Proceedings of the ACM on Human-Computer Interaction CHI PLAY, 2023",
+    "link_type": "DOI",
+    "link_url": "https://doi.org/10.1145/3611034",
+    "cite": "@article{Liang2023Dysphoria,\nauthor = {Liang, Shano and Cormier, Michelle V. and Toups Dugas, Phoebe O. and Bohrer, Rose},\ntitle = {Analyzing Trans (Mis)Representation in Video Games to Remediate Gender Dysphoria Triggers},\nyear = {2023},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {7},\nnumber = {CHI PLAY},\ndoi = {10.1145/3611034},\njournal = {Proc. ACM Hum.-Comput. Interact.},\nmonth = oct,\narticleno = {388},\nnumpages = {33}\n}",
+    "abstract": "Many trans people experience gender dysphoria -- distress caused by mismatches in internal and external experiences of gender. Video games engage intimately with the self, creating intense experiences involving identities, bodies, and social interaction. This combination of factors renders trans players vulnerable to gender dysphoria triggers: failures of interaction design that result in gender dysphoria. The present research undertakes a thematic analysis of four popular games, drawn from an initial corpus of 31. It contributes a definition of gender dysphoria triggers, case studies of triggering games, an initial gender dysphoria categorization to provide a useful design language, and examples of alternative designs for extant triggers. The analysis combines the authors' positionality as trans gamers; critical cultural studies methodologies, including textual analysis; a critical discourse analysis of production-side statements and interviews and player-side comments about diversity in those games; and close readings of the games themselves. The paper concludes with a call for trans inclusivity in game design, which we structure around the necropolitical concept of the relation of care.",
+    "image": "publications/2023_Analyzing Trans (Mis)Representation in Video Games.png"
+  },
+  {
+    "id": "2023-stackable-music-a-marker-based-augmented-reality-music-synthesis-game",
+    "year": 2023,
+    "status": "published",
+    "title": "Stackable Music: A Marker-Based Augmented Reality Music Synthesis Game",
+    "authors": [
+      "Max Chen",
+      "Shano Liang",
+      "Gillian Smith"
+    ],
+    "venue": "Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play, 2023",
+    "link_type": "DOI",
+    "link_url": "https://doi.org/10.1145/3573382.3616071",
+    "cite": "@inproceedings{Chen2023Stackable,\nauthor = {Chen, Max and Liang, Shano and Smith, Gillian},\ntitle = {Stackable Music: A Marker-Based Augmented Reality Music Synthesis Game},\nyear = {2023},\nisbn = {9798400700293},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\ndoi = {10.1145/3573382.3616071},\nbooktitle = {Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play},\npages = {22–28},\nnumpages = {7},\nseries = {CHI PLAY Companion '23}\n}",
+    "abstract": "Augmented reality (AR) allows the rendering of digital content on top of the physical space, which is a promising medium for tangible interaction. Marker-based AR is widely used thanks to its low cost and ease of integration, but the gameful aspect of manipulating the physical AR markers remains understudied. In this paper, we explored the stacking mechanics of transparent AR markers and described the creation of an AR music game called Stackable Music. Stackable Music can be developed, assembled, and set up at the home or office with a printer using several sheets of transparent film and a PC or mobile device with a camera.",
+    "image": "publications/2023_Stackable Music.png"
+  },
+  {
+    "id": "2022-review-review-of-poetic-operations-trans-of-color-art-in-digital-media-by-micha-c-rdenas-duke-university-press",
+    "year": 2022,
+    "status": "published",
+    "title": "Review: Review of Poetic Operations: Trans of Color Art in Digital Media by micha cárdenas (Duke University Press)",
+    "authors": [
+      "Shano Liang",
+      "Michael Anthony DeAnda"
+    ],
+    "venue": "Journal of the Cultural Studies Association 11(2), 2022",
+    "link_type": "DOI",
+    "link_url": "https://www.jstor.org/stable/48749196",
+    "cite": "@article{Liang2022review,\n issn = {24694053},\n url = {https://www.jstor.org/stable/48749196},\n author = {Shano Liang and Michael Anthony DeAnda},\n journal = {Lateral},\n number = {2},\n numpage = {5},\n publisher = {Cultural Studies Association},\n reviewed-author = {micha c{\\'a}rdenas},\n title = {Review of Poetic Operations: Trans of Color Art in Digital Media by micha c{\\'a}rdenas (Duke University Press)},\n urldate = {2026-05-20},\n volume = {11},\n year = {2022},\n bdsk-url-1 = {https://www.jstor.org/stable/48749196}\n}",
+    "abstract": "Poetic Operations by micha cárdenas critically engages theory, activist, art, design, and lived experience to develop “trans of color poetics” to disrupt systems marking trans of color lives for death.",
+    "image": "publications/2022_Review of Poetic Operations.png"
+  },
+  {
+    "id": "2022-integrating-immersive-learning-tools-across-campus-and-beyond",
+    "year": 2022,
+    "status": "published",
+    "title": "Integrating Immersive Learning Tools across Campus and Beyond",
+    "authors": [
+      "Robert Dempski",
+      "Andrew R Teixeira",
+      "Claire Li",
+      "Shano Liang",
+      "Max Chen"
+    ],
+    "venue": "Advanced Manufacturing and Processing Conference (AIChE), Mar 2022",
+    "link_type": "Website",
+    "link_url": "https://aiche.confex.com/aiche/ampc20/meetingapp.cgi/Paper/651137",
+    "cite": "@inproceedings{Dempski2022integrating,\n  title = {Integrating Immersive Learning Tools across Campus and Beyond},\n  author = {Dempski, Robert and Teixeira, Andrew R and Li, Claire and Liang, Shano and Chen, Max},\n  booktitle = {AIChE},\n  url = {https://aiche.confex.com/aiche/ampc20/meetingapp.cgi/Paper/651137},\n  year = {2022},\n}",
+    "abstract": "Recent developments in technology and learning sciences alongside pandemic era restrictions have provided ample opportunities to develop, implement and assess immersive learning tools for academic and industrial settings. To deploy our AR and VR tools more efficiently across campus and beyond, we created the Intentional Design Studio (IdeaS). IdeaS merges arts, science and engineering disciplines with digital media research and production. IdeaS focuses on value creation through a broad spectrum of digital media products that support and promote faculty research and teaching, scholarship and external partnerships. To do this, IdeaS trains and employs undergraduate and graduate students to support innovative projects using cutting-edge hardware and software technologies in immersive/interactive media tools. At the same time, IdeaS partners with underserved communities to enhance affordable and accessible educational and research opportunities (worldwide training, K-12 outreach, asynchronous learning, connectivity, mental health). Here, we will describe some of our efforts in the areas of laboratory safety, remote instruction and apps designed to improve classroom learning outcomes.",
+    "image": "publications/2022_Integrating Immersive Learning Tools across Campus.png"
+  }
+]
