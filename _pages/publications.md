@@ -14,7 +14,7 @@ nav_order: 2
     max-width: 1120px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: calc(82px + 3.4rem);
+    padding-left: 8.525rem;
   }
 
   .post > .post-header .post-title {
@@ -349,14 +349,14 @@ nav_order: 2
   }
 
   .publications-bottom-band {
-    width: calc(100vw - var(--page-scrollbar-width, 0px));
-    max-width: calc(100vw - var(--page-scrollbar-width, 0px));
+    width: var(--full-bleed-width, 100vw);
+    max-width: var(--full-bleed-width, 100vw);
     min-height: 14.5rem;
     margin-top: 3.8rem;
     margin-bottom: -70px;
-    margin-left: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
-    margin-right: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
-    padding: 3.25rem 1rem calc(3.25rem + 70px);
+    margin-left: var(--full-bleed-offset, calc(50% - 50vw));
+    margin-right: var(--full-bleed-offset, calc(50% - 50vw));
+    padding: 3.25rem 1rem 7.625rem;
     background-color: #212529;
     display: flex;
     align-items: center;
@@ -631,6 +631,7 @@ nav_order: 2
         {% endif %}
       {% endfor %}
     </div>
+
   </div>
 </div>
 
@@ -684,9 +685,11 @@ nav_order: 2
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const syncFullBleedWidth = function () {
-      const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-      document.documentElement.style.setProperty("--page-scrollbar-width", scrollbarWidth + "px");
-      document.documentElement.style.setProperty("--page-scrollbar-half-width", scrollbarWidth / 2 + "px");
+      const root = document.documentElement;
+      const article = document.querySelector("article");
+      const articleLeft = article ? article.getBoundingClientRect().left : 0;
+      root.style.setProperty("--full-bleed-width", root.clientWidth + "px");
+      root.style.setProperty("--full-bleed-offset", -articleLeft + "px");
     };
 
     syncFullBleedWidth();

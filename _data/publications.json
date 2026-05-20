@@ -4,11 +4,7 @@
     "year": 2026,
     "status": "under_review",
     "title": "XXXXXXX-XX: XXXXXXXX XXXXXXXX XXXXXXX XXXX XXXXXXXXXX, XXXXXXXXX, XXX XXXXXXXXXX XXXXXXXXXXXXX XXXXXXX",
-    "authors": [
-      "Shano Liang",
-      "XXX XXXX",
-      "XXXX XXXXXXXX"
-    ],
+    "authors": ["Shano Liang", "XXX XXXX", "XXXX XXXXXXXX"],
     "venue": "XXXX XXXXXXXXXXXX XX XXXXXXXXXXXXX XXX XXXXXXXX XXXXXXXX, 2026",
     "image": "publications/2026_UR1_1.png"
   },
@@ -17,11 +13,7 @@
     "year": 2026,
     "status": "under_review",
     "title": "XXXXX XXXXXXXXXXX XXXXXXXXXXXXX: XXXXXXXXXX XXX XXXXXXXXX XXXXXXXX XXXXXX XXXXXX XXXXXXXXXXXXX XXXXXXXXXX",
-    "authors": [
-      "Shano Liang",
-      "XXX XXXX",
-      "XXXX XXXXXXXX"
-    ],
+    "authors": ["Shano Liang", "XXX XXXX", "XXXX XXXXXXXX"],
     "venue": "XXXX XXXXXXXXXXXX XX XXXXXXXXXXXXX XXX XXXXXXXX XXXXXXXX, 2026",
     "image": "publications/2026_UR2_1.png"
   },
@@ -30,12 +22,7 @@
     "year": 2026,
     "status": "under_review",
     "title": "XXXXXXX-XXXXX: XXXXXXXXXX XXXXXXXX XXXXXXXXXX XX XXXXXX XXXXXXXXXX XXXXXXX",
-    "authors": [
-      "Shano Liang",
-      "XXX XXXX",
-      "XXXXXXX XXXXX",
-      "XXXX XXXXXXXX"
-    ],
+    "authors": ["Shano Liang", "XXX XXXX", "XXXXXXX XXXXX", "XXXX XXXXXXXX"],
     "venue": "XXXX XXXXXXXXXXXX XX XXXXXXXXXXXXX XXX XXXXXXXX XXXXXXXX, 2026",
     "image": "publications/2026_UR3_1.png"
   },
@@ -64,12 +51,7 @@
     "year": 2026,
     "status": "published",
     "title": "Radical Gender Neutrality: Agender Euphoria in Gaming and Play Experiences",
-    "authors": [
-      "Katie Seaborn",
-      "Shano Liang",
-      "Rua Mae Williams",
-      "Phoebe O Toups Dugas"
-    ],
+    "authors": ["Katie Seaborn", "Shano Liang", "Rua Mae Williams", "Phoebe O Toups Dugas"],
     "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
     "link_type": "DOI",
     "link_url": "https://doi.org/10.1145/3772318.3790659",
@@ -82,14 +64,7 @@
     "year": 2026,
     "status": "published",
     "title": "Developing A Video Game with Gender Euphoria Themes: A Postmortem of Rainborough",
-    "authors": [
-      "Max Chen",
-      "Shano Liang",
-      "Bastión Toledo-Altamirano",
-      "Elizabeth Papa",
-      "Crow Zubrick",
-      "Thea Cloyd"
-    ],
+    "authors": ["Max Chen", "Shano Liang", "Bastión Toledo-Altamirano", "Elizabeth Papa", "Crow Zubrick", "Thea Cloyd"],
     "venue": "Journal of Games, Self, & Society, Volume 4, 2026",
     "link_type": "DOI",
     "link_url": "https://doi.org/10.17613/wvepr-20076",
@@ -102,12 +77,7 @@
     "year": 2025,
     "status": "published",
     "title": "The Three Steps to Trans Death: Introducing Trans Cyber-Necropolitics in Digital Media",
-    "authors": [
-      "Shano Liang",
-      "Michelle V Cormier",
-      "Phoebe O Toups Dugas",
-      "Rose Bohrer"
-    ],
+    "authors": ["Shano Liang", "Michelle V Cormier", "Phoebe O Toups Dugas", "Rose Bohrer"],
     "venue": "ACM Transactions on Computer-Human Interaction 32 (5), 2025",
     "link_type": "DOI",
     "link_url": "https://doi.org/10.1145/3745767",
@@ -120,13 +90,7 @@
     "year": 2025,
     "status": "published",
     "title": "The Collaborative Sensemaking Play of Jubensha Games: A Deconstruction, Taxonomy, and Analysis",
-    "authors": [
-      "Shano Liang",
-      "Max Chen",
-      "Phoebe O Toups Dugas",
-      "Gillian Smith",
-      "Rose Bohrer"
-    ],
+    "authors": ["Shano Liang", "Max Chen", "Phoebe O Toups Dugas", "Gillian Smith", "Rose Bohrer"],
     "venue": "ACM Journal of Games: Research and Practice 3(1), 2025",
     "link_type": "DOI",
     "link_url": "https://doi.org/10.1145/3721121",
@@ -139,12 +103,7 @@
     "year": 2025,
     "status": "published",
     "title": "Designed & Discovered Euphoria: Insights from Trans-Femme Players' Experiences of Gender Euphoria in Video Games",
-    "authors": [
-      "Shano Liang",
-      "Michelle V Cormier",
-      "Rose Bohrer",
-      "Phoebe O Toups Dugas"
-    ],
+    "authors": ["Shano Liang", "Michelle V Cormier", "Rose Bohrer", "Phoebe O Toups Dugas"],
     "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
     "award": "Honorable Mention Award",
     "link_type": "DOI",
@@ -158,14 +117,7 @@
     "year": 2025,
     "status": "published",
     "title": "This Game SUX: Why & How to Design Sh@*!y User Experiences",
-    "authors": [
-      "Michelle V Cormier",
-      "Shano Liang",
-      "Bill Hamilton",
-      "Nicolas LaLone",
-      "Rose Bohrer",
-      "Phoebe O Toups Dugas"
-    ],
+    "authors": ["Michelle V Cormier", "Shano Liang", "Bill Hamilton", "Nicolas LaLone", "Rose Bohrer", "Phoebe O Toups Dugas"],
     "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
     "link_type": "DOI",
     "link_url": "https://doi.org/10.1145/3706598.3713246",
@@ -222,12 +174,7 @@
     "year": 2024,
     "status": "published",
     "title": "Workshop on Queer Play",
-    "authors": [
-      "Rachel Donley",
-      "Shano Liang",
-      "Ari Gass",
-      "Anne Sullivan"
-    ],
+    "authors": ["Rachel Donley", "Shano Liang", "Ari Gass", "Anne Sullivan"],
     "venue": "Proceedings of the 19th International Conference on the Foundations of Digital Games, 2024",
     "link_type": "Website",
     "link_url": "https://sites.gatech.edu/queerplay/",
@@ -240,12 +187,7 @@
     "year": 2023,
     "status": "published",
     "title": "Analyzing Trans (Mis)Representation in Video Games to Remediate Gender Dysphoria Triggers",
-    "authors": [
-      "Shano Liang",
-      "Michelle V Cormier",
-      "Phoebe O Toups Dugas",
-      "Rose Bohrer"
-    ],
+    "authors": ["Shano Liang", "Michelle V Cormier", "Phoebe O Toups Dugas", "Rose Bohrer"],
     "venue": "Proceedings of the ACM on Human-Computer Interaction CHI PLAY, 2023",
     "link_type": "DOI",
     "link_url": "https://doi.org/10.1145/3611034",
@@ -258,11 +200,7 @@
     "year": 2023,
     "status": "published",
     "title": "Stackable Music: A Marker-Based Augmented Reality Music Synthesis Game",
-    "authors": [
-      "Max Chen",
-      "Shano Liang",
-      "Gillian Smith"
-    ],
+    "authors": ["Max Chen", "Shano Liang", "Gillian Smith"],
     "venue": "Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play, 2023",
     "link_type": "DOI",
     "link_url": "https://doi.org/10.1145/3573382.3616071",
@@ -275,10 +213,7 @@
     "year": 2022,
     "status": "published",
     "title": "Review: Review of Poetic Operations: Trans of Color Art in Digital Media by micha cárdenas (Duke University Press)",
-    "authors": [
-      "Shano Liang",
-      "Michael Anthony DeAnda"
-    ],
+    "authors": ["Shano Liang", "Michael Anthony DeAnda"],
     "venue": "Journal of the Cultural Studies Association 11(2), 2022",
     "link_type": "DOI",
     "link_url": "https://www.jstor.org/stable/48749196",
@@ -291,13 +226,7 @@
     "year": 2022,
     "status": "published",
     "title": "Integrating Immersive Learning Tools across Campus and Beyond",
-    "authors": [
-      "Robert Dempski",
-      "Andrew R Teixeira",
-      "Claire Li",
-      "Shano Liang",
-      "Max Chen"
-    ],
+    "authors": ["Robert Dempski", "Andrew R Teixeira", "Claire Li", "Shano Liang", "Max Chen"],
     "venue": "Advanced Manufacturing and Processing Conference (AIChE), Mar 2022",
     "link_type": "Website",
     "link_url": "https://aiche.confex.com/aiche/ampc20/meetingapp.cgi/Paper/651137",

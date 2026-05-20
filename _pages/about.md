@@ -32,9 +32,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-
-
-
 <div id="about-intro-vanta" class="text-center py-5 about-intro-vanta">
   <div class="about-intro-content">
     <img src="assets/img/liang-headshot.png" class="img-fluid" alt="Responsive image" width="200" height="300">
@@ -71,16 +68,15 @@ latest_posts:
   </div>
 </div>
 
-
 <div class="text-center">
     <style>
         .about-intro-vanta {
             position: relative;
             overflow: hidden;
-            width: calc(100vw - var(--page-scrollbar-width, 0px));
-            max-width: calc(100vw - var(--page-scrollbar-width, 0px));
-            margin-left: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
-            margin-right: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
+            width: var(--full-bleed-width, 100vw);
+            max-width: var(--full-bleed-width, 100vw);
+            margin-left: var(--full-bleed-offset, calc(50% - 50vw));
+            margin-right: var(--full-bleed-offset, calc(50% - 50vw));
             min-height: min(760px, calc(100vh - 3.5rem));
             background-color: #fff;
         }
@@ -96,10 +92,10 @@ latest_posts:
             --about-developer-accent: #0dcaf0;
             position: relative;
             overflow: hidden;
-            width: calc(100vw - var(--page-scrollbar-width, 0px));
-            max-width: calc(100vw - var(--page-scrollbar-width, 0px));
-            margin-left: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
-            margin-right: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
+            width: var(--full-bleed-width, 100vw);
+            max-width: var(--full-bleed-width, 100vw);
+            margin-left: var(--full-bleed-offset, calc(50% - 50vw));
+            margin-right: var(--full-bleed-offset, calc(50% - 50vw));
             margin-top: 3rem;
             margin-bottom: 3rem;
             min-height: calc(100vh - 3.5rem);
@@ -190,10 +186,10 @@ latest_posts:
             padding: 1rem;
         }
     .about-contact-section {
-        width: calc(100vw - var(--page-scrollbar-width, 0px));
-        max-width: calc(100vw - var(--page-scrollbar-width, 0px));
-        margin-left: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
-        margin-right: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
+        width: var(--full-bleed-width, 100vw);
+        max-width: var(--full-bleed-width, 100vw);
+        margin-left: var(--full-bleed-offset, calc(50% - 50vw));
+        margin-right: var(--full-bleed-offset, calc(50% - 50vw));
         padding: 7rem 1rem 7.5rem;
         background-color: #fff;
         color: #212529;
@@ -254,11 +250,11 @@ latest_posts:
         color: #fff !important;
     }
         .about-bottom-band {
-            width: calc(100vw - var(--page-scrollbar-width, 0px));
-            max-width: calc(100vw - var(--page-scrollbar-width, 0px));
-            height: calc(5.25rem + 70px);
-            margin-left: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
-            margin-right: calc(50% - 50vw + var(--page-scrollbar-half-width, 0px));
+            width: var(--full-bleed-width, 100vw);
+            max-width: var(--full-bleed-width, 100vw);
+            height: 9.625rem;
+            margin-left: var(--full-bleed-offset, calc(50% - 50vw));
+            margin-right: var(--full-bleed-offset, calc(50% - 50vw));
             margin-bottom: -70px;
             background-color: #212529;
         }
@@ -404,7 +400,7 @@ latest_posts:
     &nbsp;
     <p>&nbsp;</p>
     &nbsp;
-</div>  
+</div>
 
 <section class="about-developer-section text-white">
     <div class="about-developer-inner">
@@ -539,9 +535,11 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
     }
 
     function syncFullBleedWidth() {
-      var scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-      document.documentElement.style.setProperty("--page-scrollbar-width", scrollbarWidth + "px");
-      document.documentElement.style.setProperty("--page-scrollbar-half-width", scrollbarWidth / 2 + "px");
+      var root = document.documentElement;
+      var article = document.querySelector("article");
+      var articleLeft = article ? article.getBoundingClientRect().left : 0;
+      root.style.setProperty("--full-bleed-width", root.clientWidth + "px");
+      root.style.setProperty("--full-bleed-offset", -articleLeft + "px");
     }
 
     syncFullBleedWidth();
