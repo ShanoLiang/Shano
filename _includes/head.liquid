@@ -82,6 +82,14 @@
   <script>
     initTheme();
   </script>
+{% else %}
+  <script>
+    function determineComputedTheme() {
+      return 'light';
+    }
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.documentElement.setAttribute('data-theme-setting', 'light');
+  </script>
 {% endif %}
 
 {% if page.map %}

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="project-detail-page">
+  <nav class="project-floating-back" aria-label="Project navigation">
+    <a class="project-floating-back-link" href="{{ '/projects/' | relative_url }}" aria-label="Back to Projects">
+      <span class="project-floating-back-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false">
+          <path d="M15.41 7.41 10.83 12l4.58 4.59L14 18l-6-6 6-6z"></path>
+        </svg>
+      </span>
+      <span>Back</span>
+    </a>
+  </nav>
+
+  <article class="project-detail-content">
+    {{ content }}
+  </article>
+</div>

@@ -1,65 +1,590 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description:
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+<!-- _pages/projects.md: migrated from the previous personal website Projects page. -->
+<style>
+  .post > .post-header {
+    display: none;
+  }
+</style>
 
-{% else %}
+<div class="projects-legacy-page">
+<main class="projects-legacy-main">
+<section class="py-5 text-center container">
+<div class="row py-lg-5">
+<div class="col-lg-6 col-md-8 mx-auto">
+<h1 class="display-5 fs-1 fw-bold lh-1 mb-3">Projects</h1>
+<p class="lead text-muted fs-5 lh-sm">My projects showcase my design and development skills in various interdisciplinary fields. </p>
+</div>
+</div>
+</section>
+<div class="album py-5 px-4">
+<div class="container">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-<!-- Display projects without categories -->
+<div class="col">
+<div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_ReVISitinteractivemedia.png' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">ReVISit Interactive Media</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                ReVISit is a powerful platform for creating, publishing, and disseminating visualization studies.
+                                This project builds on my background to explore how to adapt and expand it to support qualitative and human-centered approaches, as well as studies in complex interactive media.
+                            </p>
+<div class="mb-3">
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+<span class="badge badge-custom-cyan">Data Visualization</span>
+<span class="badge badge-custom-cyan">Research</span>
+<span class="badge badge-custom-cyan">ReVISit</span>
 
-  <!-- Generate cards for each project -->
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://revisit.dev/">ReVISit Website</a>
+</div>
+</div>
+<small class="text-muted">In Progress</small>
+</div>
+</div>
+</div>
 
-{% if page.horizontal %}
+<div class="col">
+<div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_JND.png' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Visualization Opacity JND</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                Just Noticeable Difference (JND) in psychology refers to the minimum level of stimulation that a person can detect 50% of the time.
+                                This project aims to evaluate the user response to the opacity JND of visualization outcomes and offer suggestions on visualization projects.
+                            </p>
+<div class="mb-3">
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+<span class="badge badge-custom-cyan">Data Visualization</span>
+<span class="badge badge-custom-cyan">Research</span>
+<span class="badge badge-custom-cyan">Team Work</span>
+<span class="badge badge-custom-cyan">ReVISit</span>
+
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://github.com/ShanoLiang/study">GitHub</a>
+<a class="btn btn-sm btn-outline-dark" href="https://revisit.dev/">ReVISit Website</a>
+</div>
+</div>
+<small class="text-muted">In Progress</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_EuphoriaSim.png' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Euphoria Simulator</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                Many people experience euphoria, a positive experience for mental health. Interactive media is a powerful engine that offers intimate experiences.
+                                This project builds a simulator to investigate how it can produce expected euphoric experiences and evaluate the design performance.
+                            </p>
+<div class="mb-3">
+
+<span class="badge badge-custom-cyan">Mental Health</span>
+<span class="badge badge-custom-cyan">Research</span>
+<span class="badge badge-custom-cyan">Human-centered Design</span>
+
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<div class="image-tooltip-container">
+<button class="btn btn-sm btn-outline-dark"><i class="bi bi-trophy-fill"></i> Award</button>
+<div class="image-tooltip">
+<img alt="Sample Image" src="{{ '/assets/img/projects/CHI25Award.png' | relative_url }}"/>
+</div>
+</div>
+<a class="btn btn-sm btn-outline-dark" href="https://theconversation.com/video-games-can-help-trans-players-feel-seen-and-safe-it-all-starts-with-design-257901">Media Coverage</a>
+<div class="tooltip-container">
+<a class="btn btn-sm btn-outline-dark" href="#">GitHub</a>
+<span class="tooltip-text">Private Repo</span>
+</div>
+</div>
+</div>
+<small class="text-muted">In Progress</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_vrjuice.jpg' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Juicy VR Interface</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                Explores the impact of visual, auditory, and haptic design in VR on user experience.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">AR/VR</span>
+<span class="badge badge-custom-cyan">UI/UX</span>
+<span class="badge badge-custom-cyan">Team Work</span>
+<span class="badge badge-custom-cyan">Physiological Sensors</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://github.com/ShanoLiang/unity-fruit-ninja-vr">GitHub</a>
+</div>
+</div>
+<small class="text-muted">In Progress</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<iframe allowfullscreen="true" frameborder="0" height="250" mozallowfullscreen="true" src="https://docs.google.com/presentation/d/e/2PACX-1vSMJvWDmyEkE4Fb5EiuE1_58us7KxbmSSaPMky8FkZ5cqsa7PUsawpWgaAr_y5y0ULUpnTxSaqb01wd/embed?start=false&amp;loop=false&amp;delayms=30000" webkitallowfullscreen="true"></iframe>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">"Jubensha"</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                Research into the adaptation and cultural localization of murder mystery games in China, namely Jubensha. Focus on the
+                                storytelling dynamic through collaborative sensemaking.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Murder Mystery</span>
+<span class="badge badge-custom-cyan">Research</span>
+<span class="badge badge-custom-cyan">Cultural Game Studies</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3721121">Journal Publication</a>
+<a class="btn btn-sm btn-outline-dark" href="https://mssv.net/2025/03/26/heres-what-makes-jubensha-different/">Media Coverage</a>
+<a class="btn btn-sm btn-outline-dark" href="{{ '/assets/pdf/projects/CGSAACJ_2022_paper_77.pdf' | relative_url }}">Panel Talk</a>
+</div>
+</div>
+<small class="text-muted">Completed: 2025</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/chuan1.png' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">"Chuan"</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                Chuan (bracelet) is a cultural alternative controller design project. The project aims to promote the Chinese culture of the “盘串” (playing walnut bracelet) for stress-relieving into cyberlizing.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Alternative Controller</span>
+<span class="badge badge-custom-cyan">Culture in Design</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://youtu.be/3VIlJpzU-nY?si=WTebro46RYmC0iQE">Video</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/chuan/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+
+</div>
+</div>
+<small class="text-muted">Completed: 2024</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/stack-ar-teaser-3.png' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Stack AR</h1>
+</div>
+<p class="card-text py-2 mb-0">An augmented reality music game that explores the stacking mechanics of transparent AR markers.</p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">AR Development</span>
+<span class="badge badge-custom-cyan">Game Design</span>
+<span class="badge badge-custom-cyan">Music Interaction</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://jingruchenmax.github.io/StackAR/">Website</a>
+<a class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3573382.3616071">Article</a>
+<a class="btn btn-sm btn-outline-dark" href="https://youtu.be/pAF2ckJ4YSA">Video</a>
+</div>
+</div>
+<small class="text-muted">Completed: 2023</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://www.youtube.com/embed/j5Y3HXnj0aQ?si=uJp1IrzmnA5AZM-S"></iframe>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Flow Chemistry AR</h1>
+</div>
+<p class="card-text py-2 mb-0">Developed a HoloLens AR application to train students on assembling lab components safely and efficiently.</p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Design, Interface, and Audio.
+                    </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Mixed Reality</span>
+<span class="badge badge-custom-cyan">Chemistry Education</span>
+<span class="badge badge-custom-cyan">Team Collaboration</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://github.com/WPI-IDeaS/FlowAR">GitHub</a>
+
+</div>
+</div>
+<small class="text-muted">Completed: 2023</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://my.matterport.com/show/?m=4kYRmoR3DnP"></iframe>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">360 Labs</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                Virtual walkthroughs and training sessions using 360-degree immersive environments for enhanced remote
+                                learning experiences.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">VR Development</span>
+<span class="badge badge-custom-cyan">Training</span>
+<span class="badge badge-custom-cyan">Remote Learning</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://my.matterport.com/show/?m=RXnySyU5uzE">Lab Demo</a>
+<a class="btn btn-sm btn-outline-dark" href="https://www.linkedin.com/posts/catherine-bouthillier_away-from-your-institution-want-to-provide-activity-6927338174360780800-s7P7?utm_source=share&amp;utm_medium=member_desktop">Posts</a>
+<a class="btn btn-sm btn-outline-dark" href="https://aiche.confex.com/aiche/ampc20/meetingapp.cgi/Paper/651137">Panel Talk</a>
+</div>
+
+</div>
+<small class="text-muted">Completed: 2022</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_FBD.jpg' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Free Body Diagram App</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                Designed and developed a series of content for the project Free Body Diagram App,
+                                to train students in the learning and practice of free-body diagram drawing skills for Statics or Mechanics courses.
+                            </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Designer, and Lead Artist.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Team Collaboration</span>
+<span class="badge badge-custom-cyan">Education</span>
+<span class="badge badge-custom-cyan">Mobile App</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+
+<a class="btn btn-sm btn-outline-dark" href="https://fbdapp.wpi.edu/">Website</a>
+<a class="btn btn-sm btn-outline-dark" href="https://apps.apple.com/us/app/free-body-diagram/id6471265397">App Store</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/free-body-diagram-app/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+
+</div>
+</div>
+<small class="text-muted">Completed: 2022</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://www.youtube.com/embed/4btZEvH6Ypw?mute=true"></iframe>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Collection</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                An experimental storytelling project combining origami and non-linear narratives. Explore the story through
+                                physical interaction with a treasure box filled with mysterious clues. Exhibited at PAX 2022 East, Boston.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Game Design</span>
+<span class="badge badge-custom-cyan">Origami</span>
+<span class="badge badge-custom-cyan">Team Collaboration</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+</div>
+<small class="text-muted">Completed: 2022</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_BattleBilliards.png' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Battle Billiards</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                Developed a series of HD game art content with PBR Material Shader for the game Battle Billiards of Petricore. The game is now available on Steam.
+                            </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Technical Artist.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Industry Collaboration</span>
+<span class="badge badge-custom-cyan">PBR Material</span>
+<span class="badge badge-custom-cyan">HDRP</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://store.steampowered.com/app/2172090/Battle_Billiards/">Steam Page</a>
+<a class="btn btn-sm btn-outline-dark" href="https://petricoregames.com/portfolio/battle-billiards/">Website</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/battle-billiards/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+</div>
+</div>
+<small class="text-muted">Completed: 2021</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://www.youtube.com/embed/E8-1WJYjbPQ?si=C8f_oeZn2dp_tfC9"></iframe>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">COVID Control Simulator</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                A serious simulator that reflects how city administrators can affect pandemic control and prevention.
+                                The game involves information collected from actual news sources and scientific data, and the team's positionality as native Wuhan city residents.
+                                It was featured in <small class="fw-bold">WPI News</small>.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Serious Game</span>
+<span class="badge badge-custom-cyan">Team Collaboration</span>
+<span class="badge badge-custom-cyan">Data Visualization</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=E8-1WJYjbPQ">Video</a>
+<a class="btn btn-sm btn-outline-dark" href="https://www.wpi.edu/news/chance-run-city-besieged-virus">Media Coverage</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/covid-control-simulator/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+</div>
+</div>
+<small class="text-muted">Completed: 2020</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://www.youtube.com/embed/ZxUvBfGuBsI?si=nsDEQuLGqasKap-A"></iframe>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Containment Breach Escape</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                A 30-minute escape room where players had to solve puzzles in order to recapture an entity and remove the lockdown.
+                                About 100 players participated over the three days of its run.
+                            </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Producer, Lead Designer, and Room Builder.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Escape Room</span>
+<span class="badge badge-custom-cyan">Game Design</span>
+<span class="badge badge-custom-cyan">Team Collaboration</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=7q8TI326rok">Video</a>
+<a class="btn btn-sm btn-outline-dark" href="https://x.com/escaperoomwpi/status/1202665209858527232">Posts</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/containment-breach-escape/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+</div>
+</div>
+<small class="text-muted">Completed: 2019</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_ForSurvive.png' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">For Survive</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                An experimental strategy game project with team collaboration on the development. Through strategies of resource collecting and management to survive the game.
+                            </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Lead Producer, Designer, and Lead Artist.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Game Design</span>
+<span class="badge badge-custom-cyan">Team Collaboration</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-dark btn-sm" href="{{ '/projects/for-survive/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+</div>
+</div>
+<small class="text-muted">Completed: 2019</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://www.youtube.com/embed/bZerqj7G0fk?si=Y0vtXhzyO0tWcVTO"></iframe>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Rimland</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                An award-winning solo-work indie game development project with the exploration of a 3D-to-2D pixel art style and 8-bit audio.
+                            </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold fs-6">Awards</small>: <small class="fw-bold">First Place</small>, Culture Creative Design Competition for College Students in Hubei Province (2018): 80,000 CNY (<small class="fw-bold color-text-cyan">~$11,428</small>); <small class="fw-bold">First Place</small>, Graduation Project Competition (2018): 5,000 CNY (~$714).
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Solo Work</span>
+<span class="badge badge-custom-cyan">Game Development</span>
+<span class="badge badge-custom-cyan">Award-winning</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=bZerqj7G0fk">Video</a>
+<a class="btn btn-sm btn-outline-dark" href="https://www.sohu.com/a/272994870_733111">Media Coverage</a>
+<a class="btn btn-sm btn-outline-dark" href="https://jwc.hifa.edu.cn/info/1061/1532.htm">Posts</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/rimland/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+</div>
+</div>
+<small class="text-muted">Completed: 2018</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_WorldOfSummoner.png' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">World of Summoner</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                An award-winning board game developed collaboratively by our team, which served as the core project for establishing our studio-sized company, the Wuhan KBOOM Network Tech Co. Ltd.
+                            </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold fs-6">Award</small>: <small class="fw-bold">Third Place</small>, Hubei Province Universities Creation Youth Student Entrepreneurship Competition (2016): 10,000 CNY (~$1,428).
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Team Collaboration</span>
+<span class="badge badge-custom-cyan">Entrepreneurship</span>
+<span class="badge badge-custom-cyan">Award-winning</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<div class="image-tooltip-container">
+<button class="btn btn-sm btn-outline-dark">Award Photo</button>
+<div class="image-tooltip">
+<img alt="Sample Image" src="{{ '/assets/img/projects/WoS award photo.JPG' | relative_url }}"/>
+</div>
+</div>
+<div class="image-tooltip-container">
+<button class="btn btn-sm btn-outline-dark">Company License</button>
+<div class="image-tooltip">
+<img alt="Sample Image" src="{{ '/assets/img/projects/Company license.JPG' | relative_url }}"/>
+</div>
+</div>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/world-of-summoner/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+</div>
+</div>
+<small class="text-muted">Completed: 2018</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_TeamFight.png' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Team Fight</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                A simple experimental motion comic art project I made for practicing storyboarding and comic skills.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Art</span>
+<span class="badge badge-custom-cyan">Motion Comic</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-dark btn-sm" href="{{ '/projects/team-fight/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+</div>
+</div>
+<small class="text-muted">Completed: 2017</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<script>
+  (() => {
+    const fallbackProjectUrl = "{{ '/' | relative_url }}";
+    const skipCardNavigation = (target) =>
+      target.closest("a, button, iframe, input, select, textarea, .image-tooltip-container, .tooltip-container, .carousel");
+
+    document.querySelectorAll(".projects-legacy-page .card").forEach((card) => {
+      const detailsLink = card.querySelector(".btn-group a.btn-dark[href]");
+      const targetUrl = detailsLink ? detailsLink.href : fallbackProjectUrl;
+
+      card.classList.add("project-card-clickable");
+      card.dataset.cardUrl = targetUrl;
+      card.setAttribute("role", "link");
+      card.setAttribute("tabindex", "0");
+
+      card.addEventListener("click", (event) => {
+        if (skipCardNavigation(event.target)) return;
+        window.location.href = targetUrl;
+      });
+
+      card.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        if (skipCardNavigation(event.target)) return;
+        event.preventDefault();
+        window.location.href = targetUrl;
+      });
+    });
+
+})();
+</script>
+
 </div>

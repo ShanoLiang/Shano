@@ -1,0 +1,264 @@
+---
+layout: project_detail
+title: "Rimland"
+project_nav_title: "Rimland"
+permalink: /projects/rimland/
+nav: false
+---
+
+<!-- _pages/projects/rimland.md: migrated from rimland.html. -->
+<main class="project-detail-legacy">
+<section class="py-3 mt-0 mb-3 text-center container">
+<div class="row py-lg-4 mt-1">
+<div class="col-lg-6 col-md-8 mx-auto">
+<img class="mx-lg-auto img-fluid mt-1 mb-4 py-4" height="50%" src="{{ '/assets/img/projects/rimland/rimlanddecor01.png' | relative_url }}" width="50%"/>
+<h1 class="display-5 fs-1 fw-bold lh-1 mb-5">Rimland</h1>
+<p class="lead text-muted fs-6 lh-sm mb-1">
+<small class="fw-bold">Tags:</small>
+<span class="badge badge-custom-cyan">Solo Work</span>
+<span class="badge badge-custom-cyan">Game Development</span>
+<span class="badge badge-custom-cyan">Award-winning</span>
+</p>
+<p class="lead text-muted fs-6 lh-sm mb-1">
+<small class="fw-bold">Date:</small> Dec. 2017 - May. 2018
+                </p>
+
+<p class="lead text-muted fs-6 lh-sm mb-1 px-4">
+<small class="fw-bold">Awards:</small> - First Place, Culture Creative Design Competition for College Students in Hubei Province (2018): 80,000 CNY (~$11,428);
+                </p>
+<p class="lead text-muted fs-6 lh-sm mb-1 px-4">
+                     - First Place, Graduation Project Competition (2018): 5,000 CNY (~$714).
+                </p>
+<hr/>
+<p class="lead text-muted fs-6 lh-sm px-5">
+                    An award-winning solo-work indie game development project with the exploration of a 3D-to-2D pixel art style and 8-bit audio.
+                </p>
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=bZerqj7G0fk">Video</a>
+<a class="btn btn-sm btn-outline-dark" href="https://www.sohu.com/a/272994870_733111">News</a>
+<a class="btn btn-sm btn-outline-dark" href="https://jwc.hifa.edu.cn/info/1061/1532.htm">Posts</a>
+</div>
+</div>
+</div>
+</section>
+<div class="album mt-1 mb-5 py-5">
+<div class="container px-5 mt-5">
+<div class="row flex-lg-row align-items-center py-4 mt-5 mb-5">
+<div class="col-lg px-0">
+<div class="image-container">
+<img src="{{ '/assets/img/projects/rimland/bb02-2.png' | relative_url }}" style="height: 100%;"/>
+<div class="overlay-text">
+<p> </p>
+<p class="fs-1 lh-1 text-sm-start px-0">
+<span class="align-bottom oversized-text-cm">Indie Game</span>
+</p>
+<p class="fs-1 lh-1 text-sm-start px-0">
+<span class="align-bottom oversized-text-wb">RIMLAND</span>
+</p>
+</div>
+</div>
+<p> </p>
+
+<p class="lead text-muted fs-5 lh-sm px-5">
+<small class="fw-bold">Rimland</small> is an exploration and survival indie game that I developed solely and entirely from scratch over several months. 
+                            Encouraged by the spirit and momentum of the indie game development boom that emerged in China around 2016, 
+                            I embarked on this project as an opportunity to hone my game development skills and gain hands-on experience with every phase of the process. 
+                            All aspects of the game—code, art, animations, design, and audio assets—were independently created by me. 
+                            Set in a wasteland punk-style world, the game places players in the role of adventurers tasked with collecting materials, managing resources, and battling dangerous creatures and bandits.
+                        </p>
+</div>
+<div class="col-lg-6 px-0 text-center">
+<img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/rimland/Rimland01.png' | relative_url }}" width="100%"/>
+<p class="taxt-dark mt-0 fw-light fs-6 text-center">
+                            Game Arts
+                        </p>
+</div>
+</div>
+<div class="row flex-lg-row align-items-center py-4 mt-5 mb-5">
+<div class="col-lg-8 px-0 text-center">
+<div class="carousel slide" id="carouselExampleCaptions">
+<div class="carousel-indicators">
+<button aria-current="true" aria-label="Slide 1" class="active" data-slide-to="0" data-target="#carouselExampleCaptions" type="button"></button>
+<button aria-label="Slide 2" data-slide-to="1" data-target="#carouselExampleCaptions" type="button"></button>
+<button aria-label="Slide 3" data-slide-to="2" data-target="#carouselExampleCaptions" type="button"></button>
+<button aria-label="Slide 4" data-slide-to="3" data-target="#carouselExampleCaptions" type="button"></button>
+<button aria-label="Slide 5" data-slide-to="4" data-target="#carouselExampleCaptions" type="button"></button>
+<button aria-label="Slide 6" data-slide-to="5" data-target="#carouselExampleCaptions" type="button"></button>
+<button aria-label="Slide 7" data-slide-to="6" data-target="#carouselExampleCaptions" type="button"></button>
+</div>
+<div class="carousel-inner mt-5">
+<div class="carousel-item active">
+<img class="mx-lg-auto img-fluid" height="100%" src="{{ '/assets/img/projects/rimland/Rimland02-02.png' | relative_url }}" width="100%"/>
+</div>
+<div class="carousel-item">
+<img class="mx-lg-auto img-fluid" height="100%" src="{{ '/assets/img/projects/rimland/Rimland02-eg1.png' | relative_url }}" width="100%"/>
+</div>
+<div class="carousel-item">
+<img class="mx-lg-auto img-fluid" height="100%" src="{{ '/assets/img/projects/rimland/Rimland02-eg2.png' | relative_url }}" width="100%"/>
+</div>
+<div class="carousel-item">
+<img class="mx-lg-auto img-fluid" height="100%" src="{{ '/assets/img/projects/rimland/Rimland02-eg3.png' | relative_url }}" width="100%"/>
+</div>
+<div class="carousel-item">
+<img class="mx-lg-auto img-fluid" height="100%" src="{{ '/assets/img/projects/rimland/Rimland02-eg4.png' | relative_url }}" width="100%"/>
+</div>
+<div class="carousel-item">
+<img class="mx-lg-auto img-fluid" height="100%" src="{{ '/assets/img/projects/rimland/Rimland02-eg5.png' | relative_url }}" width="100%"/>
+</div>
+<div class="carousel-item">
+<img class="mx-lg-auto img-fluid" height="100%" src="{{ '/assets/img/projects/rimland/Rimland02-eg6.png' | relative_url }}" width="100%"/>
+</div>
+</div>
+<button class="carousel-control-prev" data-slide="prev" data-target="#carouselExampleCaptions" type="button">
+<span aria-hidden="true" class="carousel-control-prev-icon bg-info"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" data-slide="next" data-target="#carouselExampleCaptions" type="button">
+<span aria-hidden="true" class="carousel-control-next-icon bg-info"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<div class="col-lg px-0">
+<img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/rimland/Rimland02-01.png' | relative_url }}" width="100%"/>
+</div>
+<p class="taxt-dark mt-0 fw-light fs-6 text-center">
+                        Game Arts: Game Poster and Game Scenarios
+                    </p>
+</div>
+
+<div class="row flex-lg-row-reverse align-items-center py-4 mt-5 mb-5">
+<div class="col-lg px-3">
+<p class="lead text-muted fw-bold fs-1 lh-1 px-2 ms-2">
+<img class="mx-lg-auto img-fluid mt-5" height="40%" src="{{ '/assets/img/projects/rimland/rimlanddecor02.png' | relative_url }}" width="40%"/>
+</p>
+<p class="lead fw-bold fs-1 lh-1 px-2 mb-2 ms-2">
+<span class="align-bottom oversized-text-bb">RIMLAND</span>
+</p>
+<p class="lh-1 px-2 ms-2">
+<span class="badge badge-custom-cyan">Solo Work</span>
+<span class="badge badge-custom-cyan">Game Development</span>
+<span class="badge badge-custom-cyan">Award-winning</span>
+</p>
+<hr/>
+<p class="lead fw-bold fs-3 lh-1 px-2 ms-2">
+<span class="align-bottom">3D-to-2D Lighting System</span>
+</p>
+<p class="lead text-muted fs-5 lh-sm px-1 ms-2">
+                            One of the key innovations in this game development project was the creation and implementation of a 3D lighting system and shaders 
+                            with normal maps integrated into 2D retro pixel art to achieve a unique aesthetic visual effect. 
+                            At the time, in mainland China, this concept was relatively uncommon, with few examples available for reference. 
+                            As a result, much of the development process involved experimentation and exploration, which are also the spirit of indie game development. 
+                            Ultimately, I was able to successfully realize this idea, overcoming the challenges through persistence and ingenuity.
+                        </p>
+</div>
+<div class="col-lg-7 px-0 text-center">
+<img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/rimland/Rimland03.png' | relative_url }}" width="100%"/>
+</div>
+</div>
+
+<div class="row flex-lg-row align-items-center py-4 mt-5 mb-5">
+<div class="col-lg px-3">
+<p> </p>
+<p class="lead text-muted fw-bold fs-1 lh-1 px-2 mt-0">
+<img class="mx-lg-auto img-fluid mt-5" height="40%" src="{{ '/assets/img/projects/rimland/rimlanddecor03.png' | relative_url }}" width="40%"/>
+</p>
+<p class="lead fw-bold fs-1 lh-1 px-2 mb-1 ms-2">
+<span class="align-bottom oversized-text-bb">RIMLAND</span>
+</p>
+
+<hr/>
+<p class="lead fw-bold fs-3 lh-1 px-2 ms-2">
+<span class="align-bottom">Pixel Art Animations</span>
+</p>
+<p class="lead text-muted fs-5 lh-sm px-1 ms-2 mb-0">
+                            Similarly, the innovative animation technology employed in Rimland represents another of the project's key attempts and advancements. 
+                            This approach involved the application of skeletal rigging and virtual armature techniques to create seamless animations for pixel art that integrate with the 3D lighting system. 
+                            This method allowed for smooth, alias-free animations without the need to manually draw numerous additional inbetweening frames, 
+                            significantly streamlining the animation process while maintaining visual quality.
+                        </p>
+</div>
+<div class="col-lg-7 px-0 text-center">
+<img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/rimland/Rimland04.png' | relative_url }}" width="100%"/>
+</div>
+</div>
+<div class="row flex-lg-row-reverse align-items-center py-4 mt-5 mb-5">
+<div class="col-lg px-0">
+<p class="fs-1 lh-1 text-sm-start px-0 mb-2">
+<span class="align-bottom oversized-text-bb">RIMLAND</span>
+</p>
+<hr style="width: 80%;"/>
+<p class="fs-2 lh-1 text-sm-start px-0">
+<span class="align-bottom color-text-cyan">Awards</span>
+</p>
+<p class="lead text-muted fs-5 lh-sm px-4 mb-1">
+<img class="bd-placeholder-img" height="12%" src="{{ '/assets/img/projects/rimland/escapedecor02.png' | relative_url }}" width="12%"/>
+</p>
+<p class="lead text-muted fs-5 lh-sm px-4"> 
+                            In May 2018, this project earned first place at both the departmental and institutional levels in the Graduation Project Competition of the Hubei Institute of Fine Arts (HIFA). 
+                            It was subsequently selected to represent HIFA's outstanding works at the 2018 Joint Exhibition of National Top Institutions of Higher Learning in Fine Arts. 
+                            Later that year, in October, the project won first place in the Cultural Creative Design Competition for College Students in Hubei Province, receiving a prize of <small class="fw-bold">80,000</small> CNY (pre-tax, <small class="fw-bold">~$11,428</small>).
+                        </p>
+</div>
+<div class="col-lg-8 px-0 text-center">
+<img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/rimland/Rimland05.png' | relative_url }}" width="100%"/>
+</div>
+</div>
+<div class="row flex-lg-row align-items-center py-4 mt-5 mb-5">
+<div class="col-lg px-0">
+<div class="image-container">
+<img src="{{ '/assets/img/projects/rimland/bb02-3.png' | relative_url }}" style="height: 100%;"/>
+<div class="overlay-text">
+<p> </p>
+<p class="fs-1 lh-1 text-sm-start px-0">
+<span class="align-bottom oversized-text-cm">The Only Regret</span>
+</p>
+<p class="fs-1 lh-1 text-sm-start px-0">
+<span class="align-bottom oversized-text-wb">RIMLAND</span>
+</p>
+</div>
+</div>
+<p> </p>
+<p class="lead text-muted fs-5 lh-sm px-5">
+                            During the creation of the game's art assets, the majority were originally designed to support a sandbox base-building gameplay system. 
+                            This system would have allowed players to construct their own bases by collecting in-game resources, aligning with the vision I had during the early design stages of development. 
+                            Unfortunately, due to available time constraints, the sandbox gameplay could not be fully realized, leaving it as the only regret of the project.
+                        </p>
+</div>
+<div class="col-lg-7 px-0 text-center">
+<img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/rimland/Rimland06.png' | relative_url }}" width="100%"/>
+</div>
+</div>
+<div class="row flex-lg-row align-items-center py-4 mb-0">
+<img src="{{ '/assets/img/projects/rimland/Rimland07.png' | relative_url }}" style="height: 100%;"/>
+<img src="{{ '/assets/img/projects/rimland/Rimland08.png' | relative_url }}" style="height: 100%;"/>
+<img src="{{ '/assets/img/projects/rimland/Rimland09.png' | relative_url }}" style="height: 100%;"/>
+<p class="taxt-dark mt-2 fw-light fs-6 text-center">
+                        Game Arts: 2D Assets and User Interface
+                    </p>
+</div>
+<div class="col mt-5">
+<div class="card bg-white shadow-lg">
+<div class="card-body">
+<p class="lead fs-4 fw-bolder lh-sm text-center px-0 mb-0">
+<span class="align-bottom">Video</span>
+</p>
+</div>
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="700" src="https://www.youtube.com/embed/bZerqj7G0fk?si=Y0vtXhzyO0tWcVTO"></iframe>
+<div class="card-body">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</main>
+
+<div class="project-page-updated">
+<p class="taxt-muted fs-6">
+            Project: Rimland
+        </p>
+<p class="taxt-muted fs-6">
+            The Page Last updated: January 23, 2025
+        </p>
+</div>
