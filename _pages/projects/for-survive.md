@@ -128,7 +128,7 @@ nav: false
 <p> </p>
 <img src="{{ '/assets/img/projects/for-survive/forsurvive09.jpg' | relative_url }}" style="height: 100%;"/>
 <p class="taxt-dark mt-2 fw-light fs-6 text-center">
-                        Game Arts: The Resource Cards and Disaster Cards.
+                        Game Arts: The Resource Cards and Disaster Cards
                     </p>
 </div>
 <div class="row flex-lg-row align-items-center py-4 mb-0">
@@ -136,7 +136,7 @@ nav: false
 <p> </p>
 <img src="{{ '/assets/img/projects/for-survive/forsurvive06.jpg' | relative_url }}" style="height: 100%;"/>
 <p class="taxt-dark mt-2 fw-light fs-6 text-center">
-                        The Timeline and Development Phases of the <small class="fst-italic">For Survive</small> Project.
+                        The Timeline and Development Phases of the <small class="fst-italic">For Survive</small> Project
                     </p>
 </div>
 </div>

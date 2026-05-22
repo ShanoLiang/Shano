@@ -70,7 +70,7 @@ nav: false
 <div class="row flex-lg-row align-items-center py-4 mb-3">
 <img src="{{ '/assets/img/projects/containment-breach-escape/escape02.png' | relative_url }}" style="height: 100%;"/>
 <p class="taxt-dark mt-2 fw-light fs-6 text-center">
-                        My project topic's pitch, which was selected as the top choice out of 23.
+                        My project topic's pitch, which was selected as the top choice out of 23
                     </p>
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-4 mt-5 mb-5">
@@ -102,7 +102,7 @@ nav: false
                     </p>
 <img src="{{ '/assets/img/projects/containment-breach-escape/escape05.jpg' | relative_url }}" style="height: 100%;"/>
 <p class="taxt-dark mt-2 fw-light fs-6 text-center">
-                        Working with the construction team.
+                        Working with the construction team
                     </p>
 </div>
 <div class="row flex-lg-row align-items-center py-4 mt-5 mb-5">
@@ -127,7 +127,7 @@ nav: false
 <div class="row flex-lg-row align-items-center py-4 mb-3">
 <img src="{{ '/assets/img/projects/containment-breach-escape/escape07.jpg' | relative_url }}" style="height: 100%;"/>
 <p class="taxt-dark mt-2 fw-light fs-6 text-center">
-                        Working with the construction team.
+                        Working with the construction team
                     </p>
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-4 mt-5 mb-5">
@@ -153,13 +153,13 @@ nav: false
 <div class="row flex-lg-row align-items-center py-4 mb-3">
 <img src="{{ '/assets/img/projects/containment-breach-escape/escape09.jpg' | relative_url }}" style="height: 100%;"/>
 <p class="taxt-dark mt-2 fw-light fs-6 text-center">
-                        Selling physical tickets on campus.
+                        Selling physical tickets on campus
                     </p>
 </div>
 <div class="row flex-lg-row align-items-center py-4 mb-3">
 <img src="{{ '/assets/img/projects/containment-breach-escape/escape10.png' | relative_url }}" style="height: 100%;"/>
 <p class="taxt-dark mt-2 fw-light fs-6 text-center">
-                        Group photos of players after the playing.
+                        Group photos of players after the playing
                     </p>
 </div>
 <div class="col">

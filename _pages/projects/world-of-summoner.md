@@ -140,7 +140,7 @@ nav: false
 <img src="{{ '/assets/img/projects/world-of-summoner/wos05.png' | relative_url }}" style="height: 100%;"/>
 <img src="{{ '/assets/img/projects/world-of-summoner/wos04.png' | relative_url }}" style="height: 100%;"/>
 <p class="taxt-dark mt-2 fw-light fs-6 text-center">
-                        Game Arts: Cards of World of Summoner.
+                        Game Arts: Cards of World of Summoner
                     </p>
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-4 mt-5 mb-5">
@@ -170,7 +170,7 @@ nav: false
 <div class="row flex-lg-row align-items-center py-4 mb-0">
 <img src="{{ '/assets/img/projects/world-of-summoner/wos08.png' | relative_url }}" style="height: 100%;"/>
 <p class="taxt-dark mt-2 fw-light fs-6 text-center">
-                        Photos of extensive playtesting and gameplay competitions.
+                        Photos of extensive playtesting and gameplay competitions
                     </p>
 </div>
 <div class="row flex-lg-row align-items-center py-4 mt-5 mb-5">

@@ -21,6 +21,16 @@
         {% endif %}
       </a>
 
+      <a
+        class="navbar-logs-button {% if page.permalink == '/logs/' %}active{% endif %}"
+        href="{{ '/logs/' | relative_url }}"
+        title="Logs and photos"
+        aria-label="Logs and photos"
+      >
+        <i class="ti ti-photo" aria-hidden="true"></i>
+        <span class="navbar-logs-tooltip">Logs and photos</span>
+      </a>
+
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"

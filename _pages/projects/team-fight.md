@@ -38,7 +38,7 @@ nav: false
 <img src="{{ '/assets/img/projects/team-fight/teamfight02.png' | relative_url }}" style="height: 100%;"/>
 <img src="{{ '/assets/img/projects/team-fight/teamfight03.png' | relative_url }}" style="height: 100%;"/>
 <p class="taxt-dark mt-2 fw-light fs-6 text-center">
-                        Arts: Team Fight.
+                        Arts: Team Fight
                     </p>
 </div>
 </div>

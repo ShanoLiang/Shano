@@ -252,11 +252,87 @@ ul.task-list input[type="checkbox"] {
   opacity: 0.95;
 }
 
+.navbar-brand.title {
+  margin-right: 0.56rem;
+}
+
 .navbar-brand .brand-avatar {
   height: 38px;
   margin-top: -3px;
   margin-bottom: -3px;
   vertical-align: middle;
+}
+
+.navbar-logs-button {
+  position: relative;
+  display: inline-flex;
+  width: 2.4rem;
+  height: 2.4rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.1525rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #111 !important;
+  line-height: 1;
+  text-decoration: none !important;
+  transition:
+    background-color 0.16s ease-in-out,
+    border-color 0.16s ease-in-out,
+    color 0.16s ease-in-out,
+    transform 0.16s ease-in-out;
+
+  i {
+    font-size: 1.35rem;
+  }
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--global-theme-color);
+    background-color: var(--global-theme-color);
+    color: #fff !important;
+    text-decoration: none !important;
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    border-color: transparent;
+    background-color: #111;
+    color: #fff !important;
+    filter: none;
+    transform: translateY(0);
+  }
+}
+
+.navbar-logs-tooltip {
+  position: absolute;
+  top: calc(100% + 0.45rem);
+  left: 50%;
+  z-index: 1030;
+  padding: 0.35rem 0.55rem;
+  transform: translateX(-50%) translateY(-0.15rem);
+  border-radius: 4px;
+  background: #212529;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.15;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  visibility: hidden;
+  transition:
+    opacity 0.16s ease-in-out,
+    transform 0.16s ease-in-out,
+    visibility 0.16s ease-in-out;
+}
+
+.navbar-logs-button:hover .navbar-logs-tooltip,
+.navbar-logs-button:focus-visible .navbar-logs-tooltip {
+  opacity: 1;
+  transform: translateX(-50%);
+  visibility: visible;
 }
 
 .navbar .dropdown-menu {
@@ -389,6 +465,128 @@ ul.task-list input[type="checkbox"] {
 
   .bottom-bar {
     transform: rotate(0);
+  }
+}
+
+.logs-page {
+  width: min(100vw - 2rem, 1320px);
+  margin-left: 50%;
+  transform: translateX(-50%);
+
+  .logs-hero {
+    padding: 4.5rem 1rem 8rem;
+    text-align: center;
+  }
+
+  .logs-title {
+    margin-bottom: 0.75rem;
+    color: #111;
+    font-size: 2.45rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 1.15;
+  }
+
+  .logs-lead {
+    color: #6f7780;
+    font-size: 1.18rem;
+    line-height: 1.25;
+  }
+
+  .logs-container {
+    max-width: 1250px;
+    margin: 0 auto 4rem;
+    padding: 0 1.25rem;
+  }
+
+  .logs-section {
+    padding: 3rem 0 2.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.14);
+  }
+
+  .logs-section:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  .logs-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 1.2rem;
+  }
+
+  .logs-image-narrow {
+    max-width: 70%;
+  }
+
+  .logs-image-award {
+    max-width: min(40%, 360px);
+  }
+
+  .logs-caption {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 1.1rem 0 0;
+    color: var(--global-text-color);
+    font-size: 0.98rem;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .logs-page-updated {
+    margin: 2rem auto 3rem;
+    color: var(--global-text-color);
+    font-size: 0.98rem;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-logs-button {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-left: 0.1175rem;
+
+    i {
+      font-size: 1.22rem;
+    }
+  }
+
+  .navbar-logs-tooltip {
+    display: none;
+  }
+
+  .logs-page {
+    width: 100%;
+
+    .logs-hero {
+      padding: 3.2rem 1rem 4.25rem;
+    }
+
+    .logs-title {
+      font-size: 2rem;
+    }
+
+    .logs-container {
+      padding: 0 1rem;
+    }
+
+    .logs-section {
+      padding: 2rem 0 1.75rem;
+    }
+
+    .logs-image {
+      margin-bottom: 0.9rem;
+    }
+
+    .logs-image-narrow,
+    .logs-image-award {
+      max-width: 100%;
+    }
   }
 }
 
@@ -999,14 +1197,14 @@ footer.sticky-bottom {
     overflow: visible;
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: 0.28rem;
-    box-shadow: 0 0.8rem 1.8rem rgba(0, 0, 0, 0.16) !important;
+    box-shadow: 0 0.4rem 0.9rem rgba(0, 0, 0, 0.16) !important;
     transition:
       transform 0.16s ease-in-out,
       box-shadow 0.16s ease-in-out;
   }
 
   .card:hover {
-    box-shadow: 0 1.05rem 2.4rem rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 0.525rem 1.2rem rgba(0, 0, 0, 0.2) !important;
     transform: translateY(-2px);
   }
 
@@ -1253,6 +1451,143 @@ footer.sticky-bottom {
 
 .project-detail-page {
   margin-top: 0;
+
+  .btn-group {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 0;
+    row-gap: 0;
+  }
+
+  .btn-group > .btn,
+  .btn-group > a,
+  .btn-group > .image-tooltip-container > .btn,
+  .btn-group > .tooltip-container > .btn {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 31px;
+    min-height: 31px;
+    margin: 0;
+    padding: 0 0.5rem;
+    border: 1px solid #111 !important;
+    border-radius: 4px;
+    background-color: #fff !important;
+    box-shadow: none !important;
+    color: #111 !important;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1 !important;
+    text-align: center;
+    text-decoration: none !important;
+    text-shadow: none !important;
+    text-transform: none !important;
+    vertical-align: middle;
+    white-space: nowrap;
+    transition:
+      background-color 0.16s ease,
+      border-color 0.16s ease,
+      color 0.16s ease;
+  }
+
+  .btn-group > .btn:not(:first-child),
+  .btn-group > a:not(:first-child),
+  .btn-group > .image-tooltip-container:not(:first-child) > .btn,
+  .btn-group > .tooltip-container:not(:first-child) > .btn {
+    margin-left: -1px;
+  }
+
+  .btn-group > .btn:hover,
+  .btn-group > a:hover,
+  .btn-group > .image-tooltip-container > .btn:hover,
+  .btn-group > .tooltip-container > .btn:hover {
+    border-color: #111 !important;
+    background-color: #111 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+
+  .btn-group > .btn:active,
+  .btn-group > a:active,
+  .btn-group > .image-tooltip-container > .btn:active,
+  .btn-group > .tooltip-container > .btn:active {
+    border-color: var(--project-cyan) !important;
+    background-color: var(--project-cyan) !important;
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+
+  .image-tooltip-container,
+  .tooltip-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .image-tooltip {
+    position: absolute;
+    bottom: calc(100% + 0.75rem);
+    left: 50%;
+    z-index: 30;
+    width: max-content;
+    max-width: min(330px, 78vw);
+    padding: 0.35rem;
+    transform: translateX(-50%) translateY(0.25rem);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0.8rem 1.8rem rgba(0, 0, 0, 0.28);
+    opacity: 0;
+    pointer-events: none;
+    transition:
+      opacity 0.16s ease,
+      transform 0.16s ease,
+      visibility 0.16s ease;
+    visibility: hidden;
+  }
+
+  .image-tooltip img {
+    display: block;
+    width: auto;
+    max-width: min(300px, 72vw);
+    max-height: 260px;
+    border-radius: 4px;
+    object-fit: contain;
+  }
+
+  .image-tooltip-container:hover .image-tooltip,
+  .image-tooltip-container:focus-within .image-tooltip {
+    transform: translateX(-50%);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .tooltip-text {
+    position: absolute;
+    top: calc(100% + 0.4rem);
+    left: 50%;
+    z-index: 30;
+    padding: 0.35rem 0.55rem;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+    font-size: 0.78rem;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    visibility: hidden;
+  }
+
+  .tooltip-container:hover .tooltip-text,
+  .tooltip-container:focus-within .tooltip-text {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 .project-floating-back {
@@ -1349,6 +1684,13 @@ footer.sticky-bottom {
 
 .project-detail-content .row {
   row-gap: 1.4rem;
+}
+
+.project-detail-content .row > p.taxt-dark.fw-light.fs-6.text-center {
+  flex: 0 0 100%;
+  width: 100%;
+  max-width: 100%;
+  text-align: center !important;
 }
 
 .project-detail-content .lead {
