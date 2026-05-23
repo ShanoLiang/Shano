@@ -7,7 +7,7 @@ nav: false
 ---
 
 <!-- _pages/projects/containment-breach-escape.md: migrated from escape.html. -->
-<main class="project-detail-legacy">
+<main class="project-detail-legacy containment-breach-escape-detail-page">
 <section class="py-3 mt-0 mb-3 text-center container">
 <div class="row py-lg-4 mt-1">
 <div class="col-lg-6 col-md-8 mx-auto">
@@ -16,7 +16,7 @@ nav: false
 <p class="lead text-muted fs-6 lh-sm mb-1">
 <small class="fw-bold">Tags:</small>
 <span class="badge badge-custom-cyan">Escape Room</span>
-<span class="badge badge-custom-cyan">Game Design</span>
+<span class="badge badge-custom-cyan">Immersive Experience Design</span>
 <span class="badge badge-custom-cyan">Team Collaboration</span>
 </p>
 <p class="lead text-muted fs-6 lh-sm mb-1">
@@ -29,8 +29,8 @@ nav: false
 <small class="fw-bold">Team Size:</small> 23
                 </p>
 <hr/>
-<p class="lead text-muted fs-6 lh-sm px-5">A 30-minute escape room where players had to solve puzzles in order to recapture an entity and remove the lockdown. 
-                    About 100 players participated over the three days of its run.
+<p class="lead text-muted fs-6 lh-sm px-5">A 30-minute escape room experience in which players solved a sequence of puzzles to recapture a released entity and lift a facility lockdown. 
+                About 100 players participated over the three days of its public run.
                 </p>
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=7q8TI326rok">Video</a>
@@ -45,25 +45,28 @@ nav: false
 <div class="col-lg px-0">
 <div class="image-container">
 <img src="{{ '/assets/img/projects/containment-breach-escape/bb02-3.png' | relative_url }}" style="height: 100%;"/>
-<div class="overlay-text">
-<p> </p>
-<p class="fs-1 lh-1 text-sm-start px-0">
+<div class="overlay-text containment-breach-escape-overlay-heading-stack containment-breach-escape-intro-overlay">
+<p class="containment-breach-escape-intro-spacer"> </p>
+<p class="fs-1 lh-1 text-sm-start px-0 containment-breach-escape-intro-title-line">
 <span class="align-bottom oversized-text-wb">Containment Breach Escape</span>
 </p>
 </div>
 </div>
-<p> </p>
+<p class="containment-breach-escape-intro-spacer"> </p>
+<div class="containment-breach-escape-intro-subheading">
+<p>PROJECT INTRODUCTION</p>
+<hr/>
+</div>
 <p class="lead text-muted fs-5 lh-sm px-5">
-                            The <small class="fw-bold">Containment Breach Escape</small> is an escape room project developed over several weeks and executed by graduate students in WPI's IMGD5300 course. 
-                            Following a class-wide vote, the theme and aesthetic style I designed was selected as the <small class="fw-bold">top choice</small> out of 23 proposed concepts, 
-                            leading to my appointment as the producer and lead designer for the project. 
-                            Additionally, I was an integral member of the construction team, contributing to the creation of the entire escape room from the ground up.
+                            <small class="fw-bold">Containment Breach Escape</small> is an escape room project developed over several weeks and executed by graduate students in Worcester Polytechnic Institute's (WPI) IMGD5300 course. 
+                            After a class-wide vote, my proposed theme and aesthetic direction were selected as the top choice among 23 concepts, and I then served as the project's producer and lead designer. 
+                            I was also an active member of the construction team, helping build the escape room from the ground up.
                         </p>
 </div>
 <div class="col-lg-7 px-0 text-center">
-<img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/containment-breach-escape/escape01.png' | relative_url }}" width="100%"/>
+<img class="bd-placeholder-img mt-5 containment-breach-escape-playtest-image" height="100%" src="{{ '/assets/img/projects/containment-breach-escape/escape01.png' | relative_url }}" width="100%"/>
 <p class="taxt-dark mt-2 fw-light fs-6 text-center">
-                            Photo of the escape room during a playtesting
+                            Photo of the escape room during playtesting
                         </p>
 </div>
 </div>
@@ -86,9 +89,9 @@ nav: false
 <img class="bd-placeholder-img" height="12%" src="{{ '/assets/img/projects/containment-breach-escape/escapedecor02.png' | relative_url }}" width="12%"/>
 </p>
 <p class="lead text-muted fs-5 lh-sm px-4"> 
-                            The space designated by the institute for constructing the escape room was located in the Graduate Lounge in the basement of Fuller Lab. 
-                            Our team prepared the area by clearing it out and constructing partitions using wood plank, filler, wall putty, and paint to divide the space. 
-                            We also integrated electronic equipment into the room, utilizing wiring, Bluetooth, and one-way glass to create an immersive and functional environment.
+                            The space assigned for the escape room was located in the Graduate Lounge in the basement of Fuller Lab. 
+                            Our team prepared the area by clearing the room and constructing partitions with wood planks, filler, wall putty, and paint to divide the space into playable zones. 
+                            We also integrated electronic equipment into the room, using wiring, Bluetooth devices, and one-way glass to support the puzzles and create a more immersive environment.
                         </p>
 </div>
 <div class="col-lg-8 px-0 text-center">
@@ -106,18 +109,17 @@ nav: false
                     </p>
 </div>
 <div class="row flex-lg-row align-items-center py-4 mt-5 mb-5">
-<div class="col-lg px-0">
+<div class="col-lg px-0 containment-breach-escape-section-heading-stack">
 <p class="fs-1 lh-1 text-sm-start px-3">
 <span class="align-bottom oversized-text-bb">Containment Breach Escape</span>
 </p>
-<p class="fs-2 lh-1 text-sm-start px-3">
+<img alt="" aria-hidden="true" class="containment-breach-escape-heading-divider-image" src="{{ '/assets/img/projects/containment-breach-escape/bb02-4.png' | relative_url }}"/>
+<p class="fs-2 lh-1 text-sm-start px-3 containment-breach-escape-secondary-title">
 <span class="align-bottom color-text-cyan">OUTCOMES</span>
 </p>
-<hr style="width: 70%;"/>
 <p class="lead text-muted fs-5 lh-sm px-1 me-3">
-                            The completed escape room features a total of 18 puzzles in various formats. 
-                            The technologies and design techniques incorporated into these puzzles include paper-based challenges, physical mechanisms, 
-                            UV-A lighting, laser lenses, video games, board puzzles, audio mechanisms, pagers, projection equipment, and more. 
+                            The completed escape room included 18 puzzles across multiple formats. 
+                            The technologies and design techniques incorporated into these puzzles included paper-based challenges, physical mechanisms, UV-A lighting, laser lenses, video games, board puzzles, audio mechanisms, pagers, projection equipment, and other interactive elements.
                         </p>
 </div>
 <div class="col-lg-7 px-0 text-center">
@@ -131,19 +133,19 @@ nav: false
                     </p>
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-4 mt-5 mb-5">
-<div class="col-lg px-0 mb-3 ms-3">
+<div class="col-lg px-0 mb-3 ms-3 containment-breach-escape-section-heading-stack">
 <p class="fs-1 lh-1 text-sm-start px-3">
 <span class="align-bottom oversized-text-bb">Containment Breach Escape</span>
 </p>
-<p class="fs-2 lh-1 text-sm-start px-3">
-<span class="align-bottom color-text-cyan">OPEN FOR PUBLIC PLAYING</span>
+<img alt="" aria-hidden="true" class="containment-breach-escape-heading-divider-image" src="{{ '/assets/img/projects/containment-breach-escape/bb02-4.png' | relative_url }}"/>
+<p class="fs-2 lh-1 text-sm-start px-3 containment-breach-escape-secondary-title">
+<span class="align-bottom color-text-cyan">PUBLIC RUN</span>
 </p>
-<hr style="width: 80%;"/>
 <p class="lead text-muted fs-5 lh-sm px-4"> 
-                            Our escape room was open to the public for gameplay in December 2019. 
-                            To promote the event and facilitate ticket sales, we created a temporary website for online purchases and set up an on-campus booth for selling physical tickets. 
-                            We also invited WPI faculty and professors to participate, receiving widespread praise for the experience. 
-                            Over the course of three days, including three rounds of playtesting, approximately 100 players engaged with the escape room.
+                            The escape room opened for public play in December 2019. 
+                            To promote the event and support ticket sales, we created a temporary website for online purchases and set up an on-campus booth to sell physical tickets. 
+                            We also invited WPI faculty and professors to participate. 
+                            Over the course of three days, including three rounds of playtesting, approximately 100 players experienced the escape room.
                         </p>
 </div>
 <div class="col-lg-6 px-0 text-center">
@@ -184,6 +186,6 @@ nav: false
             Project: Containment Breach Escape
         </p>
 <p class="taxt-muted fs-6">
-            The Page Last updated: January 20, 2025
+            The Page Last updated: May 23, 2026
         </p>
 </div>

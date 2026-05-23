@@ -7,7 +7,7 @@ nav: false
 ---
 
 <!-- _pages/projects/rimland.md: migrated from rimland.html. -->
-<main class="project-detail-legacy">
+<main class="project-detail-legacy rimland-detail-page">
 <section class="py-3 mt-0 mb-3 text-center container">
 <div class="row py-lg-4 mt-1">
 <div class="col-lg-6 col-md-8 mx-auto">
@@ -31,7 +31,7 @@ nav: false
                 </p>
 <hr/>
 <p class="lead text-muted fs-6 lh-sm px-5">
-                    An award-winning solo-work indie game development project with the exploration of a 3D-to-2D pixel art style and 8-bit audio.
+                    An award-winning solo indie game project exploring a 3D-lighting pipeline for 2D pixel art, retro survival gameplay, and 8-bit-inspired audio.
                 </p>
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=bZerqj7G0fk">Video</a>
@@ -47,7 +47,7 @@ nav: false
 <div class="col-lg px-0">
 <div class="image-container">
 <img src="{{ '/assets/img/projects/rimland/bb02-2.png' | relative_url }}" style="height: 100%;"/>
-<div class="overlay-text">
+<div class="overlay-text rimland-overlay-heading-stack">
 <p> </p>
 <p class="fs-1 lh-1 text-sm-start px-0">
 <span class="align-bottom oversized-text-cm">Indie Game</span>
@@ -59,17 +59,20 @@ nav: false
 </div>
 <p> </p>
 
+<div class="rimland-intro-subheading px-5">
+<p>GAME INTRODUCTION</p>
+<hr/>
+</div>
 <p class="lead text-muted fs-5 lh-sm px-5">
-<small class="fw-bold">Rimland</small> is an exploration and survival indie game that I developed solely and entirely from scratch over several months. 
-                            Encouraged by the spirit and momentum of the indie game development boom that emerged in China around 2016, 
-                            I embarked on this project as an opportunity to hone my game development skills and gain hands-on experience with every phase of the process. 
-                            All aspects of the game—code, art, animations, design, and audio assets—were independently created by me. 
-                            Set in a wasteland punk-style world, the game places players in the role of adventurers tasked with collecting materials, managing resources, and battling dangerous creatures and bandits.
+<small class="fw-bold">Rimland</small> is an exploration and survival indie game that I developed independently from scratch over several months. 
+                        Inspired by the momentum of China's indie game scene around 2016, I used this project as an opportunity to strengthen my game development skills and gain hands-on experience across the full production pipeline. 
+                        I created all major components of the game myself, including code, art, animations, gameplay design, and audio assets. 
+                        Set in a wasteland punk-inspired world, the game places players in the role of adventurers who collect materials, manage resources, and fight dangerous creatures and bandits.
                         </p>
 </div>
 <div class="col-lg-6 px-0 text-center">
-<img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/rimland/Rimland01.png' | relative_url }}" width="100%"/>
-<p class="taxt-dark mt-0 fw-light fs-6 text-center">
+<img class="bd-placeholder-img mt-5 rimland-intro-art-image" height="100%" src="{{ '/assets/img/projects/rimland/Rimland01.png' | relative_url }}" width="100%"/>
+<p class="taxt-dark mt-0 fw-light fs-6 text-center rimland-intro-art-caption">
                             Game Arts
                         </p>
 </div>
@@ -132,6 +135,7 @@ nav: false
 <p class="lead text-muted fw-bold fs-1 lh-1 px-2 ms-2">
 <img class="mx-lg-auto img-fluid mt-5" height="40%" src="{{ '/assets/img/projects/rimland/rimlanddecor02.png' | relative_url }}" width="40%"/>
 </p>
+<div class="rimland-heading-stack">
 <p class="lead fw-bold fs-1 lh-1 px-2 mb-2 ms-2">
 <span class="align-bottom oversized-text-bb">RIMLAND</span>
 </p>
@@ -144,12 +148,12 @@ nav: false
 <p class="lead fw-bold fs-3 lh-1 px-2 ms-2">
 <span class="align-bottom">3D-to-2D Lighting System</span>
 </p>
+</div>
 <p class="lead text-muted fs-5 lh-sm px-1 ms-2">
-                            One of the key innovations in this game development project was the creation and implementation of a 3D lighting system and shaders 
-                            with normal maps integrated into 2D retro pixel art to achieve a unique aesthetic visual effect. 
-                            At the time, in mainland China, this concept was relatively uncommon, with few examples available for reference. 
-                            As a result, much of the development process involved experimentation and exploration, which are also the spirit of indie game development. 
-                            Ultimately, I was able to successfully realize this idea, overcoming the challenges through persistence and ingenuity.
+                            One of the central technical experiments in Rimland was the integration of 3D lighting, shaders, and normal maps into a 2D retro pixel-art style. 
+                            At the time, this approach was still relatively uncommon in mainland China's student and indie game development scene, and there were few readily available examples for reference. 
+                            Much of the process therefore relied on iterative testing, visual experimentation, and problem-solving within the engine. 
+                            The resulting visual style allowed the game to retain a pixel-art aesthetic while gaining additional depth, lighting variation, and material presence.
                         </p>
 </div>
 <div class="col-lg-7 px-0 text-center">
@@ -163,6 +167,7 @@ nav: false
 <p class="lead text-muted fw-bold fs-1 lh-1 px-2 mt-0">
 <img class="mx-lg-auto img-fluid mt-5" height="40%" src="{{ '/assets/img/projects/rimland/rimlanddecor03.png' | relative_url }}" width="40%"/>
 </p>
+<div class="rimland-heading-stack">
 <p class="lead fw-bold fs-1 lh-1 px-2 mb-1 ms-2">
 <span class="align-bottom oversized-text-bb">RIMLAND</span>
 </p>
@@ -171,11 +176,12 @@ nav: false
 <p class="lead fw-bold fs-3 lh-1 px-2 ms-2">
 <span class="align-bottom">Pixel Art Animations</span>
 </p>
+</div>
 <p class="lead text-muted fs-5 lh-sm px-1 ms-2 mb-0">
-                            Similarly, the innovative animation technology employed in Rimland represents another of the project's key attempts and advancements. 
-                            This approach involved the application of skeletal rigging and virtual armature techniques to create seamless animations for pixel art that integrate with the 3D lighting system. 
-                            This method allowed for smooth, alias-free animations without the need to manually draw numerous additional inbetweening frames, 
-                            significantly streamlining the animation process while maintaining visual quality.
+                            A second technical focus was the animation workflow. 
+                            Rimland used skeletal rigging and virtual armature techniques to animate pixel-art characters and objects in a way that could work with the game's lighting system. 
+                            This approach reduced the need to manually draw large numbers of in-between frames, while still supporting smoother character motion and a consistent visual style. 
+                            It also allowed me to explore a more efficient production pipeline for creating animated 2D game assets as a solo developer.
                         </p>
 </div>
 <div class="col-lg-7 px-0 text-center">
@@ -184,6 +190,7 @@ nav: false
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-4 mt-5 mb-5">
 <div class="col-lg px-0">
+<div class="rimland-heading-stack">
 <p class="fs-1 lh-1 text-sm-start px-0 mb-2">
 <span class="align-bottom oversized-text-bb">RIMLAND</span>
 </p>
@@ -191,13 +198,14 @@ nav: false
 <p class="fs-2 lh-1 text-sm-start px-0">
 <span class="align-bottom color-text-cyan">Awards</span>
 </p>
+</div>
 <p class="lead text-muted fs-5 lh-sm px-4 mb-1">
 <img class="bd-placeholder-img" height="12%" src="{{ '/assets/img/projects/rimland/escapedecor02.png' | relative_url }}" width="12%"/>
 </p>
 <p class="lead text-muted fs-5 lh-sm px-4"> 
-                            In May 2018, this project earned first place at both the departmental and institutional levels in the Graduation Project Competition of the Hubei Institute of Fine Arts (HIFA). 
-                            It was subsequently selected to represent HIFA's outstanding works at the 2018 Joint Exhibition of National Top Institutions of Higher Learning in Fine Arts. 
-                            Later that year, in October, the project won first place in the Cultural Creative Design Competition for College Students in Hubei Province, receiving a prize of <small class="fw-bold">80,000</small> CNY (pre-tax, <small class="fw-bold">~$11,428</small>).
+                            In May 2018, Rimland received first place at both the departmental and institutional levels in the Graduation Project Competition at the Hubei Institute of Fine Arts (HIFA) (approximately <small class="fw-bold">1 selected from ~2,000 graduation works</small>). 
+                            It was later selected to represent HIFA's outstanding student works at the 2018 Joint Exhibition of National Top Institutions of Higher Learning in Fine Arts. 
+                            In October 2018, the project also won first place in the Cultural and Creative Design Competition for College Students in Hubei Province, receiving a pre-tax prize of <small class="fw-bold">80,000</small> CNY (<small class="fw-bold">~$11,428</small>).
                         </p>
 </div>
 <div class="col-lg-8 px-0 text-center">
@@ -208,7 +216,7 @@ nav: false
 <div class="col-lg px-0">
 <div class="image-container">
 <img src="{{ '/assets/img/projects/rimland/bb02-3.png' | relative_url }}" style="height: 100%;"/>
-<div class="overlay-text">
+<div class="overlay-text rimland-overlay-heading-stack">
 <p> </p>
 <p class="fs-1 lh-1 text-sm-start px-0">
 <span class="align-bottom oversized-text-cm">The Only Regret</span>
@@ -220,9 +228,10 @@ nav: false
 </div>
 <p> </p>
 <p class="lead text-muted fs-5 lh-sm px-5">
-                            During the creation of the game's art assets, the majority were originally designed to support a sandbox base-building gameplay system. 
-                            This system would have allowed players to construct their own bases by collecting in-game resources, aligning with the vision I had during the early design stages of development. 
-                            Unfortunately, due to available time constraints, the sandbox gameplay could not be fully realized, leaving it as the only regret of the project.
+                            During the creation of the game's art assets, many of them were originally designed to support a sandbox base-building system. 
+                            This planned system would have allowed players to construct their own bases by collecting and using in-game resources, which was part of the project's early design vision. 
+                            Due to the limited development time available for a solo project, however, the sandbox system could not be fully implemented. 
+                            This remains the main unfinished ambition of the project.
                         </p>
 </div>
 <div class="col-lg-7 px-0 text-center">
@@ -259,6 +268,6 @@ nav: false
             Project: Rimland
         </p>
 <p class="taxt-muted fs-6">
-            The Page Last updated: January 23, 2025
+            The Page Last updated: May 23, 2026
         </p>
 </div>

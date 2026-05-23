@@ -7,7 +7,7 @@ nav: false
 ---
 
 <!-- _pages/projects/covid-control-simulator.md: migrated from covidsim.html. -->
-<main class="project-detail-legacy">
+<main class="project-detail-legacy covid-control-simulator-detail-page">
 <section class="py-3 mt-0 mb-3 text-center container">
 <div class="row py-lg-4 mt-1">
 <div class="col-lg-6 col-md-8 mx-auto">
@@ -16,8 +16,8 @@ nav: false
 <p class="lead text-muted fs-6 lh-sm mb-1">
 <small class="fw-bold">Tags:</small>
 <span class="badge badge-custom-cyan">Serious Game</span>
-<span class="badge badge-custom-cyan">Team Collaboration</span>
-<span class="badge badge-custom-cyan">Data Visualization</span>
+<span class="badge badge-custom-cyan">Playful Data Visualization</span>
+<span class="badge badge-custom-cyan">Simulator</span>
 </p>
 <p class="lead text-muted fs-6 lh-sm mb-1">
 <small class="fw-bold">Date:</small> Jan. 2020 - Jun. 2020
@@ -29,8 +29,8 @@ nav: false
 <small class="fw-bold">Team Size:</small> 3
                 </p>
 <hr/>
-<p class="lead text-muted fs-6 lh-sm px-5">A serious simulator that reflects how city administrators can affect pandemic control and prevention. 
-                    The game involves information collected from actual news sources and scientific data, and the team's positionality as native Wuhan city residents. It was featured in WPI News.
+<p class="lead text-muted fs-6 lh-sm px-5">A serious but playful strategy simulation with an epidemiological dynamic SEIR model for city-level pandemic response, public-health tradeoffs, and data-informed decision-making. 
+                The project incorporated information from real news sources, scientific data, and our team's positionality as native Wuhan residents. It was featured by WPI News.
                 </p>
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=E8-1WJYjbPQ">Video</a>
@@ -45,20 +45,20 @@ nav: false
 <div class="row flex-lg-row align-items-center py-5 mb-3 bg-image-container" style="background-image: url('{{ '/assets/img/projects/covid-control-simulator/covidsim01-bg.png' | relative_url }}')">
 <div class="col-lg-6">
 <div class="image-container">
-<img src="{{ '/assets/img/projects/covid-control-simulator/covidsim01-frame.png' | relative_url }}" style="height: 100%;"/>
-<div class="overlay-text ms-3">
+<img src="{{ '/assets/img/projects/covid-control-simulator/covidsim01-frame.png' | relative_url }}" style="height: 110%;"/>
+<div class="overlay-text ms-3 covid-control-intro-overlay">
 <p> </p>
-<p class="fs-1 lh-1 text-sm-start px-0 mb-1">
+<p class="fs-1 lh-1 text-sm-start px-0 mb-1 covid-control-intro-title-line">
 <span class="align-bottom oversized-text-wbs">COVID Control Simulator</span>
 </p>
-<p class="fs-1 lh-1 text-sm-start px-0">
+<p class="fs-1 lh-1 text-sm-start px-0 covid-control-intro-subtitle-line">
 <span class="align-bottom oversized-text-cms">INTRODUCTION</span>
 </p>
-
-<hr class="text-white mb-2"/>
-<p class="text-white fs-5 fw-light lh-sm px-0">
-                                    Our team created a serious strategy game that puts players in control of a city hit with a deadly COVID-like pandemic. 
-                                    Fetched more than 1000+real news on the websites through the web crawler, reorganized the news data for the game, design the system based on the epidemic model from Lancet. 
+<hr class="text-white mb-2 covid-control-intro-divider"/>
+<p class="text-white fs-6 fw-light lh-sm px-0">
+                                    COVID Control Simulator is a serious strategy game that places players in control of a city facing a pandemic. 
+                                    Players must balance saving lives, maintaining public morale, and sustaining the local economy while dealing with limited information, rapidly evolving situations, and the human stories behind every statistic. 
+                                    Our team collected more than 1,000 real-world news reports, then adapted this material into the game. 
                                 </p>
 <p> </p>
 <p> </p>
@@ -75,17 +75,17 @@ nav: false
 <div class="overlay-text">
 <p> </p>
 <p class="fs-1 lh-1 text-sm-start px-0">
-<span class="align-bottom oversized-text-wb">COVID Control Simulator</span>
+<span class="align-bottom oversized-text-wb covid-control-section-title-on-image">COVID Control Simulator</span>
 </p>
 </div>
 </div>
 <p> </p>
-<p class="lead text-muted fs-5 lh-sm px-5">
-                            Based on our team's experiences and positionality as native Wuhan city residents, 
-                            we designed the game to immerse players in balancing the preservation of human lives and economic stability during a deadly viral outbreak. 
-                            The game also challenges players to act responsibly and devise strategies to prevent and control the virus with minimal losses. 
-                            The core objective is to allow players to experience the complex dilemmas faced by governments during the COVID-19 pandemic, 
-                            emphasizing how careless or reckless decisions could lead to catastrophic outcomes for the affected population.
+<p class="lead text-muted fs-6 lh-sm px-5">
+                            The project began in early 2020, as the first wave of COVID-19 swept through Wuhan. 
+                            Motivated by our personal experiences and the desire to help others understand the complexities of pandemic response, we set out to capture the difficult choices faced by government officials during a crisis. 
+                            Based on our team's experiences and positionality as native Wuhan residents, we designed the game to immerse players in the difficult tradeoffs involved in pandemic response. 
+                            The game asks players to make responsible decisions under uncertainty, showing how delayed, careless, or poorly coordinated actions can produce cascading consequences for the affected population. 
+                            Rather than presenting the pandemic only as a sequence of statistics or policy decisions, the game uses simulation and interactive systems to make the relationships among disease transmission, public communication, resource allocation, and civic responsibility more visible. 
                         </p>
 </div>
 <div class="col-lg-7 px-0 text-center">
@@ -108,23 +108,26 @@ nav: false
 <div class="row flex-lg-row align-items-center py-4 mt-5 mb-5">
 <div class="col-lg px-0">
 <p class="fs-1 lh-1 text-sm-start px-0">
-<span class="align-bottom oversized-text-bb">COVID Control Simulator</span>
+<span class="align-bottom oversized-text-bb covid-control-section-title-plain">COVID Control Simulator</span>
 </p>
-<hr style="width: 70%;"/>
-<p class="lead text-muted fs-5 lh-sm px-1">
-                            We have also prepared various endings based upon the strategies players choose in the game while they battle the novel coronavirus pneumonia. 
-                            For example, players can choose strategies to achieve “herd immunity,” which may be considered more laissez-faire, or adopt a strict quarantine policy at the beginning; 
-                            each would have a totally different experience and outcome.    
+<hr class="covid-control-system-divider" style="width: 70%;"/>
+<p class="lead text-muted fs-6 lh-sm px-1">
+                            Fighting Against Coronavirus is built on a systems engineering approach, utilizing a modified SEIR (Susceptible-Exposed-Infected-Recovered) transmission model to capture the complex dynamics of a viral outbreak. 
+                            Key epidemiological parameters, such as infection rate, incubation period, and recovery rate, are dynamically influenced by player decisions, city policies, and resource availability. 
+                            Policies like mask mandates, public transportation suspension, disinfection, and quarantine measures all feed into the simulation, reflecting their real-world impact on transmission.   
                         </p>
-<p class="lead text-muted fs-5 lh-sm px-1">
-                            The goal of our game is to offer a platform where players can explore and reenact the strategies implemented during the COVID-19 pandemic, 
-                            presented within a serious game format. My team and I aim to highlight the critical role mathematics plays in controlling a pandemic, 
-                            emphasizing its importance over political or economic considerations. 
-                            Through this project, we seek to demonstrate that games can transcend mere entertainment and serve higher purposes, such as education and raising awareness.
+<p class="lead text-muted fs-6 lh-sm px-1">
+                            Game systems go beyond just disease modeling: resources such as hospital beds, medical staff, and surgical masks are tracked and directly affect both health outcomes and available actions. 
+                            A layered media system models public concern, panic, satisfaction, and government credibility, allowing players to manage information flow and citizen morale through simulated news and social media (rewritten from authentic sources). 
+                            Research progress and pressure on scientists affect not only future healthcare capabilities, but also the pace at which new solutions can be deployed.
+                        </p>
+<p class="lead text-muted fs-6 lh-sm px-1">
+                            These interlocking systems create meaningful feedback loops: for example, inadequate healthcare capacity or mismanaged communication can trigger public panic or reduce government credibility, while smart policies and successful research can stabilize the city. 
+                            Every choice ripples through the simulation, making holistic, adaptive thinking essential and immersing players in the genuine complexity of pandemic response.
                         </p>
 </div>
-<div class="col-lg-7 px-0 text-center">
-<img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/covid-control-simulator/covidsimdecor01.png' | relative_url }}" width="100%"/>
+<div class="col-lg-7 px-0 text-center covid-control-system-image-column">
+<img class="bd-placeholder-img mt-5 covid-control-system-image" height="100%" src="{{ '/assets/img/projects/covid-control-simulator/covidsimdecor01.png' | relative_url }}" width="100%"/>
 </div>
 </div>
 <div class="col">
@@ -149,6 +152,6 @@ nav: false
             Project: Covid Control Simulator
         </p>
 <p class="taxt-muted fs-6">
-            The Page Last updated: January 19, 2025
+            The Page Last updated: May 23, 2026
         </p>
 </div>

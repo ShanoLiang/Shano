@@ -23,7 +23,7 @@ nav: false
                 </p>
 <hr/>
 <p class="lead text-muted fs-6 lh-sm px-5">
-                    A simple experimental motion comic art project I made for practicing storyboarding and comic skills.
+                    A small experimental motion-comic project focused on storyboarding, sequential visual storytelling, and comic-based action staging.
                 </p>
 <div class="btn-group">
 
@@ -51,6 +51,6 @@ nav: false
             Project: Team Fight
         </p>
 <p class="taxt-muted fs-6">
-            The Page Last updated: January 24, 2025
+            The Page Last updated: May 23, 2026
         </p>
 </div>

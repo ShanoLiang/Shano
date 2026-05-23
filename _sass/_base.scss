@@ -1118,7 +1118,7 @@ footer.sticky-bottom {
   .oversized-text-cm,
   .oversized-text-cms {
     color: var(--project-cyan-bright);
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-shadow:
       0 0 1px rgba(0, 0, 0, 0.5),
       0 0 4px #000;
@@ -1699,6 +1699,534 @@ footer.sticky-bottom {
 
 .project-detail-content hr {
   border-top: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.project-detail-content .rimland-detail-page {
+  .rimland-overlay-heading-stack {
+    p.fs-1 {
+      margin-top: 0 !important;
+      margin-bottom: 0.22rem !important;
+      line-height: 0.92 !important;
+    }
+
+    p.fs-1:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .rimland-heading-stack {
+    margin-bottom: 1.05rem;
+
+    p {
+      margin-top: 0 !important;
+      margin-bottom: 0.34rem !important;
+      line-height: 0.95 !important;
+    }
+
+    p:last-child {
+      margin-bottom: 0 !important;
+    }
+
+    hr {
+      margin-top: 0.35rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    .badge {
+      vertical-align: middle;
+    }
+  }
+
+  .rimland-intro-subheading {
+    margin: -0.8rem 0 0.9rem;
+  }
+
+  .rimland-intro-subheading p {
+    margin: 0 0 0.38rem;
+    color: #111;
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1;
+  }
+
+  .rimland-intro-subheading hr {
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+  }
+
+  .rimland-intro-art-image {
+    box-shadow: 0 0.45rem 1rem rgba(0, 0, 0, 0.28);
+  }
+
+  .rimland-intro-art-caption {
+    margin-top: 1.15rem !important;
+  }
+}
+
+.project-detail-content .world-of-summoner-detail-page {
+  .wos-overlay-heading-stack {
+    p.fs-1 {
+      margin-top: 0 !important;
+      margin-bottom: 0.22rem !important;
+      line-height: 0.92 !important;
+    }
+
+    p.fs-1:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .wos-intro-overlay {
+    left: 66%;
+    width: 72%;
+  }
+
+  .wos-intro-overlay .wos-intro-title-line {
+    margin-bottom: 0 !important;
+    line-height: 0.82 !important;
+    text-align: left !important;
+  }
+
+  .wos-intro-overlay .wos-intro-kicker {
+    margin-bottom: 0.1rem !important;
+    text-align: left !important;
+  }
+
+  .wos-intro-overlay .wos-intro-kicker .oversized-text-cm {
+    display: block;
+    font-size: 1.76rem;
+    line-height: 0.9;
+    text-align: left !important;
+  }
+
+  .wos-intro-overlay .wos-intro-title-line .oversized-text-wb {
+    display: block;
+    font-size: 2.92rem;
+    line-height: 0.82;
+    text-align: left !important;
+  }
+
+  .wos-intro-overlay .wos-intro-world-line {
+    margin-bottom: -0.34rem !important;
+  }
+
+  .wos-intro-subheading {
+    margin: -0.7rem 0 0.9rem;
+  }
+
+  .wos-intro-subheading p {
+    margin: 0 0 0.38rem;
+    color: #111;
+    font-size: 2.3rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1;
+  }
+
+  .wos-intro-subheading hr {
+    margin: 0;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.16);
+  }
+
+  .wos-heading-stack {
+    margin-bottom: 1.05rem;
+
+    p {
+      margin-top: 0 !important;
+      margin-bottom: 0.34rem !important;
+      line-height: 0.95 !important;
+    }
+
+    p:last-child {
+      margin-bottom: 0 !important;
+    }
+
+    hr {
+      margin-top: 0.35rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+  }
+}
+
+.project-detail-content .for-survive-detail-page {
+  .for-survive-overlay-heading-stack {
+    p.fs-1 {
+      margin-top: 0 !important;
+      margin-bottom: 0.22rem !important;
+      line-height: 0.92 !important;
+    }
+
+    p.fs-1:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .for-survive-intro-overlay {
+    top: 41%;
+    left: 44%;
+    width: 80%;
+  }
+
+  .for-survive-intro-overlay .for-survive-intro-kicker {
+    margin-bottom: 0.2rem !important;
+    line-height: 0.92 !important;
+    text-align: left !important;
+  }
+
+  .for-survive-intro-overlay .for-survive-intro-kicker .oversized-text-cm {
+    display: block;
+    color: #c42727;
+    font-size: 1.8rem;
+    line-height: 0.92;
+    letter-spacing: 0;
+    text-align: left !important;
+    text-shadow: none;
+  }
+
+  .for-survive-intro-overlay .for-survive-intro-title-line {
+    margin-bottom: 0 !important;
+    line-height: 0.92 !important;
+    text-align: left !important;
+  }
+
+  .for-survive-intro-overlay .for-survive-intro-title-line .oversized-text-wb {
+    display: block;
+    color: #525252;
+    font-size: 2.8rem;
+    line-height: 0.92;
+    letter-spacing: -1.5px;
+    text-align: left !important;
+    text-shadow: none;
+  }
+
+  .for-survive-heading-stack {
+    margin-bottom: 1.05rem;
+
+    p {
+      margin-top: 0 !important;
+      margin-bottom: 0.34rem !important;
+      line-height: 0.95 !important;
+    }
+
+    p:last-child {
+      margin-bottom: 0 !important;
+    }
+
+    hr {
+      margin-top: 0.35rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    .badge {
+      vertical-align: middle;
+    }
+  }
+
+  .for-survive-prototype-heading-stack {
+    margin-bottom: 0.95rem;
+  }
+
+  .for-survive-section-title-image {
+    position: relative;
+    width: 100%;
+    max-width: 31rem;
+    margin: 0 0 0.35rem;
+  }
+
+  .for-survive-section-title-bg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .for-survive-section-title-overlay {
+    position: absolute;
+    top: 47%;
+    left: 44%;
+    width: 92%;
+    transform: translate(-50%, -50%);
+
+    p {
+      margin-top: 0 !important;
+      margin-bottom: 0.34rem !important;
+      line-height: 0.95 !important;
+      text-align: left !important;
+    }
+
+    p:last-child {
+      margin-bottom: 0 !important;
+    }
+
+    .oversized-text-bb {
+      display: block;
+      text-align: left !important;
+      white-space: nowrap;
+    }
+
+    .badge-custom-cyan {
+      background-color: #6f7377;
+    }
+  }
+
+  .for-survive-paper-prototype-image {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .for-survive-heading-divider-image {
+    display: block;
+    width: 72%;
+    max-width: 23.4rem;
+    height: auto;
+    margin: 0.7rem 0 0.5rem;
+  }
+}
+
+.project-detail-content .covid-control-simulator-detail-page {
+  .covid-control-intro-title-line {
+    margin-bottom: 0.34rem !important;
+    line-height: 0.9 !important;
+  }
+
+  .covid-control-intro-subtitle-line {
+    margin-top: 0 !important;
+    margin-bottom: 0.35rem !important;
+    line-height: 0.9 !important;
+  }
+
+  .covid-control-intro-divider {
+    color: #fff !important;
+    border-color: rgba(255, 255, 255, 0.72) !important;
+    background-color: rgba(255, 255, 255, 0.72) !important;
+    opacity: 1;
+  }
+
+  .covid-control-section-title-on-image {
+    font-size: 2.55rem !important;
+    line-height: 0.95 !important;
+  }
+
+  .covid-control-section-title-plain {
+    font-size: 2.04rem !important;
+    line-height: 0.95 !important;
+  }
+
+  .covid-control-system-divider {
+    display: block;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+
+  .covid-control-system-image {
+    box-shadow: 0 0.45rem 1rem rgba(0, 0, 0, 0.28);
+  }
+
+  @media (min-width: 992px) {
+    .covid-control-system-image-column {
+      padding-left: 1.4rem !important;
+    }
+  }
+}
+
+.project-detail-content .battle-billiards-detail-page {
+  .battle-billiards-title-overlay {
+    text-align: left !important;
+  }
+
+  .battle-billiards-title-overlay .battle-billiards-kicker-line {
+    margin-top: 0 !important;
+    margin-bottom: 0.12rem !important;
+    line-height: 0.9 !important;
+    text-align: left !important;
+  }
+
+  .battle-billiards-title-overlay .battle-billiards-main-title-line {
+    margin-top: 0 !important;
+    margin-bottom: 0.52rem !important;
+    line-height: 0.9 !important;
+    text-align: left !important;
+  }
+
+  .battle-billiards-title-overlay .oversized-text-cm,
+  .battle-billiards-title-overlay .oversized-text-wb {
+    display: block;
+    line-height: 0.9;
+    text-align: left !important;
+  }
+
+  .battle-billiards-intro-divider {
+    color: rgba(255, 255, 255, 0.34) !important;
+    border-color: rgba(255, 255, 255, 0.34) !important;
+    background-color: rgba(255, 255, 255, 0.34) !important;
+    opacity: 1;
+  }
+
+  .battle-billiards-feature-image {
+    box-shadow: 0 0.45rem 1rem rgba(0, 0, 0, 0.28);
+  }
+}
+
+.project-detail-content .free-body-diagram-detail-page {
+  .free-body-diagram-inline-link {
+    color: #111 !important;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: 0.06em;
+    text-underline-offset: 0.13em;
+  }
+
+  .free-body-diagram-inline-link:hover,
+  .free-body-diagram-inline-link:focus {
+    color: #111 !important;
+    text-decoration: underline;
+  }
+
+  .free-body-diagram-title-frame {
+    display: block;
+    width: 100%;
+    max-width: 34rem;
+    margin: 0 auto 1.4rem;
+  }
+
+  .free-body-diagram-title-frame-image {
+    width: 100%;
+    height: auto !important;
+  }
+
+  .free-body-diagram-title-overlay {
+    top: 50%;
+    left: 50%;
+    width: 92%;
+    padding: 0;
+    text-align: center !important;
+    transform: translate(-50%, -50%);
+  }
+
+  .free-body-diagram-title-overlay > p:first-child {
+    display: none;
+  }
+
+  .free-body-diagram-title-line {
+    margin: 0 !important;
+    line-height: 1 !important;
+    text-align: center !important;
+  }
+
+  .free-body-diagram-title-text {
+    display: block;
+    color: #7a563c;
+    font-size: 2.2rem;
+    line-height: 1;
+    letter-spacing: 0;
+    text-align: center !important;
+    text-shadow: none;
+    white-space: nowrap;
+  }
+
+  .free-body-diagram-feature-image {
+    box-shadow: 0 0.45rem 1rem rgba(0, 0, 0, 0.28);
+  }
+
+  .free-body-diagram-feature-caption {
+    margin-top: 0.85rem !important;
+  }
+}
+
+.project-detail-content .containment-breach-escape-detail-page {
+  .containment-breach-escape-overlay-heading-stack {
+    p.fs-1 {
+      margin-top: 0 !important;
+      margin-bottom: 0.2rem !important;
+      line-height: 0.92 !important;
+      text-align: left !important;
+    }
+
+    p.fs-1:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .containment-breach-escape-intro-overlay {
+    top: 55%;
+    left: 53%;
+    width: 78%;
+  }
+
+  .containment-breach-escape-intro-title-line .oversized-text-wb {
+    display: block;
+    color: #686868;
+    font-size: 2.55rem;
+    line-height: 0.92;
+    letter-spacing: 0;
+    text-align: left !important;
+    text-shadow: none;
+  }
+
+  .containment-breach-escape-intro-spacer {
+    height: 0.45rem;
+    margin: 0;
+    font-size: 0;
+    line-height: 0.45rem;
+  }
+
+  .containment-breach-escape-intro-subheading {
+    margin: 0 0 0.9rem;
+  }
+
+  .containment-breach-escape-intro-subheading p {
+    margin: 0 0 0.38rem;
+    color: #111;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1;
+  }
+
+  .containment-breach-escape-intro-subheading hr {
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+  }
+
+  .containment-breach-escape-section-heading-stack > p.fs-1 {
+    margin-top: 0 !important;
+    margin-bottom: 0.42rem !important;
+    line-height: 0.95 !important;
+  }
+
+  .containment-breach-escape-section-heading-stack > p.fs-2 {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important;
+    line-height: 0.9 !important;
+  }
+
+  .containment-breach-escape-secondary-title .color-text-cyan {
+    color: #d6a51a;
+  }
+
+  .containment-breach-escape-heading-divider-image {
+    display: block;
+    width: 82.8%;
+    max-width: 26.9rem;
+    height: auto;
+    margin: 0.42rem 0 0.34rem;
+  }
+
+  .containment-breach-escape-playtest-image {
+    display: block;
+    box-shadow: 0 0.45rem 1rem rgba(0, 0, 0, 0.28);
+  }
+
+  @media (min-width: 992px) {
+    .containment-breach-escape-playtest-image {
+      width: 110% !important;
+      max-width: 110%;
+      margin-left: -5%;
+    }
+  }
 }
 
 .project-detail-content .card {

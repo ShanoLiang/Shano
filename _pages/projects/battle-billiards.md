@@ -7,7 +7,7 @@ nav: false
 ---
 
 <!-- _pages/projects/battle-billiards.md: migrated from battlebilliards.html. -->
-<main class="project-detail-legacy">
+<main class="project-detail-legacy battle-billiards-detail-page">
 <section class="py-3 mt-0 mb-3 text-center container">
 <div class="row py-lg-4 mt-1">
 <div class="col-lg-6 col-md-8 mx-auto">
@@ -16,7 +16,8 @@ nav: false
 <p class="lead text-muted fs-6 lh-sm mb-1">
 <small class="fw-bold">Tags:</small>
 <span class="badge badge-custom-cyan">Industry Collaboration</span>
-<span class="badge badge-custom-cyan">PBR Material</span>
+<span class="badge badge-custom-cyan">Technical Art</span>
+<span class="badge badge-custom-cyan">PBR</span>
 <span class="badge badge-custom-cyan">HDRP</span>
 </p>
 <p class="lead text-muted fs-6 lh-sm mb-1">
@@ -29,8 +30,8 @@ nav: false
 <small class="fw-bold">For:</small> Google Stadia | Petricore | MassDiGi
                 </p>
 <hr/>
-<p class="lead text-muted fs-6 lh-sm px-5">Battle Billiards is a billiards game where both players go at the same time. 
-                    For this project, I worked as a contract technical artist for the game's development studio, Petricore, and developed a series of game art content for the game Battle Billiards.
+<p class="lead text-muted fs-6 lh-sm px-5">Battle Billiards is a real-time billiards game. 
+                For this project, I worked as a contract technical artist for Petricore, contributing environment assets, PBR materials, animated assets, and Unity HDRP shader effects.
                 </p>
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://store.steampowered.com/app/2172090/Battle_Billiards/">Steam Page</a>
@@ -46,19 +47,19 @@ nav: false
 <div class="col-lg-5">
 <div class="image-container">
 <img src="{{ '/assets/img/projects/battle-billiards/bb01-frame.png' | relative_url }}" style="height: 100%;"/>
-<div class="overlay-text">
+<div class="overlay-text battle-billiards-title-overlay">
 <p> </p>
-<p class="fs-1 lh-1 text-sm-start px-0">
+<p class="fs-1 lh-1 text-sm-start px-0 battle-billiards-kicker-line">
 <span class="align-bottom oversized-text-cm">Technical Artist</span>
 </p>
-<p class="fs-1 lh-1 text-sm-start px-0 mb-1">
+<p class="fs-1 lh-1 text-sm-start px-0 mb-1 battle-billiards-main-title-line">
 <span class="align-bottom oversized-text-wb">BATTLE BILLIARDS</span>
 </p>
-
-<hr class="text-white"/>
+<hr class="text-white battle-billiards-intro-divider"/>
 <p class="text-white fs-5 fw-light lh-sm px-0">
-                                    Working as a contract technical artist, I designed, modeled, and textured high-poly 3D assets with PBR realistic textures for 3D environment scenes and level layouts, 
-                                    doodle-styled animated 2D assets, shaders of interactable volumetric snow and sands for the Unity3D HDRP, and the game's horde mode gameplay.
+                                    Working as a contract technical artist, I designed, modeled, and textured high-poly 3D assets for 3D environments and level layouts, using realistic PBR materials to support the game's visual style. 
+                                    I also created doodle-styled animated 2D assets and developed interactable volumetric snow and sand shader effects for Unity HDRP. 
+                                    In addition to the visual production work, I contributed to horde-mode gameplay prototypes as part of the broader development process.
                                 </p>
 <p> </p>
 </div>
@@ -71,31 +72,27 @@ nav: false
 <div class="col-lg px-0">
 <div class="image-container">
 <img src="{{ '/assets/img/projects/battle-billiards/bb02-2.png' | relative_url }}" style="height: 100%;"/>
-<div class="overlay-text">
+<div class="overlay-text battle-billiards-title-overlay">
 <p> </p>
-<p class="fs-1 lh-1 text-sm-start px-0">
+<p class="fs-1 lh-1 text-sm-start px-0 battle-billiards-kicker-line">
 <span class="align-bottom oversized-text-cm">Technical Artist</span>
 </p>
-<p class="fs-1 lh-1 text-sm-start px-0">
+<p class="fs-1 lh-1 text-sm-start px-0 battle-billiards-main-title-line">
 <span class="align-bottom oversized-text-wb">BATTLE BILLIARDS</span>
 </p>
-<hr class="text-white"/>
 </div>
 </div>
 <p> </p>
 <p class="lead text-muted fs-5 lh-sm px-5 mb-2">
-<span class="badge badge-custom-cyan">Industry Collaboration</span>
-<span class="badge badge-custom-cyan">PBR Material</span>
-<span class="badge badge-custom-cyan">HDRP</span>
 </p>
 <p class="lead text-muted fs-5 lh-sm px-5">
-                            Based on the team's brainstorming session, I was tasked with designing and producing uniquely shaped billiard table game environments featuring a realistic art style and distinct landscape themes. 
-                            I created a series of game art assets and environments, including an oasis-themed standard table, an oasis-themed hexagonal table, 
-                            an ice-themed standard table, and an ice-themed hexagonal table. Each game environment is enhanced with relevant animations and interactive special effects to elevate the user experience.
+                            Based on the team's brainstorming sessions, I was tasked with designing and producing uniquely shaped billiard-table environments with realistic rendering and distinct landscape themes. 
+                            I created a series of game art assets and environments, including an oasis-themed standard table, an oasis-themed hexagonal table, an ice-themed standard table, and an ice-themed hexagonal table. 
+                            Each environment included themed animations and interactive effects designed to make the table feel responsive, readable, and visually distinct.
                         </p>
 </div>
 <div class="col-lg-5 px-0 text-center">
-<img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/battle-billiards/bb02-1.png' | relative_url }}" width="100%"/>
+<img class="bd-placeholder-img mt-5 battle-billiards-feature-image" height="100%" src="{{ '/assets/img/projects/battle-billiards/bb02-1.png' | relative_url }}" width="100%"/>
 </div>
 </div>
 <div class="row flex-lg-row align-items-center py-4 mb-3">
@@ -153,6 +150,6 @@ nav: false
             Project: Battle Billiards
         </p>
 <p class="taxt-muted fs-6">
-            The Page Last updated: January 17, 2025
+            The Page Last updated: May 23, 2026
         </p>
 </div>

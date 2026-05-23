@@ -7,7 +7,7 @@ nav: false
 ---
 
 <!-- _pages/projects/for-survive.md: migrated from forsurvive.html. -->
-<main class="project-detail-legacy">
+<main class="project-detail-legacy for-survive-detail-page">
 <section class="py-3 mt-0 mb-3 text-center container">
 <div class="row py-lg-4 mt-1">
 <div class="col-lg-6 col-md-8 mx-auto">
@@ -28,8 +28,7 @@ nav: false
 <small class="fw-bold">Team Size:</small> 4
                 </p>
 <hr/>
-<p class="lead text-muted fs-6 lh-sm px-5">An experimental strategy game project with team collaboration on the development. 
-                    Through strategies of resource collecting and management to survive the game.
+<p class="lead text-muted fs-6 lh-sm px-5">A collaborative experimental turn-based strategy game about surviving recurring disasters through resource collection, allocation, and civilization development.
                 </p>
 
 </div>
@@ -41,22 +40,22 @@ nav: false
 <div class="col-lg px-0">
 <div class="image-container">
 <img src="{{ '/assets/img/projects/for-survive/bb02-2.png' | relative_url }}" style="height: 100%;"/>
-<div class="overlay-text">
+<div class="overlay-text for-survive-overlay-heading-stack for-survive-intro-overlay">
 <p> </p>
-<p class="fs-1 lh-1 text-sm-start px-0">
+<p class="fs-1 lh-1 text-sm-start px-0 for-survive-intro-kicker">
 <span class="align-bottom oversized-text-cm">Strategy Game</span>
 </p>
-<p class="fs-1 lh-1 text-sm-start px-0">
+<p class="fs-1 lh-1 text-sm-start px-0 for-survive-intro-title-line">
 <span class="align-bottom oversized-text-wb">FOR SURVIVE</span>
 </p>
 </div>
 </div>
 <p> </p>
 <p class="lead text-muted fs-5 lh-sm px-5">
-<small class="fw-bold">For Survive</small> is a turn-based strategy game developed by our team over a four to six weeks period. 
-                            Players must strategically manage resources and make critical decisions to minimize losses caused by random disasters occurring each round. 
-                            Unlike traditional games focused on defeating enemies, the primary objective is to survive for a specified number of days. 
-                            Survival is accomplished through the growth and development of the player's civilization while defending against various disasters that challenge them throughout the gameplay.
+<small class="fw-bold">For Survive</small> is a turn-based strategy game developed by our four-person team over a short course-project timeline. 
+                        Players manage resources and make strategic decisions to reduce the losses caused by random disasters that occur each round. 
+                        Rather than centering victory on defeating enemies, the game asks players to survive for a specified number of days. 
+                        To survive, players expand and maintain their civilization while responding to disasters that threaten their resources, population, and long-term stability.
                         </p>
 </div>
 <div class="col-lg-6 px-0 text-center">
@@ -68,6 +67,10 @@ nav: false
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-4 mt-5 mb-5">
 <div class="col-lg px-3">
+<div class="for-survive-heading-stack for-survive-prototype-heading-stack">
+<div class="for-survive-section-title-image">
+<img alt="" aria-hidden="true" class="for-survive-section-title-bg" src="{{ '/assets/img/projects/for-survive/bb02-3.png' | relative_url }}"/>
+<div class="for-survive-section-title-overlay">
 <p class="lead fw-bold fs-1 lh-1 px-2 mb-2">
 <span class="align-bottom oversized-text-bb">FOR SURVIVE</span>
 </p>
@@ -75,16 +78,17 @@ nav: false
 <span class="badge badge-custom-cyan">Game Design</span>
 <span class="badge badge-custom-cyan">Team Collaboration</span>
 </p>
-<hr style="width: 80%;"/>
+</div>
+</div>
+</div>
 <p class="lead text-muted fs-5 lh-sm px-1"> 
-                            As the lead designer, I conceptualized and developed the core ideas and themes for this game. 
-                            I refined the rules and gameplay through multiple rounds of paper prototyping and playtesting. 
-                            I also pitched this design concept during WPI's IMGD5000 course to recruit a development team. 
-                            My pitch received the highest number of votes of interest in joining from classmates, out of 25 proposed concepts.
+                            As the lead designer, I developed the core concept, theme, and gameplay structure for the project. 
+                            I refined the rules and player flow through multiple rounds of paper prototyping and playtesting. I also pitched the design during Worcester Polytechnic Institute's (WPI) IMGD5000 course to recruit a development team. 
+                            Among 25 proposed concepts, my pitch received the highest number of expressions of interest from classmates who wanted to join the project.
                         </p>
 </div>
 <div class="col-lg-8 px-0 text-center">
-<img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/for-survive/forsurvive02.png' | relative_url }}" width="100%"/>
+<img class="bd-placeholder-img mt-5 for-survive-paper-prototype-image" height="100%" src="{{ '/assets/img/projects/for-survive/forsurvive02.png' | relative_url }}" width="100%"/>
 <p class="taxt-dark mt-0 fw-light fs-6 text-center">
                             Early Development: Paper Prototyping
                         </p>
@@ -99,6 +103,7 @@ nav: false
 <div class="row flex-lg-row-reverse align-items-center py-4 mt-2 mb-5">
 <div class="col-lg px-3">
 <img class="bd-placeholder-img mt-5" height="30%" src="{{ '/assets/img/projects/for-survive/forsurvivedecor02.png' | relative_url }}" width="30%"/>
+<div class="for-survive-heading-stack for-survive-production-heading-stack">
 <p class="lead fw-bold fs-1 lh-1 px-2 mb-2">
 <span class="align-bottom oversized-text-bb">FOR SURVIVE</span>
 </p>
@@ -106,12 +111,13 @@ nav: false
 <span class="badge badge-custom-cyan">Game Design</span>
 <span class="badge badge-custom-cyan">Team Collaboration</span>
 </p>
-<hr style="width: 80%;"/>
+<img alt="" aria-hidden="true" class="for-survive-heading-divider-image" src="{{ '/assets/img/projects/for-survive/bb02-4.png' | relative_url }}"/>
+</div>
 <p class="lead text-muted fs-5 lh-sm px-1"> 
-                            One of the primary challenges of the For Survive project was effectively managing communication and coordination among team members to complete development within the allocated four weeks. 
-                            As the producer, I divided the development process into smaller, manageable phases, each with clearly defined tasks. 
-                            For each task, I assigned a lead team member supported by an assistant and a reviewer. 
-                            This structure ensured that every member served as both the lead for their assigned tasks and the assistant or the reviewer for another, fostering collaboration across the team.
+                            One of the primary challenges of For Survive was coordinating communication and production across the team within a limited development timeline. 
+                            As producer, I divided the development process into smaller phases, each with clearly defined tasks and deliverables. 
+                            For each task, I assigned a lead team member, an assistant, and a reviewer (with team members rotating across these roles for one another's tasks). 
+                            This structure ensured that each member led some parts of the project while also supporting or reviewing another member's work, which helped maintain steady progress and cross-team collaboration.
                         </p>
 </div>
 <div class="col-lg-6 px-0 text-center">
@@ -149,6 +155,6 @@ nav: false
             Project: For Survive
         </p>
 <p class="taxt-muted fs-6">
-            The Page Last updated: January 21, 2025
+            The Page Last updated: May 23, 2026
         </p>
 </div>

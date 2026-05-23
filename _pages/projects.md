@@ -293,15 +293,16 @@ nav_order: 3
 <h1 class="project-card-title">Free Body Diagram App</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                Designed and developed a series of content for the project Free Body Diagram App,
-                                to train students in the learning and practice of free-body diagram drawing skills for Statics or Mechanics courses.
+                                A mobile educational app that helps engineering students practice free-body diagram drawing through mini-games, targeted exercises, and immediate feedback. 
+                                I contributed to the app's concept and UI design, visual style, art assets, and ongoing development.
                             </p>
 <p class="card-text py-0 mb-2">
 <small class="fw-bold">My Role:</small> Designer, and Lead Artist.
                             </p>
 <div class="mb-3">
-<span class="badge badge-custom-cyan">Team Collaboration</span>
-<span class="badge badge-custom-cyan">Education</span>
+<span class="badge badge-custom-cyan">Educational Technology</span>
+<span class="badge badge-custom-cyan">UI/UX</span>
+<span class="badge badge-custom-cyan">Design</span>
 <span class="badge badge-custom-cyan">Mobile App</span>
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -349,14 +350,16 @@ nav_order: 3
 <h1 class="project-card-title">Battle Billiards</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                Developed a series of HD game art content with PBR Material Shader for the game Battle Billiards of Petricore. The game is now available on Steam.
+                                Battle Billiards is a real-time billiards game. 
+                                For this project, I worked as a contract technical artist for Petricore, contributing environment assets, PBR materials, animated assets, and Unity HDRP shader effects.
                             </p>
 <p class="card-text py-0 mb-2">
 <small class="fw-bold">My Role:</small> Technical Artist.
                             </p>
 <div class="mb-3">
 <span class="badge badge-custom-cyan">Industry Collaboration</span>
-<span class="badge badge-custom-cyan">PBR Material</span>
+<span class="badge badge-custom-cyan">Technical Art</span>
+<span class="badge badge-custom-cyan">PBR</span>
 <span class="badge badge-custom-cyan">HDRP</span>
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -379,14 +382,12 @@ nav_order: 3
 <h1 class="project-card-title">COVID Control Simulator</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                A serious simulator that reflects how city administrators can affect pandemic control and prevention.
-                                The game involves information collected from actual news sources and scientific data, and the team's positionality as native Wuhan city residents.
-                                It was featured in <small class="fw-bold">WPI News</small>.
+                                A serious but playful strategy simulation with an epidemiological dynamic SEIR model for city-level pandemic response, public-health tradeoffs, and data-informed decision-making. The project incorporated information from real news sources, scientific data, and our team's positionality as native Wuhan residents. It was featured by <small class="fw-bold">WPI News</small>.
                             </p>
 <div class="mb-3">
 <span class="badge badge-custom-cyan">Serious Game</span>
-<span class="badge badge-custom-cyan">Team Collaboration</span>
-<span class="badge badge-custom-cyan">Data Visualization</span>
+<span class="badge badge-custom-cyan">Playful Data Visualization</span>
+<span class="badge badge-custom-cyan">Simulator</span>
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
@@ -408,15 +409,15 @@ nav_order: 3
 <h1 class="project-card-title">Containment Breach Escape</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                A 30-minute escape room where players had to solve puzzles in order to recapture an entity and remove the lockdown.
-                                About 100 players participated over the three days of its run.
+                                A 30-minute escape room experience in which players solved a sequence of puzzles to recapture a released entity and lift a facility lockdown. 
+                                About 100 players participated over the three days of its public run.
                             </p>
 <p class="card-text py-0 mb-2">
 <small class="fw-bold">My Role:</small> Producer, Lead Designer, and Room Builder.
                             </p>
 <div class="mb-3">
 <span class="badge badge-custom-cyan">Escape Room</span>
-<span class="badge badge-custom-cyan">Game Design</span>
+<span class="badge badge-custom-cyan">Immersive Experience</span>
 <span class="badge badge-custom-cyan">Team Collaboration</span>
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -439,7 +440,7 @@ nav_order: 3
 <h1 class="project-card-title">For Survive</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                An experimental strategy game project with team collaboration on the development. Through strategies of resource collecting and management to survive the game.
+                                A collaborative experimental turn-based strategy game about surviving recurring disasters through resource collection, allocation, and civilization development.
                             </p>
 <p class="card-text py-0 mb-2">
 <small class="fw-bold">My Role:</small> Lead Producer, Designer, and Lead Artist.
@@ -466,7 +467,7 @@ nav_order: 3
 <h1 class="project-card-title">Rimland</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                An award-winning solo-work indie game development project with the exploration of a 3D-to-2D pixel art style and 8-bit audio.
+                                An award-winning solo indie game project exploring a 3D-lighting pipeline for 2D pixel art, retro survival gameplay, and 8-bit-inspired audio.
                             </p>
 <p class="card-text py-0 mb-2">
 <small class="fw-bold fs-6">Awards</small>: <small class="fw-bold">First Place</small>, Culture Creative Design Competition for College Students in Hubei Province (2018): 80,000 CNY (<small class="fw-bold color-text-cyan">~$11,428</small>); <small class="fw-bold">First Place</small>, Graduation Project Competition (2018): 5,000 CNY (~$714).
@@ -497,7 +498,7 @@ nav_order: 3
 <h1 class="project-card-title">World of Summoner</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                An award-winning board game developed collaboratively by our team, which served as the core project for establishing our studio-sized company, the Wuhan KBOOM Network Tech Co. Ltd.
+                                An award-winning tabletop strategy game that led to the founding of our student-run game studio, Wuhan KBOOM Network Tech Co. Ltd.
                             </p>
 <p class="card-text py-0 mb-2">
 <small class="fw-bold fs-6">Award</small>: <small class="fw-bold">Third Place</small>, Hubei Province Universities Creation Youth Student Entrepreneurship Competition (2016): 10,000 CNY (~$1,428).
@@ -537,7 +538,7 @@ nav_order: 3
 <h1 class="project-card-title">Team Fight</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                A simple experimental motion comic art project I made for practicing storyboarding and comic skills.
+                                A small experimental motion-comic project focused on storyboarding, sequential visual storytelling, and comic-based action staging.
                             </p>
 <div class="mb-3">
 <span class="badge badge-custom-cyan">Art</span>
