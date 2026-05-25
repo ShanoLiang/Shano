@@ -348,99 +348,6 @@ nav_order: 2
     color: #343a40;
   }
 
-  .publications-bottom-band {
-    width: var(--full-bleed-width, 100vw);
-    max-width: var(--full-bleed-width, 100vw);
-    min-height: 14.5rem;
-    margin-top: 3.8rem;
-    margin-bottom: -70px;
-    margin-left: var(--full-bleed-offset, calc(50% - 50vw));
-    margin-right: var(--full-bleed-offset, calc(50% - 50vw));
-    padding: 3.25rem 1rem 7.625rem;
-    background-color: #212529;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .publications-bottom-contact {
-    width: min(100%, 640px);
-    text-align: center;
-    color: #fff;
-  }
-
-  .publications-bottom-contact p,
-  .publications-bottom-contact small,
-  .publications-bottom-contact span {
-    color: #fff;
-  }
-
-  .publications-bottom-name {
-    margin-bottom: 0.25rem;
-    font-size: 1.45rem;
-    font-weight: 700;
-    line-height: 1.2;
-  }
-
-  .publications-bottom-name small {
-    font-size: 1rem;
-    font-weight: 400;
-  }
-
-  .publications-bottom-email {
-    margin-bottom: 0.95rem;
-    font-size: 0.95rem;
-    line-height: 1.2;
-  }
-
-  .publications-bottom-divider {
-    width: 100%;
-    margin: 1rem auto;
-    border: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.35);
-  }
-
-  .publications-bottom-social-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.25rem;
-    margin: 0;
-  }
-
-  .publications-bottom-social-button {
-    width: 42px;
-    height: 38px;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 1px solid #fff !important;
-    border-radius: 0.25rem !important;
-    background-color: transparent !important;
-    color: #fff !important;
-    box-shadow: none !important;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    text-decoration: none !important;
-    vertical-align: middle;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-  }
-
-  .publications-bottom-social-button:hover,
-  .publications-bottom-social-button:focus {
-    background-color: #fff !important;
-    border-color: #fff !important;
-    color: #212529 !important;
-    box-shadow: none !important;
-    text-decoration: none !important;
-  }
-
-  .publications-bottom-social-button i {
-    font-size: 1.45rem;
-    line-height: 1;
-  }
-
   @media (max-width: 767.98px) {
     .post > .post-header {
       padding-left: 0;
@@ -650,51 +557,10 @@ nav_order: 2
   </div>
 </div>
 
-<section class="publications-bottom-band" aria-label="Contact information">
-  <div class="publications-bottom-contact">
-    <p class="publications-bottom-name">
-      Shano Liang <small>(she/her)</small>
-    </p>
-    <p class="publications-bottom-email">
-      <span class="font-weight-bold">Email:</span> sliang1 AT wpi DOT edu
-    </p>
-    <hr class="publications-bottom-divider">
-    <p class="publications-bottom-social-links">
-      <a href="mailto:sliang1@wpi.edu" class="btn btn-outline-dark publications-bottom-social-button" title="Email" aria-label="Email">
-        <i class="fa-solid fa-envelope"></i>
-      </a>
-      <a href="https://github.com/ShanoLiang" class="btn btn-outline-dark publications-bottom-social-button" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
-        <i class="fa-brands fa-github"></i>
-      </a>
-      <a href="https://scholar.google.com/citations?user=ufro9ysAAAAJ" class="btn btn-outline-dark publications-bottom-social-button" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-      <a href="https://twitter.com/ShanoLiang" class="btn btn-outline-dark publications-bottom-social-button" target="_blank" rel="noopener noreferrer" title="X" aria-label="X">
-        <i class="fa-brands fa-x-twitter"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/shano-liang-49a968204/" class="btn btn-outline-dark publications-bottom-social-button" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn">
-        <i class="fa-brands fa-linkedin"></i>
-      </a>
-      <a href="https://orcid.org/0000-0003-1976-9680" class="btn btn-outline-dark publications-bottom-social-button" target="_blank" rel="noopener noreferrer" title="ORCID" aria-label="ORCID">
-        <i class="ai ai-orcid"></i>
-      </a>
-    </p>
-  </div>
-</section>
+{% include site_bottom_contact.liquid %}
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const syncFullBleedWidth = function () {
-      const root = document.documentElement;
-      const article = document.querySelector("article");
-      const articleLeft = article ? article.getBoundingClientRect().left : 0;
-      root.style.setProperty("--full-bleed-width", root.clientWidth + "px");
-      root.style.setProperty("--full-bleed-offset", -articleLeft + "px");
-    };
-
-    syncFullBleedWidth();
-    window.addEventListener("resize", syncFullBleedWidth, { passive: true });
-
     const toggleButtons = document.querySelectorAll("[data-publication-toggle]");
 
     toggleButtons.forEach(function (button) {

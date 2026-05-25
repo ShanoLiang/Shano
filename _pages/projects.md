@@ -155,22 +155,22 @@ nav_order: 3
 <iframe allowfullscreen="true" frameborder="0" height="250" mozallowfullscreen="true" src="https://docs.google.com/presentation/d/e/2PACX-1vSMJvWDmyEkE4Fb5EiuE1_58us7KxbmSSaPMky8FkZ5cqsa7PUsawpWgaAr_y5y0ULUpnTxSaqb01wd/embed?start=false&amp;loop=false&amp;delayms=30000" webkitallowfullscreen="true"></iframe>
 <div class="card-body">
 <div class="d-flex justify-content-between align-items-center">
-<h1 class="project-card-title">"Jubensha"</h1>
+<h1 class="project-card-title">"Jùběnshā" (剧本杀)</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                Research into the adaptation and cultural localization of murder mystery games in China, namely Jubensha. Focus on the
-                                storytelling dynamic through collaborative sensemaking.
+                                A multi-year game studies project examining Jubensha, an emergent murder mystery styled group gaming phenomenon in China, through taxonomy-building, cross-cultural analysis, and design experimentation. 
+                                The project investigates how Jubensha organizes collaborative sensemaking, distributed cognition, social deduction, and narrative performance.
                             </p>
 <div class="mb-3">
+<span class="badge badge-custom-cyan">Game Taxonomy</span>
 <span class="badge badge-custom-cyan">Murder Mystery</span>
-<span class="badge badge-custom-cyan">Research</span>
-<span class="badge badge-custom-cyan">Cultural Game Studies</span>
+<span class="badge badge-custom-cyan">Cross-cultural</span>
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
-<a class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3721121">Journal Publication</a>
+<a class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3721121">Publication</a>
 <a class="btn btn-sm btn-outline-dark" href="https://mssv.net/2025/03/26/heres-what-makes-jubensha-different/">Media Coverage</a>
-<a class="btn btn-sm btn-outline-dark" href="{{ '/assets/pdf/projects/CGSAACJ_2022_paper_77.pdf' | relative_url }}">Panel Talk</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/jubensha/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">Completed: 2025</small>
@@ -183,14 +183,14 @@ nav_order: 3
 <img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/chuan1.png' | relative_url }}" width="100%"/>
 <div class="card-body">
 <div class="d-flex justify-content-between align-items-center">
-<h1 class="project-card-title">"Chuan"</h1>
+<h1 class="project-card-title">"Chuàn" (串)</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                Chuan (bracelet) is a cultural alternative controller design project. The project aims to promote the Chinese culture of the “盘串” (playing walnut bracelet) for stress-relieving into cyberlizing.
+                                Chuan is a cultural alternative-controller project that translates the tactile practice of “盘串” (pán chuàn), or hand-rotating a bracelet or bead string, into a sensor-based interactive system for focus and relaxation.
                             </p>
 <div class="mb-3">
 <span class="badge badge-custom-cyan">Alternative Controller</span>
-<span class="badge badge-custom-cyan">Culture in Design</span>
+<span class="badge badge-custom-cyan">Cross-cultural Design</span>
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
@@ -213,9 +213,9 @@ nav_order: 3
 </div>
 <p class="card-text py-2 mb-0">An augmented reality music game that explores the stacking mechanics of transparent AR markers.</p>
 <div class="mb-3">
-<span class="badge badge-custom-cyan">AR Development</span>
-<span class="badge badge-custom-cyan">Game Design</span>
-<span class="badge badge-custom-cyan">Music Interaction</span>
+<span class="badge badge-custom-cyan">Augmented Reality</span>
+<span class="badge badge-custom-cyan">Compositional Input Method</span>
+<span class="badge badge-custom-cyan">Tangible</span>
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
@@ -243,7 +243,7 @@ nav_order: 3
 <div class="mb-3">
 <span class="badge badge-custom-cyan">Mixed Reality</span>
 <span class="badge badge-custom-cyan">Chemistry Education</span>
-<span class="badge badge-custom-cyan">Team Collaboration</span>
+<span class="badge badge-custom-cyan">Immersive Experience</span>
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
@@ -268,9 +268,9 @@ nav_order: 3
                                 learning experiences.
                             </p>
 <div class="mb-3">
-<span class="badge badge-custom-cyan">VR Development</span>
-<span class="badge badge-custom-cyan">Training</span>
-<span class="badge badge-custom-cyan">Remote Learning</span>
+<span class="badge badge-custom-cyan">Virtual Reality</span>
+<span class="badge badge-custom-cyan">Training Technology</span>
+<span class="badge badge-custom-cyan">Immersive Experience</span>
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
@@ -504,7 +504,7 @@ nav_order: 3
 <small class="fw-bold fs-6">Award</small>: <small class="fw-bold">Third Place</small>, Hubei Province Universities Creation Youth Student Entrepreneurship Competition (2016): 10,000 CNY (~$1,428).
                             </p>
 <div class="mb-3">
-<span class="badge badge-custom-cyan">Team Collaboration</span>
+<span class="badge badge-custom-cyan">Board Game</span>
 <span class="badge badge-custom-cyan">Entrepreneurship</span>
 <span class="badge badge-custom-cyan">Award-winning</span>
 </div>
@@ -541,7 +541,7 @@ nav_order: 3
                                 A small experimental motion-comic project focused on storyboarding, sequential visual storytelling, and comic-based action staging.
                             </p>
 <div class="mb-3">
-<span class="badge badge-custom-cyan">Art</span>
+<span class="badge badge-custom-cyan">Comic Arts</span>
 <span class="badge badge-custom-cyan">Motion Comic</span>
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -557,6 +557,9 @@ nav_order: 3
 </div>
 </div>
 </main>
+
+{% include site_bottom_contact.liquid %}
+
 <script>
   (() => {
     const fallbackProjectUrl = "{{ '/' | relative_url }}";

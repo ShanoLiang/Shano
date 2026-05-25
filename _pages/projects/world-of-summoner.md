@@ -15,7 +15,7 @@ nav: false
 <h1 class="display-5 fs-1 fw-bold lh-1 mb-5">World of Summoner</h1>
 <p class="lead text-muted fs-6 lh-sm mb-1">
 <small class="fw-bold">Tags:</small>
-<span class="badge badge-custom-cyan">Team Collaboration</span>
+<span class="badge badge-custom-cyan">Board Game</span>
 <span class="badge badge-custom-cyan">Entrepreneurship</span>
 <span class="badge badge-custom-cyan">Award-winning</span>
 </p>

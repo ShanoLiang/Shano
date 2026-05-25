@@ -1,0 +1,54 @@
+<section class="site-bottom-contact-band" aria-label="Contact information">
+  <div class="site-bottom-contact">
+    <p class="site-bottom-contact-name">
+      Shano Liang <small>(she/her)</small>
+    </p>
+    <p class="site-bottom-contact-email">
+      <span class="font-weight-bold">Email:</span> sliang1 AT wpi DOT edu
+    </p>
+    <hr class="site-bottom-contact-divider">
+    <p class="site-bottom-contact-social-links">
+      <a href="mailto:sliang1@wpi.edu" class="btn btn-outline-dark site-bottom-contact-social-button" title="Email" aria-label="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <a href="https://github.com/ShanoLiang" class="btn btn-outline-dark site-bottom-contact-social-button" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://scholar.google.com/citations?user=ufro9ysAAAAJ" class="btn btn-outline-dark site-bottom-contact-social-button" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+      <a href="https://twitter.com/ShanoLiang" class="btn btn-outline-dark site-bottom-contact-social-button" target="_blank" rel="noopener noreferrer" title="X" aria-label="X">
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/shano-liang-49a968204/" class="btn btn-outline-dark site-bottom-contact-social-button" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://orcid.org/0000-0003-1976-9680" class="btn btn-outline-dark site-bottom-contact-social-button" target="_blank" rel="noopener noreferrer" title="ORCID" aria-label="ORCID">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </p>
+  </div>
+</section>
+
+<script>
+  (() => {
+    if (window.__siteBottomContactFullBleedBound) return;
+    window.__siteBottomContactFullBleedBound = true;
+
+    const syncFullBleedWidth = () => {
+      const root = document.documentElement;
+      const article = document.querySelector("article");
+      const articleLeft = article ? article.getBoundingClientRect().left : 0;
+      root.style.setProperty("--full-bleed-width", root.clientWidth + "px");
+      root.style.setProperty("--full-bleed-offset", -articleLeft + "px");
+    };
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", syncFullBleedWidth);
+    } else {
+      syncFullBleedWidth();
+    }
+
+    window.addEventListener("resize", syncFullBleedWidth, { passive: true });
+  })();
+</script>
