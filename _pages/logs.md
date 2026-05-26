@@ -20,7 +20,20 @@ nav: false
 </section>
 
 <div class="logs-container">
-<section class="logs-section">
+<div class="logs-layout">
+<nav class="logs-year-nav" aria-label="Log years">
+<a href="#logs-2025" data-logs-year-link="2025">2025</a>
+<a href="#logs-2024" data-logs-year-link="2024">2024</a>
+<a href="#logs-2023" data-logs-year-link="2023">2023</a>
+<a href="#logs-2022" data-logs-year-link="2022">2022</a>
+<a href="#logs-2021" data-logs-year-link="2021">2021</a>
+<a href="#logs-2020" data-logs-year-link="2020">2020</a>
+<a href="#logs-2019" data-logs-year-link="2019">2019</a>
+<a href="#logs-2018" data-logs-year-link="2018">2018</a>
+<a href="#logs-2016" data-logs-year-link="2016">2016</a>
+</nav>
+<div class="logs-content">
+<section id="logs-2025" class="logs-section" data-logs-year="2025">
 <div class="row align-items-center">
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/logeuphoriasim01.png' | relative_url }}" alt="Euphoria Simulator screenshot 1">
@@ -34,7 +47,7 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section class="logs-section" data-logs-year="2025">
 <div class="row align-items-center">
 <div class="col-lg text-center">
 <img class="logs-image logs-image-award" loading="lazy" src="{{ '/assets/img/projects/CHI25Award.png' | relative_url }}" alt="CHI 2025 honorable mention award">
@@ -43,7 +56,7 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section id="logs-2024" class="logs-section" data-logs-year="2024">
 <div class="row align-items-center">
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/logChuan01.png' | relative_url }}" alt="Chuan project photo 1">
@@ -61,17 +74,17 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section id="logs-2023" class="logs-section" data-logs-year="2023">
 <div class="row align-items-center">
 <div class="col-lg text-center">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/stackar01.png' | relative_url }}" alt="Stack AR project photo">
 <img class="logs-image logs-image-narrow" loading="lazy" src="{{ '/assets/img/logs/stackar02.png' | relative_url }}" alt="Stack AR project introduction">
 </div>
-<p class="logs-caption">Photos and Introduction of <a class="text-dark" href="https://jingruchenmax.github.io/StackAR/" target="_blank" rel="noopener noreferrer">Stack AR</a> Project, Sept. 2023.</p>
+<p class="logs-caption">Photos and Introduction of <a class="text-dark" href="https://jingruchenmax.github.io/StackAR/" target="_blank" rel="noopener noreferrer">Transparent AR Markers</a> Project, Sept. 2023.</p>
 </div>
 </section>
 
-<section class="logs-section">
+<section class="logs-section" data-logs-year="2023">
 <div class="row align-items-center">
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/imgd2500-01.jpg' | relative_url }}" alt="IMGD-2500 teaching assistant photo 1">
@@ -85,7 +98,7 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section id="logs-2022" class="logs-section" data-logs-year="2022">
 <div class="row align-items-center">
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/logfbd01.png' | relative_url }}" alt="Free Body Diagram App UI 1">
@@ -100,7 +113,7 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section class="logs-section" data-logs-year="2022">
 <div class="row align-items-center">
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/log360lab01.jpg' | relative_url }}" alt="360 Labs exhibition photo 1">
@@ -114,7 +127,7 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section class="logs-section" data-logs-year="2022">
 <div class="row align-items-center">
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/logcollection01.jpg' | relative_url }}" alt="Collection exhibition photo 1">
@@ -129,7 +142,7 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section class="logs-section" data-logs-year="2022">
 <div class="row align-items-center">
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/projects/battle-billiards/bb03.png' | relative_url }}" alt="Battle Billiards environment render 1">
@@ -155,7 +168,24 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section id="logs-2021" class="logs-section" data-logs-year="2021">
+<div class="row align-items-center">
+<div class="col-lg">
+<img class="logs-image" loading="lazy" src="{{ '/assets/img/about/practice2021_1.png' | relative_url }}" alt="PBR and Unity HDRP realistic game environment practice 1">
+</div>
+<div class="col-lg">
+<img class="logs-image" loading="lazy" src="{{ '/assets/img/about/practice2021_2.png' | relative_url }}" alt="PBR and Unity HDRP realistic game environment practice 2">
+</div>
+</div>
+<div class="row align-items-center justify-content-center">
+<div class="col-lg-6">
+<img class="logs-image" loading="lazy" src="{{ '/assets/img/about/practice2021_3.JPG' | relative_url }}" alt="PBR and Unity HDRP realistic game environment practice 3">
+</div>
+<p class="logs-caption">High-poly realistic 3D game environment art practice piece with PBR and Unity HDRP, May 2021.</p>
+</div>
+</section>
+
+<section id="logs-2020" class="logs-section" data-logs-year="2020">
 <div class="row align-items-center">
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/projects/covid-control-simulator/covidsim03.png' | relative_url }}" alt="COVID Control Simulator interface">
@@ -164,7 +194,7 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section id="logs-2019" class="logs-section" data-logs-year="2019">
 <div class="row align-items-center">
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/projects/containment-breach-escape/escape02.png' | relative_url }}" alt="Containment Breach Escape pitch">
@@ -185,7 +215,7 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section class="logs-section" data-logs-year="2019">
 <div class="row align-items-center">
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/projects/containment-breach-escape/escape10.png' | relative_url }}" alt="Containment Breach Escape group photos">
@@ -194,7 +224,7 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section class="logs-section" data-logs-year="2019">
 <div class="row align-items-center">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/projects/for-survive/forsurvive07.jpg' | relative_url }}" alt="For Survive resource and disaster cards 1">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/projects/for-survive/forsurvive08.jpg' | relative_url }}" alt="For Survive resource and disaster cards 2">
@@ -203,7 +233,7 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section id="logs-2018" class="logs-section" data-logs-year="2018">
 <div class="row align-items-center">
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/projects/rimland/Rimland01.png' | relative_url }}" alt="Rimland game arts">
@@ -234,7 +264,7 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section class="logs-section" data-logs-year="2018">
 <div class="row align-items-center">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/projects/world-of-summoner/wos03.png' | relative_url }}" alt="World of Summoner card arts 1">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/projects/world-of-summoner/wos05.png' | relative_url }}" alt="World of Summoner card arts 2">
@@ -243,14 +273,45 @@ nav: false
 </div>
 </section>
 
-<section class="logs-section">
+<section id="logs-2016" class="logs-section" data-logs-year="2016">
 <div class="row align-items-center">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/projects/world-of-summoner/wos08.png' | relative_url }}" alt="World of Summoner playtesting and gameplay competitions">
 <p class="logs-caption">Photos of extensive playtesting and gameplay competitions of <a class="text-dark" href="{{ '/projects/world-of-summoner/' | relative_url }}">World of Summoner</a>, Sept. 2016 - May 2017.</p>
 </div>
 </section>
-
-<p class="logs-page-updated">The Page Last Edited in: January 29, 2025</p>
+<hr>
+<p class="logs-page-updated">The Page Last Edited in: May 26, 2026</p>
+</div>
+</div>
 </div>
 </main>
 </div>
+
+{% include site_bottom_contact.liquid %}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const yearLinks = Array.from(document.querySelectorAll("[data-logs-year-link]"));
+    const yearSections = Array.from(document.querySelectorAll("[data-logs-year]"));
+
+    if (yearLinks.length && yearSections.length) {
+      const setActiveYear = function () {
+        const scrollAnchor = window.scrollY + 120;
+        let activeYear = yearSections[0].getAttribute("data-logs-year");
+
+        yearSections.forEach(function (section) {
+          if (section.offsetTop <= scrollAnchor) {
+            activeYear = section.getAttribute("data-logs-year");
+          }
+        });
+
+        yearLinks.forEach(function (link) {
+          link.classList.toggle("active", link.getAttribute("data-logs-year-link") === activeYear);
+        });
+      };
+
+      setActiveYear();
+      window.addEventListener("scroll", setActiveYear, { passive: true });
+    }
+  });
+</script>

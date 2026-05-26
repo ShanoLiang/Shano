@@ -23,7 +23,7 @@ nav: false
 <small class="fw-bold">Years Active:</small> Jan. 2022 - Feb. 2025
                 </p>
 <p class="lead text-muted fs-6 lh-sm mb-1">
-<small class="fw-bold">Main Collaborator:</small> <a class="jubensha-inline-link" href="https://users.wpi.edu/~mjchen//" target="_blank" rel="noopener noreferrer">Max Chen</a>.
+<small class="fw-bold">Main Collaborator:</small> <a class="jubensha-inline-link" href="https://users.wpi.edu/~mjchen//" target="_blank" rel="noopener noreferrer">Max Chen</a>
                 </p>
 <hr/>
 <p class="lead text-muted fs-6 lh-sm px-5">A multi-year game studies project examining Jubensha, an emergent murder mystery styled group gaming phenomenon in China, through taxonomy, analysis, and prototyping. 
@@ -156,7 +156,7 @@ nav: false
 <div class="row flex-lg-row align-items-center pt-5 pb-2 mb-0 jubensha-final-row">
 <div class="col-lg">
 <div class="jubensha-intro-subheading jubensha-explorations-subheading px-1">
-<p>Final Publishment (2024-2025)</p>
+<p>Final Publication (2024-2025)</p>
 <hr/>
 </div>
 <p class="lead text-muted fs-6 lh-sm text-sm-start px-2">

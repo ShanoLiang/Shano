@@ -499,7 +499,46 @@ ul.task-list input[type="checkbox"] {
     padding: 0 1.25rem;
   }
 
+  .logs-layout {
+    display: grid;
+    grid-template-columns: 82px minmax(0, 1fr);
+    column-gap: 3.4rem;
+    align-items: start;
+  }
+
+  .logs-year-nav {
+    position: sticky;
+    top: 5.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.18rem;
+    padding-left: 0.55rem;
+    border-left: 1px solid var(--global-divider-color);
+    font-size: 0.93rem;
+    line-height: 1.25;
+  }
+
+  .logs-year-nav a {
+    color: var(--global-text-color);
+    text-decoration: none;
+    transition:
+      color 0.15s ease-in-out,
+      font-weight 0.15s ease-in-out;
+  }
+
+  .logs-year-nav a:hover,
+  .logs-year-nav a.active {
+    color: var(--global-theme-color);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .logs-content {
+    min-width: 0;
+  }
+
   .logs-section {
+    scroll-margin-top: 5.8rem;
     padding: 3rem 0 2.5rem;
     border-top: 1px solid rgba(0, 0, 0, 0.14);
   }
@@ -573,6 +612,14 @@ ul.task-list input[type="checkbox"] {
 
     .logs-container {
       padding: 0 1rem;
+    }
+
+    .logs-layout {
+      display: block;
+    }
+
+    .logs-year-nav {
+      display: none;
     }
 
     .logs-section {
@@ -2010,6 +2057,165 @@ footer.sticky-bottom {
       grid-template-columns: minmax(0, 22rem);
       justify-content: center;
       gap: 0.9rem;
+    }
+  }
+}
+
+.project-detail-content .lab360-detail-page {
+  .lab360-showcase-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .lab360-showcase-card {
+    --lab360-showcase-card-radius: 0.8rem;
+
+    width: 100%;
+    overflow: hidden;
+    border: 0px solid rgba(179, 179, 179, 0.12);
+    border-radius: var(--lab360-showcase-card-radius);
+    background: #fff;
+    box-shadow: 0 0.4rem 0.9rem rgba(0, 0, 0, 0.16);
+  }
+
+  .lab360-showcase-card + .lab360-showcase-card {
+    margin-top: 0.6rem;
+  }
+
+  .lab360-showcase-frame {
+    width: 100%;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    border-radius: 0;
+    background: #f4f4f4;
+  }
+
+  .lab360-showcase-frame iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .lab360-showcase-caption {
+    margin: 0.6rem 0 0;
+    padding: 0 0.9rem 0.7rem;
+    color: #424242;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  @media (max-width: 991.98px) {
+    .lab360-showcase-col {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+.project-detail-content .stackar-detail-page {
+  .stackar-title-image {
+    display: block;
+    position: relative;
+    left: 50%;
+    width: 108% !important;
+    max-width: 108% !important;
+    max-height: 282px !important;
+    height: auto !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    transform: translateX(-50%);
+    object-fit: contain;
+  }
+
+  .stackar-tech-item {
+    position: relative;
+    padding-left: 1.35rem !important;
+  }
+
+  .stackar-tech-item::before {
+    content: "\00b7";
+    position: absolute;
+    left: 0.45rem;
+    top: 0;
+    color: inherit;
+    font-weight: 700;
+  }
+
+  .stackar-tech-lead {
+    color: inherit;
+    font-size: 1.04em;
+    font-weight: 700;
+  }
+
+  .stackar-media-col {
+    display: flex;
+    justify-content: center;
+  }
+
+  .stackar-media-card {
+    --stackar-media-card-radius: 0.8rem;
+
+    width: 100%;
+    overflow: hidden;
+    border: 0px solid rgba(179, 179, 179, 0.12);
+    border-radius: var(--stackar-media-card-radius);
+    background: #fff;
+    box-shadow: 0 0.4rem 0.9rem rgba(0, 0, 0, 0.16);
+  }
+
+  .stackar-media-section {
+    padding: 0;
+  }
+
+  .stackar-media-section + .stackar-media-section {
+    padding-top: 0.6rem;
+  }
+
+  .stackar-media-frame {
+    width: 100%;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    border-radius: 0;
+    background: #f4f4f4;
+  }
+
+  .stackar-media-frame iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .stackar-media-caption {
+    margin: 0.6rem 0 0;
+    padding: 0 0.9rem;
+    color: #424242;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .stackar-media-section:last-child .stackar-media-caption {
+    padding-bottom: 0.7rem;
+  }
+
+  @media (max-width: 991.98px) {
+    .stackar-title-image {
+      left: auto;
+      width: 100% !important;
+      max-width: 100% !important;
+      max-height: 235px !important;
+      margin-right: auto !important;
+      margin-left: auto !important;
+      transform: none;
+    }
+
+    .stackar-media-col {
+      margin-bottom: 1.5rem;
     }
   }
 }

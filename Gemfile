@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 
+install_if -> { Gem.win_platform? } do
+    gem 'wdm', '>= 0.1.0'
+end
+
 # Core plugins that directly affect site building
 group :jekyll_plugins do
     gem 'jekyll-archives-v2'

@@ -152,7 +152,7 @@ nav_order: 3
 
 <div class="col">
 <div class="card bg-white shadow-lg">
-<iframe allowfullscreen="true" frameborder="0" height="250" mozallowfullscreen="true" src="https://docs.google.com/presentation/d/e/2PACX-1vSMJvWDmyEkE4Fb5EiuE1_58us7KxbmSSaPMky8FkZ5cqsa7PUsawpWgaAr_y5y0ULUpnTxSaqb01wd/embed?start=false&amp;loop=false&amp;delayms=30000" webkitallowfullscreen="true"></iframe>
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_jubensha.jpg' | relative_url }}" width="100%"/>
 <div class="card-body">
 <div class="d-flex justify-content-between align-items-center">
 <h1 class="project-card-title">"Jùběnshā" (剧本杀)</h1>
@@ -206,81 +206,26 @@ nav_order: 3
 
 <div class="col">
 <div class="card bg-white shadow-lg">
-<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/stack-ar-teaser-3.png' | relative_url }}" width="100%"/>
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://www.youtube.com/embed/awycjq1M2FQ"></iframe>
 <div class="card-body">
 <div class="d-flex justify-content-between align-items-center">
-<h1 class="project-card-title">Stack AR</h1>
+<h1 class="project-card-title">Transparent AR Markers</h1>
 </div>
-<p class="card-text py-2 mb-0">An augmented reality music game that explores the stacking mechanics of transparent AR markers.</p>
+<p class="card-text py-2 mb-0">A novel marker-based AR system that uses stacked transparent fiducial markers as a tangible, compositional input method, demonstrated through Stackable Music, an AR music synthesis game.</p>
 <div class="mb-3">
 <span class="badge badge-custom-cyan">Augmented Reality</span>
-<span class="badge badge-custom-cyan">Compositional Input Method</span>
 <span class="badge badge-custom-cyan">Tangible</span>
+<span class="badge badge-custom-cyan">Compositional Input</span>
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://jingruchenmax.github.io/StackAR/">Website</a>
 <a class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3573382.3616071">Article</a>
-<a class="btn btn-sm btn-outline-dark" href="https://youtu.be/pAF2ckJ4YSA">Video</a>
+<a class="btn btn-sm btn-outline-dark" href="https://youtu.be/pAF2ckJ4YSA">Presentation</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/stackar/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">Completed: 2023</small>
-</div>
-</div>
-</div>
-
-<div class="col">
-<div class="card bg-white shadow-lg">
-<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://www.youtube.com/embed/j5Y3HXnj0aQ?si=uJp1IrzmnA5AZM-S"></iframe>
-<div class="card-body">
-<div class="d-flex justify-content-between align-items-center">
-<h1 class="project-card-title">Flow Chemistry AR</h1>
-</div>
-<p class="card-text py-2 mb-0">Developed a HoloLens AR application to train students on assembling lab components safely and efficiently.</p>
-<p class="card-text py-0 mb-2">
-<small class="fw-bold">My Role:</small> Design, Interface, and Audio.
-                    </p>
-<div class="mb-3">
-<span class="badge badge-custom-cyan">Mixed Reality</span>
-<span class="badge badge-custom-cyan">Chemistry Education</span>
-<span class="badge badge-custom-cyan">Immersive Experience</span>
-</div>
-<div class="d-flex justify-content-between align-items-center mb-3">
-<div class="btn-group">
-<a class="btn btn-sm btn-outline-dark" href="https://github.com/WPI-IDeaS/FlowAR">GitHub</a>
-
-</div>
-</div>
-<small class="text-muted">Completed: 2023</small>
-</div>
-</div>
-</div>
-
-<div class="col">
-<div class="card bg-white shadow-lg">
-<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://my.matterport.com/show/?m=4kYRmoR3DnP"></iframe>
-<div class="card-body">
-<div class="d-flex justify-content-between align-items-center">
-<h1 class="project-card-title">360 Labs</h1>
-</div>
-<p class="card-text py-2 mb-0">
-                                Virtual walkthroughs and training sessions using 360-degree immersive environments for enhanced remote
-                                learning experiences.
-                            </p>
-<div class="mb-3">
-<span class="badge badge-custom-cyan">Virtual Reality</span>
-<span class="badge badge-custom-cyan">Training Technology</span>
-<span class="badge badge-custom-cyan">Immersive Experience</span>
-</div>
-<div class="d-flex justify-content-between align-items-center mb-3">
-<div class="btn-group">
-<a class="btn btn-sm btn-outline-dark" href="https://my.matterport.com/show/?m=RXnySyU5uzE">Lab Demo</a>
-<a class="btn btn-sm btn-outline-dark" href="https://www.linkedin.com/posts/catherine-bouthillier_away-from-your-institution-want-to-provide-activity-6927338174360780800-s7P7?utm_source=share&amp;utm_medium=member_desktop">Posts</a>
-<a class="btn btn-sm btn-outline-dark" href="https://aiche.confex.com/aiche/ampc20/meetingapp.cgi/Paper/651137">Panel Talk</a>
-</div>
-
-</div>
-<small class="text-muted">Completed: 2022</small>
 </div>
 </div>
 </div>
@@ -294,7 +239,7 @@ nav_order: 3
 </div>
 <p class="card-text py-2 mb-0">
                                 A mobile educational app that helps engineering students practice free-body diagram drawing through mini-games, targeted exercises, and immediate feedback. 
-                                I contributed to the app's concept and UI design, visual style, art assets, and ongoing development.
+                                I contributed to the app's concept and UI design, art assets, and ongoing development.
                             </p>
 <p class="card-text py-0 mb-2">
 <small class="fw-bold">My Role:</small> Designer, and Lead Artist.
@@ -313,29 +258,6 @@ nav_order: 3
 <a class="btn btn-dark btn-sm" href="{{ '/projects/free-body-diagram-app/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
 
 </div>
-</div>
-<small class="text-muted">Completed: 2022</small>
-</div>
-</div>
-</div>
-
-<div class="col">
-<div class="card bg-white shadow-lg">
-<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://www.youtube.com/embed/4btZEvH6Ypw?mute=true"></iframe>
-<div class="card-body">
-<div class="d-flex justify-content-between align-items-center">
-<h1 class="project-card-title">Collection</h1>
-</div>
-<p class="card-text py-2 mb-0">
-                                An experimental storytelling project combining origami and non-linear narratives. Explore the story through
-                                physical interaction with a treasure box filled with mysterious clues. Exhibited at PAX 2022 East, Boston.
-                            </p>
-<div class="mb-3">
-<span class="badge badge-custom-cyan">Game Design</span>
-<span class="badge badge-custom-cyan">Origami</span>
-<span class="badge badge-custom-cyan">Team Collaboration</span>
-</div>
-<div class="d-flex justify-content-between align-items-center mb-3">
 </div>
 <small class="text-muted">Completed: 2022</small>
 </div>
@@ -369,10 +291,70 @@ nav_order: 3
 <a class="btn btn-dark btn-sm" href="{{ '/projects/battle-billiards/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
-<small class="text-muted">Completed: 2021</small>
+<small class="text-muted">Completed: 2022</small>
 </div>
 </div>
 </div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://my.matterport.com/show/?m=4kYRmoR3DnP"></iframe>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">360 Lab Tours</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                A multi-year project developing immersive virtual tours and training experiences for research labs, classrooms, and exhibitions at Worcester Polytechnic Institute (WPI). 
+                                The project used 360° scanning and virtual reality walkthroughs to expand remote access, support engagement, and provide spatial learning experiences for visitors, students, and trainees.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Virtual Reality</span>
+<span class="badge badge-custom-cyan">Training Technology</span>
+<span class="badge badge-custom-cyan">Immersive Experience</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://my.matterport.com/show/?m=RXnySyU5uzE">Lab Demo</a>
+<a class="btn btn-sm btn-outline-dark" href="https://www.linkedin.com/posts/catherine-bouthillier_away-from-your-institution-want-to-provide-activity-6927338174360780800-s7P7?utm_source=share&amp;utm_medium=member_desktop">Posts</a>
+<a class="btn btn-sm btn-outline-dark" href="https://aiche.confex.com/aiche/ampc20/meetingapp.cgi/Paper/651137">Panel Talk</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/360lab/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+</div>
+
+</div>
+<small class="text-muted">Completed: 2022</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://www.youtube.com/embed/j5Y3HXnj0aQ?si=uJp1IrzmnA5AZM-S"></iframe>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Flow Chemistry AR</h1>
+</div>
+<p class="card-text py-2 mb-0">A HoloLens 2 mixed-reality training application that helps students assemble flow chemistry reactors through interactive, step-by-step holographic tutorials alongside real physical components.</p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Interaction Design, UI Design, Art Assets, and Audio Design.
+                    </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Mixed Reality</span>
+<span class="badge badge-custom-cyan">Chemistry Education</span>
+<span class="badge badge-custom-cyan">Immersive Experience</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=j5Y3HXnj0aQ">Video</a>
+<a class="btn btn-sm btn-outline-dark" href="https://github.com/WPI-IDeaS/FlowAR">GitHub</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/flowar/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+
+</div>
+</div>
+<small class="text-muted">Completed: 2022</small>
+</div>
+</div>
+</div>
+
 
 <div class="col">
 <div class="card bg-white shadow-lg">
@@ -392,7 +374,7 @@ nav_order: 3
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=E8-1WJYjbPQ">Video</a>
-<a class="btn btn-sm btn-outline-dark" href="https://www.wpi.edu/news/chance-run-city-besieged-virus">Media Coverage</a>
+<a class="btn btn-sm btn-outline-dark" href="https://www.wpi.edu/news/chance-run-city-besieged-virus">WPI Media Coverage</a>
 <a class="btn btn-dark btn-sm" href="{{ '/projects/covid-control-simulator/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
@@ -558,8 +540,6 @@ nav_order: 3
 </div>
 </main>
 
-{% include site_bottom_contact.liquid %}
-
 <script>
   (() => {
     const fallbackProjectUrl = "{{ '/' | relative_url }}";
@@ -592,3 +572,5 @@ nav_order: 3
 </script>
 
 </div>
+
+{% include site_bottom_contact.liquid %}
