@@ -20,7 +20,7 @@ nav: false
 <span class="badge badge-custom-cyan">Compositional Input</span>
 </p>
 <p class="lead text-muted fs-6 lh-sm mb-1">
-<small class="fw-bold">Years Active:</small> May 2023 - Oct. 2023
+<small class="fw-bold">Date:</small> May 2023 - Oct. 2023
                 </p>
 <p class="lead text-muted fs-6 lh-sm mb-1">
 <small class="fw-bold">Collaborator:</small> <a class="jubensha-inline-link" href="https://users.wpi.edu/~mjchen//" target="_blank" rel="noopener noreferrer">Max Chen</a>

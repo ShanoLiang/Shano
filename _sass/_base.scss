@@ -2220,6 +2220,231 @@ footer.sticky-bottom {
   }
 }
 
+.project-detail-content .noshake-detail-page {
+  .noshake-title-overlay {
+    top: 57%;
+    left: 46%;
+    width: 86%;
+    text-align: left !important;
+  }
+
+  .noshake-title-line {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    line-height: 0.88 !important;
+    text-align: left !important;
+  }
+
+  .noshake-hero-title {
+    display: block;
+    font-size: clamp(3.22rem, 5.2vw, 4.43rem);
+    line-height: 0.88;
+    text-align: left !important;
+  }
+
+  .noshake-build-heading-row {
+    display: block;
+  }
+
+  .noshake-build-subheading {
+    min-width: 0;
+  }
+
+  .noshake-inline-signs {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.55rem;
+    align-items: center;
+    margin-top: 1.15rem;
+  }
+
+  .noshake-inline-signs img {
+    display: block;
+    width: auto;
+    max-width: 31%;
+    max-height: 7rem;
+    object-fit: contain;
+  }
+
+  .noshake-build-signs {
+    justify-content: flex-end;
+    padding-right: 0.1rem;
+  }
+
+  .noshake-art-signs {
+    justify-content: flex-start;
+    margin-top: 1.3rem;
+  }
+
+  .noshake-art-signs img {
+    max-width: 45%;
+    max-height: 8.2rem;
+  }
+
+  .noshake-merch-media-col {
+    display: flex;
+    justify-content: center;
+  }
+
+  .noshake-merch-card {
+    --noshake-merch-card-radius: 0.8rem;
+
+    width: 100%;
+    overflow: hidden;
+    border: 0px solid rgba(179, 179, 179, 0.12);
+    border-radius: var(--noshake-merch-card-radius);
+    background: #fff;
+    box-shadow: 0 0.4rem 0.9rem rgba(0, 0, 0, 0.16);
+  }
+
+  .noshake-merch-section {
+    padding: 0.75rem 0.75rem 0.7rem;
+  }
+
+  .noshake-merch-section + .noshake-merch-section {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding-top: 0.8rem;
+  }
+
+  .noshake-sign-grid {
+    display: grid;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+    column-gap: 0.06rem;
+    row-gap: 0.72rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .noshake-sign-grid img {
+    display: block;
+    grid-column: span 2;
+    width: 100%;
+    height: clamp(6.2rem, 9.2vw, 8.4rem);
+    border-radius: 0.15rem;
+    background: #f8f8f8;
+    object-fit: contain;
+    transform: scale(1.08);
+  }
+
+  .noshake-sign-grid img:nth-child(6) {
+    grid-column: 3 / span 2;
+  }
+
+  .noshake-sign-grid img:nth-child(7) {
+    grid-column: 5 / span 2;
+  }
+
+  .noshake-sign-grid img:nth-child(8) {
+    grid-column: 7 / span 2;
+  }
+
+  .noshake-model-viewer {
+    display: block;
+    width: 100%;
+    height: clamp(10.5rem, 19vw, 14rem);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 0.35rem;
+    background: #fff;
+  }
+
+  .noshake-merch-caption {
+    margin: 0.58rem 0 0;
+    color: #424242;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .noshake-model-caption-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 2.35rem;
+    padding-top: 0.6rem;
+  }
+
+  .noshake-model-caption-row .noshake-merch-caption {
+    position: absolute;
+    left: 50%;
+    margin: 0;
+    max-width: calc(100% - 11rem);
+    transform: translateX(-50%);
+  }
+
+  .noshake-stl-button {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 31px;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #111 !important;
+    border-radius: 4px;
+    background-color: #fff !important;
+    box-shadow: none !important;
+    color: #111 !important;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1 !important;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: none !important;
+    transition:
+      background-color 0.16s ease,
+      border-color 0.16s ease,
+      color 0.16s ease;
+    white-space: nowrap;
+  }
+
+  .noshake-stl-button:hover,
+  .noshake-stl-button:focus {
+    border-color: #111 !important;
+    background-color: #111 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+
+  .noshake-stl-button:active,
+  .noshake-stl-button.active {
+    border-color: var(--project-cyan) !important;
+    background-color: var(--project-cyan) !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+
+  @media (max-width: 991.98px) {
+    .noshake-build-signs,
+    .noshake-art-signs {
+      justify-content: flex-end;
+    }
+
+    .noshake-inline-signs img {
+      max-height: 5.8rem;
+    }
+
+    .noshake-merch-media-col {
+      margin-bottom: 1.5rem;
+    }
+
+    .noshake-model-caption-row {
+      flex-direction: column;
+      justify-content: center;
+      gap: 0.55rem;
+    }
+
+    .noshake-model-caption-row .noshake-merch-caption {
+      position: static;
+      max-width: 100%;
+      transform: none;
+    }
+  }
+}
+
 .project-detail-content .rimland-detail-page {
   .rimland-overlay-heading-stack {
     p.fs-1 {

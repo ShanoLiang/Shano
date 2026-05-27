@@ -126,26 +126,52 @@ nav_order: 3
 
 <div class="col">
 <div class="card bg-white shadow-lg">
-<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_vrjuice.jpg' | relative_url }}" width="100%"/>
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://www.youtube.com/embed/uO0JOHxMk-c"></iframe>
 <div class="card-body">
 <div class="d-flex justify-content-between align-items-center">
-<h1 class="project-card-title">Juicy VR Interface</h1>
+<h1 class="project-card-title">Mythic Hue</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                Explores the impact of visual, auditory, and haptic design in VR on user experience.
+                                Mythic Hue is an ongoing tangible interaction prototype that maps movement-based gestures with everyday household objects to smart-home effects, reimagining the home as a responsive stage for tabletop role-playing games.
+                                The project is still ongoing, and more details will be shared after the research paper is ready for public release.
                             </p>
 <div class="mb-3">
-<span class="badge badge-custom-cyan">AR/VR</span>
-<span class="badge badge-custom-cyan">UI/UX</span>
-<span class="badge badge-custom-cyan">Team Work</span>
-<span class="badge badge-custom-cyan">Physiological Sensors</span>
+<span class="badge badge-custom-cyan">Alternative Controller</span>
+<span class="badge badge-custom-cyan">Tangible & Embodied Interaction</span>
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
-<a class="btn btn-sm btn-outline-dark" href="https://github.com/ShanoLiang/unity-fruit-ninja-vr">GitHub</a>
+<a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=uO0JOHxMk-c">Video</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/mythichue/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">In Progress</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="225" src="https://www.youtube.com/embed/3xEeyU7AIq0"></iframe>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">"NO SHAKE!"</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                No Shake is an alternative controller and tangible game built around a custom "vending machine." Players carefully tilt the entire machine to guide a gacha ball through a miniature digital dungeon, while rough shaking causes failure. We built the cabinet, controller, digital game, art assets, wiring, and display system from scratch, then exhibited the finished “machine” at WPI Showfest.
+                            </p>
+<div class="mb-3">
+<span class="badge badge-custom-cyan">Alternative Controller</span>
+<span class="badge badge-custom-cyan">Tangible Interaction</span>
+<span class="badge badge-custom-cyan">Installation</span>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=3xEeyU7AIq0">Video</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/noshake/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+</div>
+</div>
+<small class="text-muted">Completed: 2025</small>
 </div>
 </div>
 </div>
