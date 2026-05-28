@@ -39,7 +39,7 @@ nav: false
 <div class="col-lg">
 <img class="mx-lg-auto img-fluid mt-5" height="60%" src="{{ '/assets/img/projects/chuan/chuandecor01.png' | relative_url }}" width="60%"/>
 <p class="lead text-muted fs-5 lh-sm px-1">
-<small class="fw-bold">"盘串"</small> (pán chuàn) refers to the practice of handling, rotating, and gradually wearing in bracelets, beads, or similar handheld objects. 
+<small class="fs-5 fw-bold">"盘串"</small> (pán chuàn) refers to the practice of handling, rotating, and gradually wearing in bracelets, beads, or similar handheld objects. 
                         It is a simple but tactile activity built around repeated hand movement, material texture, and bodily rhythm. 
                         In everyday practice, pán chuàn can offer a quiet moment of relaxation within a busy routine, while also supporting attention, patience, and focus through continuous touch-based interaction.
                         </p>
@@ -56,7 +56,7 @@ nav: false
 <p class="lead text-muted fs-5 lh-sm px-1 text-end">
                             In this project, I treated pán chuàn as a tactile interaction practice rather than simply a cultural reference. 
                             The goal was to reinterpret its hand rhythm, material intimacy, and calming tempo through an alternative controller and user interface. 
-                            By sensing how the bracelet is handled, the system explores how a culturally specific handheld practice can become an embodied input method for a <small class="fw-bold color-text-cyan">digital experience</small>.
+                            By sensing how the bracelet is handled, the system explores how a culturally specific handheld practice can become an embodied input method for a <small class="fs-5 fw-bold color-text-cyan">digital experience</small>.
                         </p>
 </div>
 <div class="col-lg-8 text-center">

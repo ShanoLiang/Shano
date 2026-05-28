@@ -22,7 +22,7 @@ nav: false
 <small class="fw-bold">Date:</small> Oct. 2025 - Present
                 </p>
 <p class="lead text-muted fs-6 lh-sm mb-1">
-<small class="fw-bold">Collaborator:</small> <a class="jubensha-inline-link" href="https://users.wpi.edu/~mjchen//" target="_blank" rel="noopener noreferrer">Max Chen</a>
+<small class="fw-bold">Collaborator:</small> <a class="jubensha-inline-link" href="https://jingruchenmax.github.io/" target="_blank" rel="noopener noreferrer">Max Chen</a>
                 </p>
 <hr/>
 <p class="lead text-muted fs-6 lh-sm px-5">Mythic Hue is an ongoing tangible interaction prototype that maps movement-based gestures with everyday household objects to smart-home effects, reimagining the home as a responsive stage for tabletop role-playing games.
@@ -45,7 +45,7 @@ nav: false
 <p class="lead text-muted fs-6 lh-sm px-5">
                         When we were children, we rarely needed expensive props to build an imaginary fantasy world. 
                         A blanket can become a cloak, a kitchen tool can become a sword, and a living room can become a dungeon if everyone agrees to play along. 
-                        <small class="fw-bolder">Mythic Hue</small> begins from that ordinary act of imagination and asks what happens when the room can answer back. 
+                        <small class="fs-6 fw-bolder">Mythic Hue</small> begins from that ordinary act of imagination and asks what happens when the room can answer back. 
                         We are exploring low-cost alternatives to screen-heavy or equipment-heavy tabletop role-playing augmentation. 
                         The project uses everyday household objects as ambient game materials: lights, sound, appliances, and other domestic devices can respond to embodied gestures performed with everyday objects. 
                         Rather than asking players to wear specialized devices or shift attention toward a digital interface, Mythic Hue uses movement-based sensing on handheld props to connect physical actions with changes in the surrounding environment. 

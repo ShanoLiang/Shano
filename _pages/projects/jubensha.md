@@ -23,7 +23,10 @@ nav: false
 <small class="fw-bold">Years Active:</small> Jan. 2022 - Feb. 2025
                 </p>
 <p class="lead text-muted fs-6 lh-sm mb-1">
-<small class="fw-bold">Main Collaborator:</small> <a class="jubensha-inline-link" href="https://users.wpi.edu/~mjchen//" target="_blank" rel="noopener noreferrer">Max Chen</a>
+<small class="fw-bold">Main Collaborator:</small> <a class="jubensha-inline-link" href="https://jingruchenmax.github.io/" target="_blank" rel="noopener noreferrer">Max Chen</a>
+                </p>
+<p class="lead text-muted fs-6 lh-sm mb-1">
+<small class="fw-bold">My Role:</small> Lead Author
                 </p>
 <hr/>
 <p class="lead text-muted fs-6 lh-sm px-5">A multi-year game studies project examining Jubensha, an emergent murder mystery styled group gaming phenomenon in China, through taxonomy, analysis, and prototyping. 
@@ -60,7 +63,7 @@ nav: false
 <hr/>
 </div>
 <p class="lead text-muted fs-6 lh-sm px-5">
-<small class="fw-bold">剧本杀 (Jubensha)</small> is an emergent category of script-centered multiplayer games in China -- an experience of distributed cognition and sensemaking. 
+<small class="fs-6 fw-bold">剧本杀 (Jubensha)</small> is an emergent category of script-centered multiplayer games in China -- an experience of distributed cognition and sensemaking. 
                         Rather than centering only on winning or losing, Jubensha games ask players to collaboratively make sense of an unfolding fictional story through reading, discussion, information sharing, interpretation, and selective disclosure. 
                         A typical Jubensha game involves four to eight players, who may play together in board game cafés or remotely through mobile platforms with voice communication. 
                         Players progress through cold script readings, group interaction, investigation, and discussion as they uncover and experience the story from multiple perspectives. 
@@ -81,7 +84,7 @@ nav: false
 <hr/>
 </div>
 <p class="lead text-muted fs-6 lh-sm px-1 text-start">
-                            Around 2020, as Jubensha became increasingly visible in mainland China’s popular gaming culture, I became interested in analyzing how its distinctive experience was designed: what game mechanisms made it feel different, how players collectively reconstructed fictional events, and how those mechanisms could be described through useful explanatory and design frameworks. 
+                            Around 2020, as Jubensha became increasingly visible in mainland China's popular gaming culture, I became interested in analyzing how its distinctive experience was designed: what game mechanisms made it feel different, how players collectively reconstructed fictional events, and how those mechanisms could be described through useful explanatory and design frameworks. 
                             In early 2022, Max Chen and I began a systematic investigation of Jubensha as an emerging game phenomenon. 
                             Our early work examined its historical and design relationships to precursor genres such as murder mystery games, role-playing games, and social deduction games, while also questioning whether Jubensha should be understood merely as a localized form of murder mystery or as a distinct category of script-centered group play. 
                             In June 2022, we presented an early version of this work at the Canadian Game Studies Association Annual Conference in a talk titled "The Importation of Murder Mystery Games in China: Game Localization and Creativity."

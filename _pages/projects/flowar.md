@@ -52,7 +52,7 @@ nav: false
 <hr/>
 </div>
 <p class="lead text-muted fs-6 lh-sm px-5">
-<small class="fw-bold">Flow Chemistry AR</small>, later developed as <small class="fw-bold">FlowAR</small>, is a mixed-reality training application for Microsoft HoloLens 2. 
+<small class="fs-6 fw-bold">Flow Chemistry AR</small>, later developed as <small class="fs-6 fw-bold">FlowAR</small>, is a mixed-reality training application for Microsoft HoloLens 2. 
                         The system helps students learn how to assemble modular flow chemistry reactors through immersive, step-by-step holographic instructions. 
                         Users can view animated guidance, listen to voice narration, and manipulate real components at the same time, creating a mixed-reality learning environment that connects digital instruction with physical practice. 
                         Traditional chemistry instruction often relies on batch-process examples and written protocols, while industrial and academic laboratories are increasingly interested in continuous and modular flow systems. 

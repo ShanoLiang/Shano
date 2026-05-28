@@ -64,7 +64,7 @@ nav: false
 <hr/>
 </div>
 <p class="lead text-muted fs-5 lh-sm px-5">
-<small class="fw-bold">Rimland</small> is an exploration and survival indie game that I developed independently from scratch over several months. 
+<small class="fs-5 fw-bold">Rimland</small> is an exploration and survival indie game that I developed independently from scratch over several months. 
                         Inspired by the momentum of China's indie game scene around 2016, I used this project as an opportunity to strengthen my game development skills and gain hands-on experience across the full production pipeline. 
                         I created all major components of the game myself, including code, art, animations, gameplay design, and audio assets. 
                         Set in a wasteland punk-inspired world, the game places players in the role of adventurers who collect materials, manage resources, and fight dangerous creatures and bandits.
@@ -203,9 +203,9 @@ nav: false
 <img class="bd-placeholder-img" height="12%" src="{{ '/assets/img/projects/rimland/escapedecor02.png' | relative_url }}" width="12%"/>
 </p>
 <p class="lead text-muted fs-5 lh-sm px-4"> 
-                            In May 2018, Rimland received first place at both the departmental and institutional levels in the Graduation Project Competition at the Hubei Institute of Fine Arts (HIFA) (approximately <small class="fw-bold">1 selected from ~2,000 graduation works</small>). 
+                            In May 2018, Rimland received first place at both the departmental and institutional levels in the Graduation Project Competition at the Hubei Institute of Fine Arts (HIFA) (approximately <small class="fs-5 fw-bold">1 selected from ~2,000 graduation works</small>). 
                             It was later selected to represent HIFA's outstanding student works at the 2018 Joint Exhibition of National Top Institutions of Higher Learning in Fine Arts. 
-                            In October 2018, the project also won first place in the Cultural and Creative Design Competition for College Students in Hubei Province, receiving a pre-tax prize of <small class="fw-bold">80,000</small> CNY (<small class="fw-bold">~$11,428</small>).
+                            In October 2018, the project also won first place in the Cultural and Creative Design Competition for College Students in Hubei Province, receiving a pre-tax prize of <small class="fs-5 fw-bold">80,000</small> CNY (<small class="fs-5 fw-bold">~$11,428</small>).
                         </p>
 </div>
 <div class="col-lg-8 px-0 text-center">

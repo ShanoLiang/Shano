@@ -52,7 +52,7 @@ nav: false
 </div>
 <p> </p>
 <p class="lead text-muted fs-5 lh-sm px-5">
-<small class="fw-bold">For Survive</small> is a turn-based strategy game developed by our four-person team over a short course-project timeline. 
+<small class="fs-5 fw-bold">For Survive</small> is a turn-based strategy game developed by our four-person team over a short course-project timeline. 
                         Players manage resources and make strategic decisions to reduce the losses caused by random disasters that occur each round. 
                         Rather than centering victory on defeating enemies, the game asks players to survive for a specified number of days. 
                         To survive, players expand and maintain their civilization while responding to disasters that threaten their resources, population, and long-term stability.

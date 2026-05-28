@@ -58,7 +58,7 @@ nav: false
 <hr/>
 </div>
 <p class="lead text-muted fs-5 lh-sm px-5">
-                            <small class="fw-bold">Containment Breach Escape</small> is an escape room project developed over several weeks and executed by graduate students in Worcester Polytechnic Institute's (WPI) IMGD5300 course. 
+                            <small class="fs-5 fw-bold">Containment Breach Escape</small> is an escape room project developed over several weeks and executed by graduate students in Worcester Polytechnic Institute's (WPI) IMGD5300 course. 
                             After a class-wide vote, my proposed theme and aesthetic direction were selected as the top choice among 23 concepts, and I then served as the project's producer and lead designer. 
                             I was also an active member of the construction team, helping build the escape room from the ground up.
                         </p>

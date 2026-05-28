@@ -52,7 +52,7 @@ nav: false
 <hr/>
 </div>
 <p class="lead text-muted fs-6 lh-sm px-5">
-                        The core experience of <small class="fw-bolder">No Shake</small> comes from acting out a familiar but usually forbidden impulse: trying to make a vending or gacha machine give you what you want by moving the whole machine. 
+                        The core experience of <small class="fs-6 fw-bolder">No Shake</small> comes from acting out a familiar but usually forbidden impulse: trying to make a vending or gacha machine give you what you want by moving the whole machine. 
                         In this game, that impulse becomes the control scheme. 
                         Instead of using a joystick or keyboard, players carefully tilt the entire cabinet in four directions to guide a gacha ball toward its target. 
                         The motions is full-bodied, clumsy, and strangely delicate. 

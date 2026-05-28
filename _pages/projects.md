@@ -28,40 +28,13 @@ nav_order: 3
 <div class="container">
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-<div class="col">
-<div class="card bg-white shadow-lg">
-<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_ReVISitinteractivemedia.png' | relative_url }}" width="100%"/>
-<div class="card-body">
-<div class="d-flex justify-content-between align-items-center">
-<h1 class="project-card-title">ReVISit Interactive Media</h1>
-</div>
-<p class="card-text py-2 mb-0">
-                                ReVISit is a powerful platform for creating, publishing, and disseminating visualization studies.
-                                This project builds on my background to explore how to adapt and expand it to support qualitative and human-centered approaches, as well as studies in complex interactive media.
-                            </p>
-<div class="mb-3">
-
-<span class="badge badge-custom-cyan">Data Visualization</span>
-<span class="badge badge-custom-cyan">Research</span>
-<span class="badge badge-custom-cyan">ReVISit</span>
-
-</div>
-<div class="d-flex justify-content-between align-items-center mb-3">
-<div class="btn-group">
-<a class="btn btn-sm btn-outline-dark" href="https://revisit.dev/">ReVISit Website</a>
-</div>
-</div>
-<small class="text-muted">In Progress</small>
-</div>
-</div>
-</div>
 
 <div class="col">
 <div class="card bg-white shadow-lg">
-<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_JND.png' | relative_url }}" width="100%"/>
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_revisitxr.png' | relative_url }}" width="100%"/>
 <div class="card-body">
 <div class="d-flex justify-content-between align-items-center">
-<h1 class="project-card-title">Visualization Opacity JND</h1>
+<h1 class="project-card-title">ReVISit-XR Suite</h1>
 </div>
 <p class="card-text py-2 mb-0">
                                 Just Noticeable Difference (JND) in psychology refers to the minimum level of stimulation that a person can detect 50% of the time.
@@ -88,35 +61,67 @@ nav_order: 3
 
 <div class="col">
 <div class="card bg-white shadow-lg">
-<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_EuphoriaSim.png' | relative_url }}" width="100%"/>
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_revisitgames.png' | relative_url }}" width="100%"/>
 <div class="card-body">
 <div class="d-flex justify-content-between align-items-center">
-<h1 class="project-card-title">Euphoria Simulator</h1>
+<h1 class="project-card-title">ReVISit-Games Suite</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                Many people experience euphoria, a positive experience for mental health. Interactive media is a powerful engine that offers intimate experiences.
-                                This project builds a simulator to investigate how it can produce expected euphoric experiences and evaluate the design performance.
+                                ReVISit-Games is a methodological and study infrastructure project that extends the reVISit study framework to support scalable, asynchronous, and trackable player experience studies with embedded game stimuli, configurable sequencing, and researcher-defined gameplay logging.
+                            </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Lead Author.
+                            </p> 
+<div class="mb-3">
+
+<span class="badge badge-custom-cyan">Data Visualization</span>
+<span class="badge badge-custom-cyan">Infrastructure</span>
+<span class="badge badge-custom-cyan">Interactive Media</span>
+
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://revisit.dev/">About ReVISit</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/revisitgames/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
+</div>
+</div>
+<small class="text-muted">In Progress</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/logs/logeuphoriasim01.png' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Euphoria & Rainborough</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                A multi-stage line of research on transgender gender euphoria in games, moving from theory-building and design framework knowledge to prototyping and reflective practice through a research game, Rainborough. 
+                                This work asks how interactive media can actively support affirmation, resilience, and wellbeing for trans players.
+                            </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Lead Author.
                             </p>
 <div class="mb-3">
 
 <span class="badge badge-custom-cyan">Mental Health</span>
-<span class="badge badge-custom-cyan">Research</span>
-<span class="badge badge-custom-cyan">Human-centered Design</span>
+<span class="badge badge-custom-cyan">Trans Game Studies</span>
+<span class="badge badge-custom-cyan">Marginalized Groups</span>
 
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
 <div class="image-tooltip-container">
-<button class="btn btn-sm btn-outline-dark"><i class="bi bi-trophy-fill"></i> Award</button>
+<button class="btn btn-sm btn-outline-dark"><i class="bi bi-trophy-fill"></i>Award</button>
 <div class="image-tooltip">
 <img alt="Sample Image" src="{{ '/assets/img/projects/CHI25Award.png' | relative_url }}"/>
 </div>
 </div>
+<a class="btn btn-sm btn-outline-dark" href="https://doi.org/10.1145/3706598.3714081">Publication</a>
 <a class="btn btn-sm btn-outline-dark" href="https://theconversation.com/video-games-can-help-trans-players-feel-seen-and-safe-it-all-starts-with-design-257901">Media Coverage</a>
-<div class="tooltip-container">
-<a class="btn btn-sm btn-outline-dark" href="#">GitHub</a>
-<span class="tooltip-text">Private Repo</span>
-</div>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/euphoria/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">In Progress</small>
@@ -142,7 +147,7 @@ nav_order: 3
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=uO0JOHxMk-c">Video</a>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/mythichue/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/mythichue/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">In Progress</small>
@@ -168,7 +173,7 @@ nav_order: 3
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=3xEeyU7AIq0">Video</a>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/noshake/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/noshake/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">Completed: 2025</small>
@@ -187,6 +192,9 @@ nav_order: 3
                                 A multi-year game studies project examining Jubensha, an emergent murder mystery styled group gaming phenomenon in China, through taxonomy-building, cross-cultural analysis, and design experimentation. 
                                 The project investigates how Jubensha organizes collaborative sensemaking, distributed cognition, social deduction, and narrative performance.
                             </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Lead Author.
+                            </p>
 <div class="mb-3">
 <span class="badge badge-custom-cyan">Game Taxonomy</span>
 <span class="badge badge-custom-cyan">Murder Mystery</span>
@@ -196,7 +204,7 @@ nav_order: 3
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3721121">Publication</a>
 <a class="btn btn-sm btn-outline-dark" href="https://mssv.net/2025/03/26/heres-what-makes-jubensha-different/">Media Coverage</a>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/jubensha/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/jubensha/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">Completed: 2025</small>
@@ -221,7 +229,7 @@ nav_order: 3
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://youtu.be/3VIlJpzU-nY?si=WTebro46RYmC0iQE">Video</a>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/chuan/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/chuan/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 
 </div>
 </div>
@@ -248,7 +256,7 @@ nav_order: 3
 <a class="btn btn-sm btn-outline-dark" href="https://jingruchenmax.github.io/StackAR/">Website</a>
 <a class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3573382.3616071">Article</a>
 <a class="btn btn-sm btn-outline-dark" href="https://youtu.be/pAF2ckJ4YSA">Presentation</a>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/stackar/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/stackar/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">Completed: 2023</small>
@@ -281,7 +289,7 @@ nav_order: 3
 
 <a class="btn btn-sm btn-outline-dark" href="https://fbdapp.wpi.edu/">Website</a>
 <a class="btn btn-sm btn-outline-dark" href="https://apps.apple.com/us/app/free-body-diagram/id6471265397">App Store</a>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/free-body-diagram-app/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/free-body-diagram-app/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 
 </div>
 </div>
@@ -314,7 +322,7 @@ nav_order: 3
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://store.steampowered.com/app/2172090/Battle_Billiards/">Steam Page</a>
 <a class="btn btn-sm btn-outline-dark" href="https://petricoregames.com/portfolio/battle-billiards/">Website</a>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/battle-billiards/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/battle-billiards/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">Completed: 2022</small>
@@ -343,7 +351,7 @@ nav_order: 3
 <a class="btn btn-sm btn-outline-dark" href="https://my.matterport.com/show/?m=RXnySyU5uzE">Lab Demo</a>
 <a class="btn btn-sm btn-outline-dark" href="https://www.linkedin.com/posts/catherine-bouthillier_away-from-your-institution-want-to-provide-activity-6927338174360780800-s7P7?utm_source=share&amp;utm_medium=member_desktop">Posts</a>
 <a class="btn btn-sm btn-outline-dark" href="https://aiche.confex.com/aiche/ampc20/meetingapp.cgi/Paper/651137">Panel Talk</a>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/360lab/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/360lab/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 
 </div>
@@ -372,7 +380,7 @@ nav_order: 3
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=j5Y3HXnj0aQ">Video</a>
 <a class="btn btn-sm btn-outline-dark" href="https://github.com/WPI-IDeaS/FlowAR">GitHub</a>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/flowar/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/flowar/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 
 </div>
 </div>
@@ -390,7 +398,10 @@ nav_order: 3
 <h1 class="project-card-title">COVID Control Simulator</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                A serious but playful strategy simulation with an epidemiological dynamic SEIR model for city-level pandemic response, public-health tradeoffs, and data-informed decision-making. The project incorporated information from real news sources, scientific data, and our team's positionality as native Wuhan residents. It was featured by <small class="fw-bold">WPI News</small>.
+                                A serious but playful strategy simulation with an epidemiological dynamic SEIR model for city-level pandemic response and data-informed decision-making. The project incorporated information from real news sources, and our team's positionality as native Wuhan residents. It was featured by <small class="fw-bold">WPI News</small>.
+                            </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Project Lead.
                             </p>
 <div class="mb-3">
 <span class="badge badge-custom-cyan">Serious Game</span>
@@ -401,7 +412,7 @@ nav_order: 3
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=E8-1WJYjbPQ">Video</a>
 <a class="btn btn-sm btn-outline-dark" href="https://www.wpi.edu/news/chance-run-city-besieged-virus">WPI Media Coverage</a>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/covid-control-simulator/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/covid-control-simulator/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">Completed: 2020</small>
@@ -432,7 +443,7 @@ nav_order: 3
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=7q8TI326rok">Video</a>
 <a class="btn btn-sm btn-outline-dark" href="https://x.com/escaperoomwpi/status/1202665209858527232">Posts</a>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/containment-breach-escape/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/containment-breach-escape/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">Completed: 2019</small>
@@ -459,7 +470,7 @@ nav_order: 3
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
-<a class="btn btn-dark btn-sm" href="{{ '/projects/for-survive/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/for-survive/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">Completed: 2019</small>
@@ -490,7 +501,7 @@ nav_order: 3
 <a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=bZerqj7G0fk">Video</a>
 <a class="btn btn-sm btn-outline-dark" href="https://www.sohu.com/a/272994870_733111">Media Coverage</a>
 <a class="btn btn-sm btn-outline-dark" href="https://jwc.hifa.edu.cn/info/1061/1532.htm">Posts</a>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/rimland/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/rimland/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">Completed: 2018</small>
@@ -511,6 +522,9 @@ nav_order: 3
 <p class="card-text py-0 mb-2">
 <small class="fw-bold fs-6">Award</small>: <small class="fw-bold">Third Place</small>, Hubei Province Universities Creation Youth Student Entrepreneurship Competition (2016): 10,000 CNY (~$1,428).
                             </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Team and Project Lead.
+                            </p>
 <div class="mb-3">
 <span class="badge badge-custom-cyan">Board Game</span>
 <span class="badge badge-custom-cyan">Entrepreneurship</span>
@@ -530,7 +544,7 @@ nav_order: 3
 <img alt="Sample Image" src="{{ '/assets/img/projects/Company license.JPG' | relative_url }}"/>
 </div>
 </div>
-<a class="btn btn-dark btn-sm" href="{{ '/projects/world-of-summoner/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/world-of-summoner/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">Completed: 2018</small>
@@ -554,7 +568,7 @@ nav_order: 3
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
-<a class="btn btn-dark btn-sm" href="{{ '/projects/team-fight/' | relative_url }}">More Details <i class="bi bi-caret-right-fill"></i></a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/team-fight/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">Completed: 2017</small>

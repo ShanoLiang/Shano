@@ -2061,6 +2061,809 @@ footer.sticky-bottom {
   }
 }
 
+.project-detail-content .euphoria-detail-page {
+  .euphoria-hero-section {
+    padding-top: 0.85rem !important;
+  }
+
+  .euphoria-title-image {
+    width: 72% !important;
+    max-width: 72% !important;
+    height: auto !important;
+    padding-top: 1.275rem !important;
+  }
+
+  @media (min-width: 992px) {
+    .euphoria-hero-section .row {
+      padding-top: 1.275rem !important;
+    }
+  }
+
+  .euphoria-intro-subheading {
+    margin: -0.6rem 0 0.9rem;
+  }
+
+  .euphoria-intro-subheading p {
+    margin: 0 0 0.38rem;
+    color: #111;
+    font-size: 1.6rem;
+    font-weight: 550;
+    letter-spacing: 0;
+    line-height: 1;
+  }
+
+  .euphoria-intro-subheading hr {
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+  }
+
+  .euphoria-explorations-subheading {
+    text-align: left !important;
+  }
+
+  .euphoria-explorations-subheading hr {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .euphoria-dde-col {
+    --euphoria-dde-card-width: 14.5rem;
+    --euphoria-dde-panel-gap: 0.45rem;
+    --euphoria-dde-panel-width: calc(43.5rem + 0.9rem);
+
+    display: flex;
+    flex-direction: column;
+    width: min(100%, var(--euphoria-dde-panel-width));
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .euphoria-dde-panel {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, var(--euphoria-dde-card-width));
+    justify-content: center;
+    gap: var(--euphoria-dde-panel-gap);
+    align-items: stretch;
+  }
+
+  .euphoria-dde-card {
+    --euphoria-dde-accent: #008fa3;
+
+    position: relative;
+    min-width: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(20, 20, 20, 0.1);
+    border-radius: 0.55rem;
+    background: #fff;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.14);
+  }
+
+  .euphoria-dde-card::before {
+    content: "";
+    display: block;
+    height: 0.24rem;
+    background: var(--euphoria-dde-accent);
+  }
+
+  .euphoria-dde-design {
+    --euphoria-dde-accent: #ff5c7f;
+  }
+
+  .euphoria-dde-dynamics {
+    --euphoria-dde-accent: #585858;
+  }
+
+  .euphoria-dde-experience {
+    --euphoria-dde-accent: #0dabdb;
+  }
+
+  .euphoria-dde-card-header {
+    padding: 0.62rem 0.52rem 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0));
+    color: #111;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .euphoria-dde-card-header strong,
+  .euphoria-dde-card-header span {
+    color: var(--euphoria-dde-accent);
+  }
+
+  .euphoria-dde-card-body {
+    flex: 1;
+    padding: 0.55rem 0.58rem 0.65rem;
+    color: #1d1d1d;
+    font-size: 0.9rem;
+    line-height: 1.35;
+  }
+
+  .euphoria-dde-block {
+    margin-top: 0.45rem;
+    padding-top: 0.45rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+  }
+
+  .euphoria-dde-block:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .euphoria-dde-block h4 {
+    margin: 0 0 0.3rem;
+    padding: 0.3rem 0.35rem;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 0.35rem;
+    background: #f7f7f7;
+    color: #111;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .euphoria-dde-description {
+    margin: 0 0 0.24rem;
+    color: #1d1d1d;
+    text-align: left;
+  }
+
+  .publication-award {
+    margin-left: 0.35rem;
+    color: var(--global-theme-color);
+    font-style: normal;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .euphoria-dde-caption {
+    width: min(100%, var(--euphoria-dde-panel-width));
+    margin: 1.15rem auto 0 !important;
+    color: #424242;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center !important;
+  }
+
+  .euphoria-rainborough-demo-row {
+    margin-top: 0.5rem;
+  }
+
+  .euphoria-rainborough-demo {
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 0.55rem;
+    background: #fff;
+    box-shadow: 0 0.35rem 1.2rem rgba(0, 0, 0, 0.12);
+  }
+
+  .euphoria-rainborough-demo-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.25rem;
+    padding: 1.15rem 1.25rem 0.95rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .euphoria-rainborough-demo-heading {
+    flex: 1 1 auto;
+    min-width: 0;
+    text-align: left;
+  }
+
+  .euphoria-rainborough-demo-kicker {
+    margin: 0 0 0.25rem;
+    color: var(--global-theme-color);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .euphoria-rainborough-demo h3 {
+    margin: 0 0 0.55rem;
+    color: #111;
+    font-size: 1.55rem;
+    font-weight: 550;
+    letter-spacing: 0;
+    line-height: 1.1;
+  }
+
+  .euphoria-rainborough-demo-warning,
+  .euphoria-rainborough-demo-copy {
+    margin: 0;
+    color: #657687;
+    font-size: 0.95rem;
+    line-height: 1.35;
+  }
+
+  .euphoria-rainborough-demo-copy {
+    padding: 0.9rem 1.25rem 0;
+  }
+
+  .euphoria-rainborough-demo-button {
+    flex: 0 0 auto;
+    padding: 0.42rem 1.15rem;
+    border: 1px solid #111;
+    border-radius: 0.25rem;
+    background: #fff;
+    color: #111;
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-transform: none;
+    transition: background 0.16s ease, border-color 0.16s ease, color 0.16s ease;
+  }
+
+  .euphoria-rainborough-demo-button:hover {
+    background: #111;
+    color: #fff;
+  }
+
+  .euphoria-rainborough-demo-button:active {
+    border-color: var(--global-theme-color);
+    background: var(--global-theme-color);
+    color: #fff;
+  }
+
+  .euphoria-rainborough-demo-button:disabled {
+    border-color: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.58);
+    cursor: default;
+  }
+
+  .euphoria-rainborough-demo-frame {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 2.5rem);
+    margin: 1.05rem auto 1.25rem;
+    aspect-ratio: 48 / 29;
+    border: 0.9rem solid #2f2f2f;
+    border-radius: 0.35rem;
+    background: #211d1f;
+  }
+
+  .euphoria-rainborough-demo-frame iframe {
+    display: block;
+    width: 100%;
+    height: 100% !important;
+    max-height: none;
+    border: 0;
+  }
+
+  .euphoria-rainborough-demo-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    min-height: 12rem;
+    padding: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+  }
+
+  .euphoria-rainborough-demo-placeholder span {
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .euphoria-rainborough-demo-placeholder small {
+    max-width: 26rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.86rem;
+    line-height: 1.35;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .euphoria-dde-row {
+      row-gap: 2rem;
+    }
+
+    .euphoria-dde-row .euphoria-dde-col,
+    .euphoria-dde-row .jubensha-explorations-copy {
+      flex: 0 0 100%;
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .euphoria-dde-row .euphoria-dde-col {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .euphoria-dde-row .euphoria-dde-panel {
+      width: min(100%, var(--euphoria-dde-panel-width));
+      margin: 0 auto;
+    }
+
+    .euphoria-dde-row .jubensha-explorations-copy {
+      width: min(100%, 34rem);
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  @media (max-width: 991.98px) {
+    .euphoria-dde-col {
+      margin-top: 1.5rem;
+    }
+
+    .euphoria-dde-panel {
+      max-width: 36rem;
+      margin: 0 auto;
+      grid-template-columns: minmax(0, 22rem);
+      justify-content: center;
+      gap: 0.9rem;
+    }
+
+    .euphoria-dde-caption {
+      width: min(100%, 22rem);
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .euphoria-rainborough-demo {
+      border-radius: 0.45rem;
+    }
+
+    .euphoria-rainborough-demo-header {
+      flex-direction: column;
+      gap: 0.85rem;
+      padding: 1rem 1rem 0.85rem;
+    }
+
+    .euphoria-rainborough-demo h3 {
+      font-size: 1.32rem;
+    }
+
+    .euphoria-rainborough-demo-button {
+      width: 100%;
+    }
+
+    .euphoria-rainborough-demo-copy {
+      padding: 0.85rem 1rem 0;
+    }
+
+    .euphoria-rainborough-demo-frame {
+      width: calc(100% - 2rem);
+      margin: 0.95rem auto 1rem;
+      aspect-ratio: 4 / 3;
+      border-width: 0.55rem;
+    }
+  }
+}
+
+.project-detail-content .revisitgames-detail-page {
+  .revisitgames-hero-section {
+    padding-top: 0.85rem !important;
+  }
+
+  .revisitgames-title-image {
+    display: block;
+    width: min(100%, 34rem) !important;
+    max-width: 60% !important;
+    max-height: none !important;
+    height: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 1.275rem !important;
+    transform: none;
+  }
+
+  .revisitgames-project-title {
+    margin-bottom: 2.55rem !important;
+  }
+
+  @media (min-width: 992px) {
+    .revisitgames-hero-section .row {
+      padding-top: 1.275rem !important;
+    }
+  }
+
+  .revisitgames-overlay-heading-stack {
+    --revisitgames-overlay-title-padding-y: 0;
+    --revisitgames-overlay-title-padding-x: 0;
+    --revisitgames-overlay-kicker-font-size: 1.44rem;
+    --revisitgames-overlay-kicker-color: #ff6822;
+    --revisitgames-overlay-title-font-size: 2.4rem;
+    --revisitgames-overlay-title-color: #636363;
+    --revisitgames-overlay-title-offset-x: 0;
+
+    left: var(--revisitgames-overlay-title-offset-x) !important;
+    width: calc(100% - var(--revisitgames-overlay-title-offset-x) - var(--revisitgames-overlay-title-offset-x)) !important;
+    padding: var(--revisitgames-overlay-title-padding-y) var(--revisitgames-overlay-title-padding-x);
+    text-align: left;
+    transform: translateY(-50%) !important;
+  }
+
+  .revisitgames-overlay-heading-stack p.fs-1 {
+    margin-top: 0 !important;
+    margin-bottom: 0.22rem !important;
+    line-height: 0.92 !important;
+    text-align: left !important;
+  }
+
+  .revisitgames-overlay-heading-stack p.fs-1:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .revisitgames-overlay-kicker,
+  .revisitgames-overlay-title {
+    font-weight: 600;
+    text-align: left;
+    text-shadow:
+      0 0 0px rgba(0, 0, 0, 0.5),
+      0 0 0px #000;
+  }
+
+  .revisitgames-overlay-kicker {
+    color: var(--revisitgames-overlay-kicker-color);
+    font-size: var(--revisitgames-overlay-kicker-font-size);
+  }
+
+  .revisitgames-overlay-title {
+    color: var(--revisitgames-overlay-title-color);
+    font-size: var(--revisitgames-overlay-title-font-size);
+    line-height: 1;
+  }
+
+  .revisitgames-field-test-title {
+    color: #ff6822;
+  }
+
+  .revisitgames-intro-subheading {
+    --revisitgames-subheading-padding-y: 0;
+    --revisitgames-subheading-padding-x: 0;
+    --revisitgames-subheading-font-size: 1.6rem;
+    --revisitgames-subheading-color: #111;
+
+    margin: -0.6rem 0 0.9rem;
+    padding: var(--revisitgames-subheading-padding-y) var(--revisitgames-subheading-padding-x) !important;
+  }
+
+  .revisitgames-intro-spacer {
+    margin: 0 0 0.7rem;
+    line-height: 1rem;
+  }
+
+  .revisitgames-intro-subheading p {
+    margin: 0 0 0.38rem;
+    color: var(--revisitgames-subheading-color);
+    font-size: var(--revisitgames-subheading-font-size);
+    font-weight: 550;
+    letter-spacing: 0;
+    line-height: 1;
+  }
+
+  .revisitgames-intro-subheading hr {
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+  }
+
+  .revisitgames-explorations-subheading {
+    --revisitgames-subheading-padding-x: 0.25rem;
+    --revisitgames-subheading-font-size: 1.6rem;
+
+    text-align: left !important;
+  }
+
+  .revisitgames-explorations-subheading hr {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  @media (min-width: 576px) {
+    .revisitgames-overlay-heading-stack {
+      --revisitgames-overlay-title-offset-x: 3rem;
+    }
+
+    .revisitgames-intro-subheading:not(.revisitgames-explorations-subheading) {
+      --revisitgames-subheading-padding-x: 3rem;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .revisitgames-title-image {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      transform: none;
+    }
+  }
+
+  .revisitgames-study-media-col {
+    display: flex;
+    justify-content: center;
+  }
+
+  .revisitgames-study-media-card {
+    --revisitgames-study-card-radius: 0.8rem;
+
+    width: 100%;
+    overflow: hidden;
+    border: 0 solid rgba(179, 179, 179, 0.12);
+    border-radius: var(--revisitgames-study-card-radius);
+    background: #fff;
+    box-shadow: 0 0.4rem 0.9rem rgba(0, 0, 0, 0.16);
+  }
+
+  .revisitgames-study-media-section {
+    padding: 0;
+  }
+
+  .revisitgames-study-media-section + .revisitgames-study-media-section {
+    padding-top: 0.6rem;
+  }
+
+  .revisitgames-study-media-frame {
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 0;
+    background: #f4f4f4;
+  }
+
+  .revisitgames-study-media-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .revisitgames-study-media-caption {
+    margin: 0.6rem 0 0;
+    padding: 0 0.9rem;
+    color: #424242;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .revisitgames-study-media-section:last-child .revisitgames-study-media-caption {
+    padding-bottom: 0.7rem;
+  }
+
+  .revisitgames-playable-demo-col {
+    text-align: left;
+  }
+
+  .revisitgames-playable-demo {
+    --revisitgames-demo-accent: #ff6822;
+
+    width: 100%;
+    margin: 2rem auto 0;
+  }
+
+  .revisitgames-playable-demo .euphoria-rainborough-demo-kicker,
+  .revisitgames-playable-demo .jubensha-inline-link {
+    color: var(--revisitgames-demo-accent);
+  }
+
+  .revisitgames-playable-demo .euphoria-rainborough-demo-button:active {
+    border-color: var(--revisitgames-demo-accent);
+    background: var(--revisitgames-demo-accent);
+    color: #fff;
+  }
+
+  .revisitgames-demo-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1rem;
+    padding: 0.85rem 1.25rem 0;
+    text-align: left;
+  }
+
+  .revisitgames-demo-control {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: #111;
+    font-size: 0.92rem;
+    line-height: 1.2;
+  }
+
+  .revisitgames-demo-control label {
+    margin: 0;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .revisitgames-demo-control select {
+    width: auto;
+    max-width: 100%;
+    padding: 0.16rem 1.6rem 0.16rem 0.35rem;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    border-radius: 0.2rem;
+    background-color: #fff;
+    color: #111;
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+
+  .revisitgames-demo-control select:focus {
+    border-color: var(--revisitgames-demo-accent);
+    box-shadow: 0 0 0 0.12rem rgba(255, 104, 34, 0.18);
+    outline: 0;
+  }
+
+  .revisitgames-demo-frame {
+    position: relative;
+    aspect-ratio: 10 / 7;
+  }
+
+  .revisitgames-playable-demo .euphoria-rainborough-demo-placeholder {
+    min-height: 11rem;
+  }
+
+  .revisitgames-demo-fullscreen-button {
+    position: absolute;
+    right: 0.9rem;
+    bottom: 0.9rem;
+    z-index: 4;
+    padding: 0.42rem 0.72rem;
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    border-radius: 0.25rem;
+    background: rgba(17, 17, 17, 0.78);
+    color: #fff;
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+  }
+
+  .revisitgames-demo-fullscreen-button:hover,
+  .revisitgames-demo-fullscreen-button:focus-visible {
+    border-color: #fff;
+    background: var(--revisitgames-demo-accent);
+    color: #fff;
+    outline: 0;
+  }
+
+  .revisitgames-demo-frame:fullscreen,
+  .revisitgames-demo-frame:-webkit-full-screen,
+  .revisitgames-demo-frame.is-pseudo-fullscreen {
+    width: 100vw !important;
+    height: 100vh !important;
+    max-width: none !important;
+    max-height: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    aspect-ratio: auto;
+    border-width: 0;
+    border-radius: 0;
+    background: #111;
+  }
+
+  .revisitgames-demo-frame:fullscreen iframe,
+  .revisitgames-demo-frame:-webkit-full-screen iframe,
+  .revisitgames-demo-frame.is-pseudo-fullscreen iframe {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+  }
+
+  .revisitgames-demo-frame:fullscreen .revisitgames-demo-fullscreen-button,
+  .revisitgames-demo-frame:-webkit-full-screen .revisitgames-demo-fullscreen-button,
+  .revisitgames-demo-frame.is-pseudo-fullscreen .revisitgames-demo-fullscreen-button {
+    right: 1.1rem;
+    bottom: 1.1rem;
+  }
+
+  .revisitgames-demo-frame.is-pseudo-fullscreen {
+    position: fixed !important;
+    inset: 0;
+    z-index: 3000;
+  }
+
+  &.revisitgames-demo-page {
+    .revisitgames-standalone-demo-section {
+      width: min(100%, 62rem);
+      padding: 4.2rem 1rem 5.5rem;
+    }
+
+    .revisitgames-demo-page-header {
+      max-width: 42rem;
+      margin: 0 auto 1.4rem;
+      text-align: center;
+    }
+
+    .revisitgames-demo-page-kicker {
+      margin: 0 0 0.35rem;
+      color: #ff6822;
+      font-size: 0.82rem;
+      font-weight: 700;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .revisitgames-demo-page-title {
+      margin: 0 0 0.75rem;
+      color: #111;
+      font-size: 2.35rem;
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    .revisitgames-demo-page-copy {
+      margin: 0 auto 1rem;
+      color: #657687;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+
+    .revisitgames-demo-page-back {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.38rem 0.8rem;
+      border: 1px solid #111;
+      border-radius: 0.25rem;
+      color: #111;
+      font-size: 0.86rem;
+      font-weight: 700;
+      line-height: 1.1;
+      text-decoration: none;
+    }
+
+    .revisitgames-demo-page-back:hover {
+      background: #111;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .revisitgames-standalone-demo {
+      max-width: 58rem;
+      margin-top: 0;
+    }
+
+    .revisitgames-standalone-demo .revisitgames-demo-frame {
+      aspect-ratio: 16 / 10;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .revisitgames-demo-controls {
+      padding: 0.8rem 1rem 0;
+    }
+
+    .revisitgames-demo-control {
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .revisitgames-demo-control select {
+      max-width: 62%;
+    }
+  }
+}
+
+body.revisitgames-demo-lock-scroll {
+  overflow: hidden;
+}
+
 .project-detail-content .lab360-detail-page {
   .lab360-showcase-col {
     display: flex;
@@ -3212,14 +4015,45 @@ footer.sticky-bottom {
 
 @media (max-width: 575.98px) {
   .projects-legacy-page {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    overflow-x: clip;
+    transform: none;
+
+    .album > .container {
+      width: 100% !important;
+      max-width: 100% !important;
+      padding-right: 0.75rem !important;
+      padding-left: 0.75rem !important;
+    }
+
+    .row.g-3 {
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    .row.g-3 > .col {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
     .display-5,
     .fs-1 {
       font-size: 2rem !important;
     }
 
     .card-img-top {
-      height: 205px;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
     }
+  }
+
+  #back-to-top {
+    right: 1rem !important;
+    bottom: calc(4rem + env(safe-area-inset-bottom, 0px)) !important;
+    z-index: 1040 !important;
   }
 
   .project-floating-back-link {

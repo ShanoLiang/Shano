@@ -60,7 +60,7 @@ nav: false
 </div>
 <p> </p>
 <p class="lead text-muted fs-5 lh-sm px-5">
-<small class="fw-bold">Free Body Diagram App</small> is a mobile application designed to help users develop and practice free-body diagram (FBD) drawing skills through engaging mini-games. 
+<small class="fs-5 fw-bold">Free Body Diagram App</small> is a mobile application designed to help users develop and practice free-body diagram (FBD) drawing skills through engaging mini-games. 
                         The app focuses on skills that are foundational for constructing FBDs, which are typically introduced in introductory Statics or Mechanics courses. 
                         It supports asynchronous practice through a variety of tasks that target specific FBD challenges and provides multiple levels of immediate feedback to support learning and skill development.
                         </p>

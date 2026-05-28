@@ -80,7 +80,7 @@ nav: false
 <hr/>
 </div>
 <p class="lead text-muted fs-5 lh-sm px-5">
-<small class="fw-bold">World of Summoner</small> is a tabletop board game blending strategy, social deduction, and murder-mystery-inspired elements, developed and released collaboratively with my team. 
+<small class="fs-5 fw-bold">World of Summoner</small> is a tabletop board game blending strategy, social deduction, and murder-mystery-inspired elements, developed and released collaboratively with my team. 
                         Designed for 3 to 9 players, each session lasts approximately 20 to 30 minutes. 
                         At the start of each session, players are randomly assigned to different factions and work toward their victory conditions through negotiation, resource management, and turn-based attack and defense mechanics. 
                         The game was produced and sold as a physical board game in Wuhan, with more than 500 copies sold.
@@ -198,7 +198,7 @@ nav: false
 </div>
 <p class="lead text-muted fs-5 lh-sm px-5">
                             In late 2016, World of Summoner was invited by the Hubei Institute of Fine Arts for an on-campus exhibition and was later recommended by the institute to represent it in the Hubei Provincial "Chuangqingchun" College Student Entrepreneurship Competition. 
-                            Our team won third place in the competition and received a pre-tax prize of <small class="fw-bold">10,000</small> CNY (~<small class="fw-bold">$1,428</small>).
+                            Our team won third place in the competition and received a pre-tax prize of <small class="fs-5 fw-bold">10,000</small> CNY (~<small class="fs-5 fw-bold">$1,428</small>).
                         </p>
 </div>
 <div class="col-lg-8 px-0 text-center">

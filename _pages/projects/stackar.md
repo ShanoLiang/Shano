@@ -23,7 +23,7 @@ nav: false
 <small class="fw-bold">Date:</small> May 2023 - Oct. 2023
                 </p>
 <p class="lead text-muted fs-6 lh-sm mb-1">
-<small class="fw-bold">Collaborator:</small> <a class="jubensha-inline-link" href="https://users.wpi.edu/~mjchen//" target="_blank" rel="noopener noreferrer">Max Chen</a>
+<small class="fw-bold">Collaborator:</small> <a class="jubensha-inline-link" href="https://jingruchenmax.github.io/" target="_blank" rel="noopener noreferrer">Max Chen</a>
                 </p>
 <hr/>
 <p class="lead text-muted fs-6 lh-sm px-5">A novel marker-based AR system that uses stacked transparent fiducial markers as a tangible, compositional input method, demonstrated through Stackable Music, an AR music synthesis game. 
@@ -48,9 +48,9 @@ nav: false
 </div>
 <p class="lead text-muted fs-6 lh-sm px-5">
                         We explored the interaction affordances of transparent PVC film as a material for tangible augmented reality. 
-                        <small class="fw-bolder">Stack AR</small> introduces an alternative input method for marker-based AR: stacking transparent fiducial markers so that the system can recognize not only individual markers, but also the combinations produced by layered markers. 
+                        <small class="fs-6 fw-bolder">Stack AR</small> introduces an alternative input method for marker-based AR: stacking transparent fiducial markers so that the system can recognize not only individual markers, but also the combinations produced by layered markers. 
                         Unlike conventional AR interactions that rely on single opaque markers or touchscreen input, Stack AR treats physical stacking as a compositional interaction. 
-                        We developed <small class="fw-bolder">Stackable Music</small>, an AR music synthesis game, to demonstrate how this input method can be used in a playful interactive system. 
+                        We developed <small class="fs-6 fw-bolder">Stackable Music</small>, an AR music synthesis game, to demonstrate how this input method can be used in a playful interactive system. 
                         </p>
 </div>
 <div class="col-lg-6 px-0 text-center">
@@ -63,7 +63,7 @@ nav: false
 </div>
 <p class="lead text-muted fs-6 lh-sm px-1 text-start">
                         This work was published in the <a class="jubensha-inline-link" href="https://doi.org/10.1145/3573382.3616071" target="_blank" rel="noopener noreferrer">Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play</a> (CHI PLAY Companion 2023). 
-                        It was later selected for presentation at <small class="fw-bolder">MIT Reality Hack 2025</small> (Jan. 23–27) as part of an art grant. The system can be set up with a desktop computer, a camera, and printed transparent markers.
+                        It was later selected for presentation at <small class="fs-6 fw-bolder">MIT Reality Hack 2025</small> (Jan. 23–27) as part of an art grant. The system can be set up with a desktop computer, a camera, and printed transparent markers.
                         </p>
 </div>
 <div class="col-lg-7 text-center">
