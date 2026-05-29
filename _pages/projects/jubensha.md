@@ -80,7 +80,7 @@ nav: false
 </div>
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-5 mb-3 jubensha-explorations-row">
-<div class="col-lg px-0 jubensha-explorations-copy">
+<div class="col-lg project-mobile-flush-col jubensha-explorations-copy">
 <div class="jubensha-intro-subheading jubensha-explorations-subheading px-1">
 <p>Early Explorations</p>
 <hr/>
@@ -92,7 +92,7 @@ nav: false
                             In June 2022, we presented an early version of this work at the Canadian Game Studies Association Annual Conference in a talk titled "The Importation of Murder Mystery Games in China: Game Localization and Creativity."
                         </p>
 </div>
-<div class="col-lg-7 px-0 text-center">
+<div class="col-lg-7 project-mobile-flush-col text-center">
 <img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/jubensha/jubensha_3.jpg' | relative_url }}" width="100%"/>
 <p class="taxt-dark mt-0 fw-light fs-6 text-center jubensha-physical-game-caption">
                             Photo of <em>Collection</em>, our Jubensha-inspired experiment game
@@ -100,7 +100,7 @@ nav: false
 </div>
 </div>
 <div class="row flex-lg-row align-items-center py-4 mb-3">
-<div class="col-lg px-0">
+<div class="col-lg project-mobile-flush-col">
 <div class="jubensha-intro-subheading jubensha-explorations-subheading px-1">
 <p>Experiment Game (2022)</p>
 <hr/>
@@ -114,7 +114,7 @@ nav: false
                             <em>Collection</em> was exhibited at PAX East 2022 in April of that year.
                         </p>
 </div>
-<div class="col-lg-6 px-0 text-center">
+<div class="col-lg-6 project-mobile-flush-col text-center">
 <img class="bd-placeholder-img mt-5 jubensha-poster-shadow" height="100%" src="{{ '/assets/img/projects/jubensha/jubensha_7.png' | relative_url }}" width="100%"/>
 <p class="taxt-dark mt-0 fw-light fs-6 text-center jubensha-physical-game-caption">
                             Poster of <em>Collection</em> for PAX East 2022
@@ -122,7 +122,7 @@ nav: false
 </div>
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-3 mb-4 jubensha-explorations-row">
-<div class="col-lg px-0 jubensha-explorations-copy">
+<div class="col-lg project-mobile-flush-col jubensha-explorations-copy">
 <div class="jubensha-intro-subheading jubensha-explorations-subheading px-1">
 <p>Further Studies (2023-2024)</p>
 <hr/>
@@ -137,7 +137,7 @@ nav: false
                             In May 2024, we presented a stage of this work at the 19th International Conference on the Foundations of Digital Games (FDG '24).
                         </p>
 </div>
-<div class="col-lg-6 px-0 text-center jubensha-study-media-col">
+<div class="col-lg-6 project-mobile-flush-col text-center jubensha-study-media-col">
 <div class="jubensha-study-media-card">
 <div class="jubensha-study-media-section">
 <div class="jubensha-study-media-frame">
@@ -159,7 +159,7 @@ nav: false
 </div>
 </div>
 <div class="row flex-lg-row align-items-center pt-5 pb-2 mb-0 jubensha-final-row">
-<div class="col-lg px-0">
+<div class="col-lg project-mobile-flush-col">
 <div class="jubensha-intro-subheading jubensha-explorations-subheading px-1">
 <p>Final Publication (2024-2025)</p>
 <hr/>
@@ -171,7 +171,7 @@ nav: false
                             Through this work, we provide researchers and designers with a descriptive vocabulary for understanding Jubensha as a form of collaborative sensemaking play and for translating its narrative and interaction structures into future game design contexts.
                         </p>
 </div>
-<div class="col-lg-8.5 px-0 jubensha-taxonomy-col">
+<div class="col-lg-8.5 project-mobile-flush-col jubensha-taxonomy-col">
 <div class="jubensha-taxonomy-panel" aria-label="Jubensha taxonomy organized by design, dynamics, and experience">
 <div class="jubensha-taxonomy-card jubensha-taxonomy-design">
 <div class="jubensha-taxonomy-card-header"><em>Jubensha</em> <strong>DESIGN</strong></div>

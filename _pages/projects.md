@@ -37,21 +37,22 @@ nav_order: 3
 <h1 class="project-card-title">ReVISit-XR Suite</h1>
 </div>
 <p class="card-text py-2 mb-0">
-                                Just Noticeable Difference (JND) in psychology refers to the minimum level of stimulation that a person can detect 50% of the time.
-                                This project aims to evaluate the user response to the opacity JND of visualization outcomes and offer suggestions on visualization projects.
+                                The reVISit-XR Suite is a research infrastructure project that extends reVISit to support embeddable, trackable, and replayable WebXR (including virtual reality and augmented reality) stimuli for empirical visualization studies.
                             </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Lead Author.
+                            </p> 
 <div class="mb-3">
 
 <span class="badge badge-custom-cyan">Data Visualization</span>
-<span class="badge badge-custom-cyan">Research</span>
-<span class="badge badge-custom-cyan">Team Work</span>
-<span class="badge badge-custom-cyan">ReVISit</span>
+<span class="badge badge-custom-cyan">Infrastructure</span>
+<span class="badge badge-custom-cyan">Extended Reality</span>
 
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
 <div class="btn-group">
-<a class="btn btn-sm btn-outline-dark" href="https://github.com/ShanoLiang/study">GitHub</a>
-<a class="btn btn-sm btn-outline-dark" href="https://revisit.dev/">ReVISit Website</a>
+<a class="btn btn-sm btn-outline-dark" href="https://revisit.dev/">About ReVISit</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/revisitxr/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
 <small class="text-muted">In Progress</small>

@@ -131,7 +131,7 @@ nav: false
 </div>
 
 <div class="row flex-lg-row-reverse align-items-center py-4 mt-5 mb-5">
-<div class="col-lg px-0">
+<div class="col-lg px-3 project-mobile-flush-col">
 <p class="lead text-muted fw-bold fs-1 lh-1 px-2 ms-2">
 <img class="mx-lg-auto img-fluid mt-5" height="40%" src="{{ '/assets/img/projects/rimland/rimlanddecor02.png' | relative_url }}" width="40%"/>
 </p>
@@ -162,7 +162,7 @@ nav: false
 </div>
 
 <div class="row flex-lg-row align-items-center py-4 mt-5 mb-5">
-<div class="col-lg px-0">
+<div class="col-lg px-3 project-mobile-flush-col">
 <p> </p>
 <p class="lead text-muted fw-bold fs-1 lh-1 px-2 mt-0">
 <img class="mx-lg-auto img-fluid mt-5" height="40%" src="{{ '/assets/img/projects/rimland/rimlanddecor03.png' | relative_url }}" width="40%"/>

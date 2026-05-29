@@ -85,7 +85,7 @@ nav: false
 </div>
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-5 mb-3 jubensha-explorations-row euphoria-dde-row">
-<div class="col-lg px-0 jubensha-explorations-copy">
+<div class="col-lg project-mobile-flush-col jubensha-explorations-copy">
 <div class="euphoria-intro-subheading euphoria-explorations-subheading px-1">
 <p>DISCOVERED EUPHORIA</p>
 <hr/>
@@ -97,7 +97,7 @@ nav: false
                             The paper was published at CHI 2025 and received <span class="publication-award"><i class="fa-solid fa-trophy"></i> Honorable Mention Award</span>!!
                         </p>
 </div>
-<div class="col-lg-8 px-0 text-center euphoria-dde-col">
+<div class="col-lg-8 project-mobile-flush-col text-center euphoria-dde-col">
 <div class="euphoria-dde-panel" aria-label="Euphoria themes organized by design, dynamics, and experience">
 <div class="euphoria-dde-card euphoria-dde-design">
 <div class="euphoria-dde-card-header"><strong>DESIGN</strong> <span>themes</span></div>
@@ -172,7 +172,7 @@ nav: false
 </div>
 
 <div class="row flex-lg-row align-items-center py-4 mb-3">
-<div class="col-lg px-0">
+<div class="col-lg project-mobile-flush-col">
 <div class="euphoria-intro-subheading euphoria-explorations-subheading px-1">
 <p>WHY BUILD RAINBOROUGH?</p>
 <hr/>
@@ -185,16 +185,16 @@ nav: false
                             In addition, a companion user-experience paper based on Rainborough is <small class="fs-6 fw-bold">currently under review</small>; once peer review is complete, more details, results, and discussion can be shared here.
                         </p>
 </div>
-<div class="col-lg-5 px-0 text-center">
+<div class="col-lg-5 project-mobile-flush-col text-center">
 <img class="bd-placeholder-img mt-5 jubensha-poster-shadow" height="100%" src="{{ '/assets/img/projects/euphoria/euphoria_2.png' | relative_url }}" width="100%"/>
 <p class="taxt-dark mt-0 fw-light fs-6 text-center jubensha-physical-game-caption">
-                            Poster of <em>Collection</em> for PAX East 2022
+                            The honorable mention award of my <em>Designed & Discovered Euphoria</em> paper
                         </p>
 </div>
 </div>
 
 <div class="row flex-lg-row-reverse align-items-center py-3 mb-4 jubensha-explorations-row">
-<div class="col-lg px-0 jubensha-explorations-copy">
+<div class="col-lg project-mobile-flush-col jubensha-explorations-copy">
 <div class="euphoria-intro-subheading euphoria-explorations-subheading px-1">
 <p>IMPLEMENTING EUPHORIA</p>
 <hr/>
@@ -208,7 +208,7 @@ nav: false
                             At the same time, the team explicitly treated scope as a design responsibility: the prototype centers two authored trans binary major arcs, preserves nonbinary player-character configuration and gender-diverse side characters, and frames the lack of an authored nonbinary major arc as a limitation rather than universal coverage.
                         </p>
 </div>
-<div class="col-lg-6 px-0 text-center">
+<div class="col-lg-6 project-mobile-flush-col text-center">
 <img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/euphoria/euphoria_3.png' | relative_url }}" width="100%"/>
 <p class="taxt-dark mt-0 fw-light fs-6 text-center jubensha-physical-game-caption">
                             Screenshots of <em>Rainborough</em>
@@ -217,7 +217,7 @@ nav: false
 </div>
 
 <div class="row flex-lg-row align-items-center py-4 mb-3">
-<div class="col-lg px-0">
+<div class="col-lg project-mobile-flush-col">
 <div class="euphoria-intro-subheading euphoria-explorations-subheading px-1">
 <p>RAINBOROUGH GAMEPLAY</p>
 <hr/>
@@ -231,7 +231,7 @@ nav: false
                             The major relationship arcs unfold through a structured progression from first meeting to deeper trust and story-sharing.
                         </p>
 </div>
-<div class="col-lg-6 px-0 text-center">
+<div class="col-lg-6 project-mobile-flush-col text-center">
 <img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/euphoria/euphoria_4.png' | relative_url }}" width="100%"/>
 <p class="taxt-dark mt-0 fw-light fs-6 text-center jubensha-physical-game-caption">
                             Screenshots of <em>Rainborough</em>: player's room customization gameplay 
@@ -240,7 +240,7 @@ nav: false
 </div>
 
 <div class="row flex-lg-row-reverse align-items-center py-3 mb-4 jubensha-explorations-row">
-<div class="col-lg px-0 jubensha-explorations-copy">
+<div class="col-lg project-mobile-flush-col jubensha-explorations-copy">
 <div class="euphoria-intro-subheading euphoria-explorations-subheading px-1">
 <p>Why This Line of Work Matters</p>
 <hr/>
@@ -253,7 +253,7 @@ nav: false
                             For this insight, our another under review research paper discusses it in detail; once peer review is complete, more details can be shared here.
                         </p>
 </div>
-<div class="col-lg-6 px-0 text-center">
+<div class="col-lg-6 project-mobile-flush-col text-center">
 <img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/euphoria/euphoria_5.png' | relative_url }}" width="100%"/>
 <p class="taxt-dark mt-0 fw-light fs-6 text-center jubensha-physical-game-caption">
                             Screenshots of <em>Rainborough</em>
@@ -263,7 +263,7 @@ nav: false
 </div>
 
 <div class="row justify-content-center py-4 mb-5 euphoria-rainborough-demo-row">
-<div class="col-lg-10 col-xl-9 px-0">
+<div class="col-lg-10 col-xl-9 project-mobile-flush-col">
 <section class="euphoria-rainborough-demo" aria-labelledby="rainborough-demo-title">
 <div class="euphoria-rainborough-demo-header">
 <div class="euphoria-rainborough-demo-heading">
