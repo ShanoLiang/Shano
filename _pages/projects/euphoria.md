@@ -40,6 +40,8 @@ nav: false
     </div>
     </div>
     <a class="btn btn-sm btn-outline-dark" href="https://doi.org/10.1145/3706598.3714081">Publication (Euphoria DDE)</a>
+</div>
+<div class="btn-group">
         <a class="btn btn-sm btn-outline-dark" href="https://doi.org/10.17613/wvepr-20076">Postmortem</a>
     <a class="btn btn-sm btn-outline-dark" href="https://theconversation.com/video-games-can-help-trans-players-feel-seen-and-safe-it-all-starts-with-design-257901">Media Coverage</a>
 </div>

@@ -48,7 +48,8 @@ nav: false
 <div class="image-container">
 <img src="{{ '/assets/img/projects/battle-billiards/bb01-frame.png' | relative_url }}" style="height: 100%;"/>
 <div class="overlay-text battle-billiards-title-overlay">
-<p> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p class="fs-1 lh-1 text-sm-start px-0 battle-billiards-kicker-line">
 <span class="align-bottom oversized-text-cm">Technical Artist</span>
 </p>
@@ -56,12 +57,13 @@ nav: false
 <span class="align-bottom oversized-text-wb">BATTLE BILLIARDS</span>
 </p>
 <hr class="text-white battle-billiards-intro-divider"/>
-<p class="text-white fs-5 fw-light lh-sm px-0">
+<p class="text-white fs-6 fw-light lh-sm px-0">
                                     Working as a contract technical artist, I designed, modeled, and textured high-poly 3D assets for 3D environments and level layouts, using realistic PBR materials to support the game's visual style. 
                                     I also created doodle-styled animated 2D assets and developed interactable volumetric snow and sand shader effects for Unity HDRP. 
                                     In addition to the visual production work, I contributed to horde-mode gameplay prototypes as part of the broader development process.
                                 </p>
-<p> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 </div>
 </div>
 </div>

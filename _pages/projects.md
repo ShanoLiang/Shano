@@ -26,7 +26,7 @@ nav_order: 3
 </section>
 <div class="album py-5 px-4">
 <div class="container">
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+<div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3">
 
 
 <div class="col">
@@ -120,7 +120,6 @@ nav_order: 3
 </div>
 </div>
 <a class="btn btn-sm btn-outline-dark" href="https://doi.org/10.1145/3706598.3714081">Publication</a>
-<a class="btn btn-sm btn-outline-dark" href="https://theconversation.com/video-games-can-help-trans-players-feel-seen-and-safe-it-all-starts-with-design-257901">Media Coverage</a>
 <a class="btn btn-dark btn-sm" href="{{ '/projects/euphoria/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>

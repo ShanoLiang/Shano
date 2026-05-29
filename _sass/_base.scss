@@ -1274,8 +1274,10 @@ footer.sticky-bottom {
   }
 
   .card-img-top {
+    display: block;
     width: 100%;
-    height: 225px;
+    height: auto !important;
+    aspect-ratio: 16 / 9;
     background: #f4f4f4;
     object-fit: cover;
     object-position: center;
@@ -4024,8 +4026,8 @@ body.revisitgames-demo-lock-scroll {
     .album > .container {
       width: 100% !important;
       max-width: 100% !important;
-      padding-right: 0.75rem !important;
-      padding-left: 0.75rem !important;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
     }
 
     .row.g-3 {
@@ -4044,9 +4046,36 @@ body.revisitgames-demo-lock-scroll {
     }
 
     .card-img-top {
-      height: auto;
+      display: block;
+      height: auto !important;
       aspect-ratio: 16 / 9;
       object-fit: cover;
+    }
+
+    .card-body {
+      padding: 0.875rem !important;
+    }
+
+    .badge-custom-cyan {
+      padding: 0.19rem 0.35rem;
+      border-radius: 0.28rem;
+      font-size: 0.665rem;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .btn-group > .btn,
+    .btn-group > a,
+    .btn-group > .image-tooltip-container > .btn,
+    .btn-group > .tooltip-container > .btn {
+      height: 27px;
+      min-height: 27px;
+      padding-right: 0.42rem;
+      padding-left: 0.42rem;
+      border-radius: 3.5px;
+      font-size: 0.72rem;
+      line-height: 1 !important;
+      white-space: nowrap;
     }
   }
 
@@ -4088,6 +4117,113 @@ body.revisitgames-demo-lock-scroll {
   .project-detail-content iframe[src*="youtube.com"],
   .project-detail-content iframe[src*="youtu.be"] {
     height: auto !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .project-detail-content .image-container .oversized-text-cm,
+  .project-detail-content .image-container .oversized-text-cms {
+    font-size: 1.53rem !important;
+  }
+
+  .project-detail-content .image-container .oversized-text-wb {
+    font-size: 2.55rem !important;
+  }
+
+  .project-detail-content .image-container .oversized-text-wbs {
+    font-size: 2.125rem !important;
+  }
+
+  .project-detail-content .image-container .oversized-text-bb {
+    font-size: 2.55rem !important;
+  }
+
+  .project-detail-content .jubensha-detail-page .jubensha-overlay-heading-stack:not(.noshake-title-overlay),
+  .project-detail-content .rimland-detail-page .rimland-overlay-heading-stack {
+    left: 47% !important;
+    width: 86% !important;
+    transform: translate(-50%, -60%) !important;
+  }
+
+  .project-detail-content .jubensha-detail-page .jubensha-overlay-heading-stack:not(.noshake-title-overlay) p.fs-1,
+  .project-detail-content .rimland-detail-page .rimland-overlay-heading-stack p.fs-1 {
+    margin-bottom: 0.13rem !important;
+    line-height: 0.86 !important;
+  }
+
+  .project-detail-content .jubensha-detail-page .jubensha-overlay-heading-stack:not(.noshake-title-overlay) .oversized-text-cm,
+  .project-detail-content .rimland-detail-page .rimland-overlay-heading-stack .oversized-text-cm {
+    font-size: 1.377rem !important;
+  }
+
+  .project-detail-content .jubensha-detail-page .jubensha-overlay-heading-stack:not(.noshake-title-overlay) .oversized-text-wb,
+  .project-detail-content .rimland-detail-page .rimland-overlay-heading-stack .oversized-text-wb {
+    font-size: 2.295rem !important;
+  }
+
+  .project-detail-content .revisitgames-detail-page .revisitgames-overlay-heading-stack {
+    --revisitgames-overlay-kicker-font-size: 1.22rem;
+    --revisitgames-overlay-title-font-size: 2.04rem;
+    transform: translateY(-62%) !important;
+  }
+
+  .project-detail-content .noshake-detail-page .noshake-hero-title {
+    font-size: clamp(2.329rem, 3.757vw, 3.205rem) !important;
+  }
+
+  .project-detail-content .world-of-summoner-detail-page .wos-intro-overlay {
+    left: 65% !important;
+    width: 70% !important;
+    transform: translate(-50%, -60%) !important;
+  }
+
+  .project-detail-content .world-of-summoner-detail-page .wos-overlay-heading-stack p.fs-1 {
+    margin-bottom: 0.07rem !important;
+    line-height: 0.74 !important;
+  }
+
+  .project-detail-content .world-of-summoner-detail-page .wos-intro-overlay .wos-intro-title-line {
+    line-height: 0.74 !important;
+  }
+
+  .project-detail-content .world-of-summoner-detail-page .wos-intro-overlay .wos-intro-kicker {
+    margin-bottom: 0.07rem !important;
+    line-height: 0.78 !important;
+  }
+
+  .project-detail-content .world-of-summoner-detail-page .wos-intro-overlay .wos-intro-kicker .oversized-text-cm {
+    font-size: 1.35rem !important;
+    line-height: 0.78 !important;
+  }
+
+  .project-detail-content .world-of-summoner-detail-page .wos-intro-overlay .wos-intro-title-line .oversized-text-wb {
+    font-size: 1.984rem !important;
+    line-height: 0.74 !important;
+  }
+
+  .project-detail-content .world-of-summoner-detail-page .wos-intro-overlay .wos-intro-world-line {
+    margin-bottom: -0.18rem !important;
+  }
+
+  .project-detail-content .for-survive-detail-page .for-survive-intro-overlay .for-survive-intro-kicker .oversized-text-cm {
+    font-size: 1.301rem !important;
+  }
+
+  .project-detail-content .for-survive-detail-page .for-survive-intro-overlay .for-survive-intro-title-line .oversized-text-wb {
+    font-size: 2.023rem !important;
+    letter-spacing: 0 !important;
+  }
+
+  .project-detail-content .for-survive-detail-page .for-survive-intro-overlay {
+    transform: translate(-50%, -58%) !important;
+  }
+
+  .project-detail-content .for-survive-detail-page .for-survive-section-title-overlay .oversized-text-bb {
+    font-size: 2.55rem !important;
+  }
+
+  .project-detail-content .free-body-diagram-detail-page .free-body-diagram-title-text {
+    font-size: 1.87rem !important;
   }
 }
 

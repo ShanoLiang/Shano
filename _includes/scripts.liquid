@@ -310,6 +310,30 @@
   <script src="{{ '/assets/js/vanilla-back-to-top.min.js' | relative_url | bust_file_cache }}"></script>
   <script>
     addBackToTop();
+    (function () {
+      var button = document.getElementById("back-to-top");
+      var mobileQuery = window.matchMedia("(max-width: 575.98px)");
+
+      function syncMobileBackToTop() {
+        if (!button || !mobileQuery.matches) {
+          return;
+        }
+
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        if (scrollTop > 120) {
+          button.classList.remove("hidden");
+        }
+      }
+
+      window.addEventListener("scroll", syncMobileBackToTop, { passive: true });
+      window.addEventListener("resize", syncMobileBackToTop);
+      window.addEventListener("orientationchange", syncMobileBackToTop);
+      window.addEventListener("pageshow", syncMobileBackToTop);
+      if (window.visualViewport) {
+        window.visualViewport.addEventListener("resize", syncMobileBackToTop);
+      }
+      requestAnimationFrame(syncMobileBackToTop);
+    })();
   </script>
 {% endif %}
 

@@ -47,7 +47,8 @@ nav: false
 <div class="image-container">
 <img src="{{ '/assets/img/projects/covid-control-simulator/covidsim01-frame.png' | relative_url }}" style="height: 110%;"/>
 <div class="overlay-text ms-3 covid-control-intro-overlay">
-<p> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p class="fs-1 lh-1 text-sm-start px-0 mb-1 covid-control-intro-title-line">
 <span class="align-bottom oversized-text-wbs">COVID Control Simulator</span>
 </p>
@@ -60,8 +61,9 @@ nav: false
                                     Players must balance saving lives, maintaining public morale, and sustaining the local economy while dealing with limited information, rapidly evolving situations, and the human stories behind every statistic. 
                                     Our team collected more than 1,000 real-world news reports, then adapted this material into the game. 
                                 </p>
-<p> </p>
-<p> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 </div>
 </div>
 </div>

@@ -35,6 +35,8 @@ nav: false
 <div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://www.youtube.com/watch?v=R2OpDN-V_Bs">Video (early pototype)</a>
 <a class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3721121">Publication</a>
+</div>
+<div class="btn-group">
 <a class="btn btn-sm btn-outline-dark" href="https://mssv.net/2025/03/26/heres-what-makes-jubensha-different/">Media Coverage</a>
 </div>
 </div>
