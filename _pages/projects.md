@@ -520,7 +520,7 @@ nav_order: 3
                                 An award-winning tabletop strategy game that led to the founding of our student-run game studio, Wuhan KBOOM Network Tech Co. Ltd.
                             </p>
 <p class="card-text py-0 mb-2">
-<small class="fw-bold fs-6">Award</small>: <small class="fw-bold">Third Place</small>, Hubei Province Universities Creation Youth Student Entrepreneurship Competition (2016): 10,000 CNY (~$1,428).
+<small class="fw-bold fs-6">Award</small>: <small class="fw-bold">Third Place</small>, Hubei Provincial "Chuangqingchun" College Student Entrepreneurship Competition (2016): 10,000 CNY (~$1,428).
                             </p>
 <p class="card-text py-0 mb-2">
 <small class="fw-bold">My Role:</small> Team and Project Lead.

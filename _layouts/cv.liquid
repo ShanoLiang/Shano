@@ -1,7 +1,72 @@
 ---
 layout: default
 ---
-{% unless site.data.resume %}
+{% if page.custom_cv %}
+  <div class="post shano-cv-page">
+    <header class="shano-cv-header">
+      <div class="shano-cv-header-copy">
+        <p class="shano-cv-header-kicker">Curriculum Vitae</p>
+        {% if page.description %}
+          <p class="post-description">{{ page.description }}</p>
+        {% endif %}
+      </div>
+      {% if page.cv_pdf %}
+        <a
+          {% if page.cv_pdf contains '://' %}
+            href="{{ page.cv_pdf }}"
+          {% else %}
+            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+          {% endif %}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="shano-cv-pdf-button"
+          aria-label="Open CV PDF"
+        >
+          <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+    </header>
+
+    {% if page.cv_nav %}
+      <nav class="shano-cv-floating-nav" aria-label="CV section navigation">
+        {% for item in page.cv_nav %}
+          <a href="{{ item.href }}">{{ item.label }}</a>
+        {% endfor %}
+      </nav>
+    {% endif %}
+
+    <article>
+      <div class="cv shano-cv-content">
+        {{ content }}
+      </div>
+    </article>
+
+    {% if page.cv_nav %}
+      <script>
+        (() => {
+          const root = document.documentElement;
+          const nav = document.querySelector(".shano-cv-floating-nav");
+          if (!nav) return;
+
+          let timer;
+          const fadeNav = () => {
+            if (nav.matches(":hover")) return;
+            root.classList.add("shano-cv-nav-transient");
+            window.clearTimeout(timer);
+            timer = window.setTimeout(() => {
+              root.classList.remove("shano-cv-nav-transient");
+            }, 700);
+          };
+
+          window.addEventListener("scroll", fadeNav, { passive: true });
+          window.addEventListener("pointermove", fadeNav, { passive: true });
+          nav.addEventListener("mouseenter", () => root.classList.remove("shano-cv-nav-transient"));
+          nav.addEventListener("mouseleave", fadeNav);
+        })();
+      </script>
+    {% endif %}
+  </div>
+{% elsif site.data.resume == nil %}
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
@@ -124,4 +189,4 @@ layout: default
       </div>
     </article>
   </div>
-{% endunless %}
+{% endif %}
