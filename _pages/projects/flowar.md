@@ -64,7 +64,7 @@ nav: false
 </div>
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-5 mb-3 jubensha-explorations-row">
-<div class="col-lg jubensha-explorations-copy">
+<div class="col-lg px-0 jubensha-explorations-copy">
 <div class="jubensha-intro-subheading jubensha-explorations-subheading px-1">
 </div>
 <p class="lead text-muted fs-6 lh-sm px-1 text-start">
@@ -75,7 +75,7 @@ nav: false
                             This page therefore focuses on my early-stage design and prototyping contributions to the Flow Chemistry AR project.
                         </p>
 </div>
-<div class="col-lg-7 text-center">
+<div class="col-lg-7 px-0 text-center">
 <img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/flowar/flowar_2.jpg' | relative_url }}" width="100%"/>
 </div>
 </div>

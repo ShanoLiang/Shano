@@ -66,7 +66,7 @@ nav: false
 </div>
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-5 mb-3 jubensha-explorations-row">
-<div class="col-lg jubensha-explorations-copy">
+<div class="col-lg px-0 jubensha-explorations-copy">
 <div class="noshake-build-heading-row">
 <div class="jubensha-intro-subheading jubensha-explorations-subheading noshake-build-subheading px-1">
 <p>BUILD & CRAFTING</p>
@@ -88,7 +88,7 @@ nav: false
 <img src="{{ '/assets/img/projects/noshake/Sign5.png' | relative_url }}" alt="No Shake warning sign 5"/>
 </div>
 </div>
-<div class="col-lg-6 text-center">
+<div class="col-lg-6 px-0 text-center">
 <img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/noshake/noshake_2.png' | relative_url }}" width="100%"/>
 <p class="taxt-dark mt-0 fw-light fs-6 text-center jubensha-physical-game-caption">
                         Crafting the body of No Shake
@@ -124,7 +124,7 @@ nav: false
 </div>
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-5 mb-3 jubensha-explorations-row">
-<div class="col-lg jubensha-explorations-copy">
+<div class="col-lg px-0 jubensha-explorations-copy">
 <div class="jubensha-intro-subheading jubensha-explorations-subheading px-1">
 <p>Realistic... Pixel Art?</p>
 <hr/>
@@ -137,7 +137,7 @@ nav: false
                         When we exhibited the project, one player said the scene reminded them of Jerry's little home inside the wall in Tom and Jerry, except darker.
                         </p>
 </div>
-<div class="col-lg-8 text-center">
+<div class="col-lg-8 px-0 text-center">
 <img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/noshake/noshake_4.png' | relative_url }}" width="100%"/>
 <p class="taxt-dark mt-0 fw-light fs-6 text-center jubensha-physical-game-caption">
                         Pixel art style but with PBR and Unity HDRP
@@ -153,7 +153,7 @@ nav: false
 </div>
 
 <div class="row flex-lg-row align-items-center py-4 mb-3">
-<div class="col-lg">
+<div class="col-lg px-0">
 <div class="jubensha-intro-subheading jubensha-explorations-subheading px-1">
 <p>A Product of Humor</p>
 <hr/>
@@ -167,7 +167,7 @@ nav: false
                         </p>
 </div>
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
-<div class="col-lg-7 text-center noshake-merch-media-col">
+<div class="col-lg-7 px-0 text-center noshake-merch-media-col">
 <div class="noshake-merch-card">
 <div class="noshake-merch-section noshake-sign-grid-section">
 <div class="noshake-sign-grid">

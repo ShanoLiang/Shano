@@ -63,7 +63,7 @@ nav: false
 </div>
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-5 mb-3 jubensha-explorations-row">
-<div class="col-lg jubensha-explorations-copy">
+<div class="col-lg px-0 jubensha-explorations-copy">
 <div class="noshake-build-heading-row">
 <div class="jubensha-intro-subheading jubensha-explorations-subheading noshake-build-subheading px-1">
 </div>
@@ -72,7 +72,7 @@ nav: false
                         Alongside the technical prototype, we are gathering design insights from experienced tabletop role-playing game hosts and players. These conversations focus on what contributes to immersion during actual play sessions, including pacing, atmosphere, player attention, props, environmental cues, and the role of the game host. The project is still ongoing, and the interview findings are currently informing the next stage of prototype design. More details will be shared after the research paper is ready for public release.
                         </p>
 </div>
-<div class="col-lg-6 text-center stackar-media-col">
+<div class="col-lg-6 px-0 text-center stackar-media-col">
 <div class="stackar-media-card">
 <div class="stackar-media-section">
 <div class="stackar-media-frame">

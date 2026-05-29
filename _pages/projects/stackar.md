@@ -58,7 +58,7 @@ nav: false
 </div>
 </div>
 <div class="row flex-lg-row-reverse align-items-center py-5 mb-3 jubensha-explorations-row">
-<div class="col-lg jubensha-explorations-copy">
+<div class="col-lg px-0 jubensha-explorations-copy">
 <div class="jubensha-intro-subheading jubensha-explorations-subheading px-1">
 </div>
 <p class="lead text-muted fs-6 lh-sm px-1 text-start">
@@ -66,7 +66,7 @@ nav: false
                         It was later selected for presentation at <small class="fs-6 fw-bolder">MIT Reality Hack 2025</small> (Jan. 23–27) as part of an art grant. The system can be set up with a desktop computer, a camera, and printed transparent markers.
                         </p>
 </div>
-<div class="col-lg-7 text-center">
+<div class="col-lg-7 px-0 text-center">
 <img class="bd-placeholder-img mt-5" height="100%" src="{{ '/assets/img/projects/stackar/stackar_1.jpg' | relative_url }}" width="100%"/>
 <p class="taxt-dark mt-0 fw-light fs-6 text-center jubensha-physical-game-caption">
                         Presenting Stack AR at MIT Reality Hack 2025
@@ -74,7 +74,7 @@ nav: false
 </div>
 </div>
 <div class="row flex-lg-row align-items-center py-4 mb-3">
-<div class="col-lg">
+<div class="col-lg px-0">
 <div class="jubensha-intro-subheading jubensha-explorations-subheading px-1">
 <p>Technical Highlights</p>
 <hr/>
@@ -89,7 +89,7 @@ nav: false
                             <span class="stackar-tech-lead">Detection and Interactive Synthesis:</span> By precomputing viable marker combinations, Stack AR can identify both individual and stacked markers within a single frame. Detected combinations trigger corresponding audio, 3D models, and particle effects in Stackable Music. The system is designed to remain usable under partial occlusion, variable lighting, and the visual ambiguity introduced by transparent materials.
                         </p>
 </div>
-<div class="col-lg-6 text-center stackar-media-col">
+<div class="col-lg-6 px-0 text-center stackar-media-col">
 <div class="stackar-media-card">
 <div class="stackar-media-section">
 <div class="stackar-media-frame">

@@ -79,7 +79,7 @@ nav: false
 </div>
 
 <div class="row flex-lg-row-reverse align-items-center py-3 mb-4 jubensha-explorations-row">
-<div class="col-lg jubensha-explorations-copy">
+<div class="col-lg px-0 jubensha-explorations-copy">
 <div class="revisitgames-intro-subheading revisitgames-explorations-subheading px-1">
 <p>REVISIT-GAMES FRAMEWORK</p>
 <hr/>
@@ -92,7 +92,7 @@ nav: false
                             The paper reporting this framework is <small class="fs-6 fw-bold">currently under review</small>; more details, results, and discussion will be added after peer review is complete.
                         </p>
 </div>
-<div class="col-lg-6 text-center revisitgames-study-media-col">
+<div class="col-lg-6 px-0 text-center revisitgames-study-media-col">
 <div class="revisitgames-study-media-card">
 <div class="revisitgames-study-media-section">
 <div class="revisitgames-study-media-frame">
@@ -115,7 +115,7 @@ nav: false
 </div>
 
 <div class="row flex-lg-row align-items-center py-4 mb-3">
-<div class="col-lg">
+<div class="col-lg px-0">
 <p class="fs-1 lh-1 text-sm-start px-0">
 <span class="align-bottom revisitgames-overlay-title revisitgames-field-test-title">FIELD TEST: REPLICATIONS</span>
 </p>
@@ -134,7 +134,7 @@ nav: false
                             This triggers the end-of-level survey, and only after the survey is completed can participants proceed to the next randomly selected level.
                         </p>
 </div>
-<div class="col-lg-7 revisitgames-playable-demo-col">
+<div class="col-lg-7 px-0 revisitgames-playable-demo-col">
 <section class="euphoria-rainborough-demo revisitgames-playable-demo" aria-labelledby="pcg-demo-title" data-revisitgames-demo="pcg" data-revisitgames-demo-title="Dungeon Digger Web Demo">
 <div class="euphoria-rainborough-demo-header">
 <div class="euphoria-rainborough-demo-heading">
@@ -169,7 +169,7 @@ nav: false
 </div>
 
 <div class="row flex-lg-row-reverse align-items-center py-3 mb-4 jubensha-explorations-row">
-<div class="col-lg jubensha-explorations-copy">
+<div class="col-lg px-0 jubensha-explorations-copy">
 <div class="revisitgames-intro-subheading revisitgames-explorations-subheading px-1">
 <p>CASE 2: CITY WANDERER</p>
 <p class="fs-5 lh-sm text-muted">3D Navigation with Procedurally Generated City Map
@@ -184,7 +184,7 @@ nav: false
                             In reVISit-Games, these branches were represented within one online study program, allowing condition assignment, map-order control, training, testing, questionnaires, and gameplay logging to remain coordinated in a single deployment.
                         </p>
 </div>
-<div class="col-lg-7 revisitgames-playable-demo-col">
+<div class="col-lg-7 px-0 revisitgames-playable-demo-col">
 <section class="euphoria-rainborough-demo revisitgames-playable-demo" aria-labelledby="navigation-demo-title" data-revisitgames-demo="navigation" data-revisitgames-demo-title="City Wanderer WebGL Demo">
 <div class="euphoria-rainborough-demo-header">
 <div class="euphoria-rainborough-demo-heading">
@@ -230,7 +230,7 @@ nav: false
 </div>
 
 <div class="row flex-lg-row align-items-center py-4 mb-3">
-<div class="col-lg">
+<div class="col-lg px-0">
 <div class="revisitgames-intro-subheading revisitgames-explorations-subheading px-1">
 <p>CASE 3: JUICY FROGGER</p>
 <p class="fs-5 lh-sm text-muted">The Impact of Juicy Feedback on Player Engagement
@@ -243,7 +243,7 @@ nav: false
                             Participants could select a difficulty setting before play, and that study-side choice was passed into the game at runtime. The replication collected both self-report measures and gameplay logs, including scores, deaths, cleared levels, and play duration.
                         </p>
 </div>
-<div class="col-lg-7 revisitgames-playable-demo-col">
+<div class="col-lg-7 px-0 revisitgames-playable-demo-col">
 <section class="euphoria-rainborough-demo revisitgames-playable-demo" aria-labelledby="frogger-demo-title" data-revisitgames-demo="frogger" data-revisitgames-demo-title="Juicy Frogger WebGL Demo">
 <div class="euphoria-rainborough-demo-header">
 <div class="euphoria-rainborough-demo-heading">
