@@ -361,9 +361,12 @@ ul.timeline li::before {
 }
 
 .shano-cv-floating-nav a:hover,
-.shano-cv-floating-nav a:focus {
+.shano-cv-floating-nav a:focus,
+.shano-cv-floating-nav a.active,
+.shano-cv-floating-nav a[aria-current="true"] {
   color: #048ab0;
   background: rgba(25, 185, 220, 0.12);
+  text-decoration: none !important;
 }
 
 .shano-cv-profile {

@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 5
 custom_cv: true
-cv_pdf: Shano-Liang-CV.pdf # place the final PDF in assets/pdf/ when it is ready
+cv_pdf: Shano_CV.pdf
 description:
 toc: false
 cv_nav:

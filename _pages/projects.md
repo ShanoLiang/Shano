@@ -19,8 +19,9 @@ nav_order: 3
 <section class="py-5 text-center container">
 <div class="row py-lg-5">
 <div class="col-lg-6 col-md-8 mx-auto">
-<h1 class="display-5 fs-1 fw-bold lh-1 mb-3">Projects</h1>
-<p class="lead text-muted fs-5 lh-sm">My projects showcase my design and development skills in various interdisciplinary fields. </p>
+<h1 class="display-5 fs-1 fw-bold lh-1 mb-3">PROJECTS</h1>
+<hr>
+<p class="lead text-muted fs-6 lh-sm">My projects showcase my design and development skills and practice in various interdisciplinary fields, across interactive media, games, data visualization, VR/AR, tangible & embodied interaction, serious games & simulators, and study infrastructure.</p>
 </div>
 </div>
 </section>

@@ -30,7 +30,7 @@ layout: default
     {% if page.cv_nav %}
       <nav class="shano-cv-floating-nav" aria-label="CV section navigation">
         {% for item in page.cv_nav %}
-          <a href="{{ item.href }}">{{ item.label }}</a>
+          <a href="{{ item.href }}" data-cv-section-link="{{ item.href | remove: '#' }}">{{ item.label }}</a>
         {% endfor %}
       </nav>
     {% endif %}
@@ -48,7 +48,17 @@ layout: default
           const nav = document.querySelector(".shano-cv-floating-nav");
           if (!nav) return;
 
+          const navLinks = Array.from(nav.querySelectorAll("[data-cv-section-link]"));
+          const sections = navLinks
+            .map((link) => {
+              const id = link.getAttribute("data-cv-section-link");
+              return id ? document.getElementById(id) : null;
+            })
+            .filter(Boolean);
+
           let timer;
+          let activeFrame = null;
+
           const fadeNav = () => {
             if (nav.matches(":hover")) return;
             root.classList.add("shano-cv-nav-transient");
@@ -58,7 +68,41 @@ layout: default
             }, 700);
           };
 
-          window.addEventListener("scroll", fadeNav, { passive: true });
+          const setActiveSection = () => {
+            activeFrame = null;
+            if (!sections.length) return;
+
+            const scrollAnchor = window.scrollY + 140;
+            let activeId = sections[0].id;
+
+            sections.forEach((section) => {
+              if (section.offsetTop <= scrollAnchor) {
+                activeId = section.id;
+              }
+            });
+
+            navLinks.forEach((link) => {
+              const isActive = link.getAttribute("data-cv-section-link") === activeId;
+              link.classList.toggle("active", isActive);
+              if (isActive) {
+                link.setAttribute("aria-current", "true");
+              } else {
+                link.removeAttribute("aria-current");
+              }
+            });
+          };
+
+          const scheduleActiveSection = () => {
+            if (activeFrame !== null) return;
+            activeFrame = window.requestAnimationFrame(setActiveSection);
+          };
+
+          setActiveSection();
+          window.addEventListener("scroll", () => {
+            fadeNav();
+            scheduleActiveSection();
+          }, { passive: true });
+          window.addEventListener("resize", scheduleActiveSection);
           window.addEventListener("pointermove", fadeNav, { passive: true });
           nav.addEventListener("mouseenter", () => root.classList.remove("shano-cv-nav-transient"));
           nav.addEventListener("mouseleave", fadeNav);

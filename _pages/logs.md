@@ -12,10 +12,11 @@ nav: false
   }
 </style>
 
+<div id="logs-vanta-bg" class="logs-vanta-bg" aria-hidden="true"></div>
 <div class="logs-page">
 <main>
 <section class="logs-hero">
-<h1 class="logs-title">Logs and photos</h1>
+<h1 class="logs-title">LOGS AND PHOTOS</h1>
 <p class="logs-lead">Some photos, images, screenshots, and art.</p>
 </section>
 
@@ -34,6 +35,18 @@ nav: false
 </nav>
 <div class="logs-content">
 <section id="logs-2025" class="logs-section" data-logs-year="2025">
+<div class="row align-items-start">
+<div class="col-lg">
+<img class="logs-image" loading="lazy" src="{{ '/assets/img/projects/revisitxr/revisitxr_2.png' | relative_url }}" alt="reVISit-XR usage examples 1 to 3">
+</div>
+<div class="col-lg">
+<img class="logs-image" loading="lazy" src="{{ '/assets/img/projects/revisitxr/revisitxr_3.png' | relative_url }}" alt="reVISit-XR usage examples 4 to 6">
+</div>
+<p class="logs-caption"><a class="text-dark" href="{{ '/projects/revisitxr/' | relative_url }}">reVISit-XR</a> usage examples</p>
+</div>
+</section>
+
+<section class="logs-section" data-logs-year="2025">
 <div class="row align-items-center">
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/logeuphoriasim01.png' | relative_url }}" alt="Euphoria Simulator screenshot 1">
@@ -43,7 +56,7 @@ nav: false
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/logeuphoriasim03.png' | relative_url }}" alt="Euphoria Simulator screenshot 3">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/logeuphoriasim04.png' | relative_url }}" alt="Euphoria Simulator screenshot 4">
 </div>
-<p class="logs-caption">Screenshots of the Euphoria Simulator Project, Jun. 2025.</p>
+<p class="logs-caption">Screenshots of our developed research game, <a class="text-dark" href="{{ '/projects/euphoria/' | relative_url }}">Rainborough</a>, Jun. 2025.</p>
 </div>
 </section>
 
@@ -52,7 +65,43 @@ nav: false
 <div class="col-lg text-center">
 <img class="logs-image logs-image-award" loading="lazy" src="{{ '/assets/img/projects/CHI25Award.png' | relative_url }}" alt="CHI 2025 honorable mention award">
 </div>
-<p class="logs-caption">Honorable Mention Award for Best Paper at the ACM Conference on Human Factors in Computing Systems (CHI), May 2025.</p>
+<p class="logs-caption"><a class="text-dark" href="{{ '/projects/euphoria/' | relative_url }}">Euphoria Project</a>: Honorable Mention Award for Best Paper at the ACM Conference on Human Factors in Computing Systems (CHI), May 2025.</p>
+</div>
+</section>
+
+<section class="logs-section" data-logs-year="2025">
+<div class="row align-items-center">
+<div class="col-lg text-center">
+<img class="logs-image logs-image-feature" loading="lazy" src="{{ '/assets/img/projects/noshake/noshake_5.png' | relative_url }}" alt="Final build of No Shake">
+</div>
+<p class="logs-caption">Final build of <a class="text-dark" href="{{ '/projects/noshake/' | relative_url }}">No Shake</a></p>
+</div>
+</section>
+
+<section class="logs-section" data-logs-year="2025">
+<div class="row align-items-center">
+<div class="col-lg text-center">
+<img class="logs-image logs-image-feature" loading="lazy" src="{{ '/assets/img/projects/noshake/noshake_4.png' | relative_url }}" alt="No Shake pixel art style with PBR and Unity HDRP">
+</div>
+<p class="logs-caption"><a class="text-dark" href="{{ '/projects/noshake/' | relative_url }}">No Shake</a>: Pixel art style but with PBR and Unity HDRP</p>
+</div>
+</section>
+
+<section class="logs-section" data-logs-year="2025">
+<div class="row align-items-center">
+<div class="col-lg text-center">
+<img class="logs-image logs-image-feature" loading="lazy" src="{{ '/assets/img/projects/noshake/noshake_3.png' | relative_url }}" alt="No Shake from sketch to modeling, texturing, and rendering">
+</div>
+<p class="logs-caption"><a class="text-dark" href="{{ '/projects/noshake/' | relative_url }}">No Shake</a>: From sketch to modeling, texturing, and rendering</p>
+</div>
+</section>
+
+<section class="logs-section" data-logs-year="2025">
+<div class="row align-items-center">
+<div class="col-lg text-center">
+<img class="logs-image logs-image-feature" loading="lazy" src="{{ '/assets/img/projects/noshake/noshake_2.png' | relative_url }}" alt="Crafting the body of No Shake">
+</div>
+<p class="logs-caption">Crafting the body of <a class="text-dark" href="{{ '/projects/noshake/' | relative_url }}">No Shake</a></p>
 </div>
 </section>
 
@@ -80,7 +129,7 @@ nav: false
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/stackar01.png' | relative_url }}" alt="Stack AR project photo">
 <img class="logs-image logs-image-narrow" loading="lazy" src="{{ '/assets/img/logs/stackar02.png' | relative_url }}" alt="Stack AR project introduction">
 </div>
-<p class="logs-caption">Photos and Introduction of <a class="text-dark" href="https://jingruchenmax.github.io/StackAR/" target="_blank" rel="noopener noreferrer">Transparent AR Markers</a> Project, Sept. 2023.</p>
+<p class="logs-caption">Photos and Introduction of <a class="text-dark" href="{{ '/projects/stackar/' | relative_url }}">Transparent AR Markers</a> Project (<a class="text-dark" href="https://jingruchenmax.github.io/StackAR/" target="_blank" rel="noopener noreferrer">check out our website!</a>), Sept. 2023.</p>
 </div>
 </section>
 
@@ -123,7 +172,16 @@ nav: false
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/log360lab03.jpg' | relative_url }}" alt="360 Labs exhibition photo 3">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/log360lab04.jpg' | relative_url }}" alt="360 Labs exhibition photo 4">
 </div>
-<p class="logs-caption">Photos of the Exhibition of the 360 Labs for <a class="text-dark" href="https://my.matterport.com/show/?m=4kYRmoR3DnP" target="_blank" rel="noopener noreferrer">WPI PracticePoint</a>. Exhibited at DeviceTalks, Boston, May 2022.</p>
+<p class="logs-caption">Photos of the Exhibition of the <a class="text-dark" href="{{ '/projects/360lab/' | relative_url }}">360 Lab Tours</a> for <a class="text-dark" href="https://my.matterport.com/show/?m=4kYRmoR3DnP" target="_blank" rel="noopener noreferrer">WPI PracticePoint</a>. Exhibited at DeviceTalks, Boston, May 2022.</p>
+</div>
+</section>
+
+<section class="logs-section" data-logs-year="2022">
+<div class="row align-items-center">
+<div class="col-lg text-center">
+<img class="logs-image logs-image-poster logs-image-shadow" loading="lazy" src="{{ '/assets/img/projects/jubensha/jubensha_7.png' | relative_url }}" alt="Poster of Collection for PAX East 2022">
+</div>
+<p class="logs-caption"><a class="text-dark" href="{{ '/projects/jubensha/' | relative_url }}">Jubensha Project</a>: Poster of <a class="text-dark" href="https://www.youtube.com/watch?v=4btZEvH6Ypw" target="_blank" rel="noopener noreferrer">Collection</a> for PAX East 2022</p>
 </div>
 </section>
 
@@ -138,7 +196,7 @@ nav: false
 <div class="col-lg">
 <img class="logs-image" loading="lazy" src="{{ '/assets/img/logs/logcollection03.jpg' | relative_url }}" alt="Collection exhibition photo 3">
 </div>
-<p class="logs-caption">Photos of exhibition of the experimental storytelling project <a class="text-dark" href="https://www.youtube.com/watch?v=4btZEvH6Ypw" target="_blank" rel="noopener noreferrer">Collection</a> at PAX 2022 East, Boston, May 2022.</p>
+<p class="logs-caption"><a class="text-dark" href="{{ '/projects/jubensha/' | relative_url }}">Jubensha Project</a>: Photos of exhibition of the experimental storytelling project <a class="text-dark" href="https://www.youtube.com/watch?v=4btZEvH6Ypw" target="_blank" rel="noopener noreferrer">Collection</a> at PAX 2022 East, Boston, May 2022.</p>
 </div>
 </section>
 
@@ -280,7 +338,7 @@ nav: false
 </div>
 </section>
 <hr>
-<p class="logs-page-updated">The Page Last Edited in: May 26, 2026</p>
+<p class="logs-page-updated">The Page Last Edited in: May 30, 2026</p>
 </div>
 </div>
 </div>
@@ -306,12 +364,52 @@ nav: false
         });
 
         yearLinks.forEach(function (link) {
-          link.classList.toggle("active", link.getAttribute("data-logs-year-link") === activeYear);
+          const isActive = link.getAttribute("data-logs-year-link") === activeYear;
+          link.classList.toggle("active", isActive);
+          if (isActive) {
+            link.setAttribute("aria-current", "true");
+          } else {
+            link.removeAttribute("aria-current");
+          }
         });
       };
 
       setActiveYear();
       window.addEventListener("scroll", setActiveYear, { passive: true });
     }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
+<script>
+  window.addEventListener("load", function () {
+    var bg = document.querySelector("#logs-vanta-bg");
+    if (!bg || !window.VANTA || !window.VANTA.NET || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      return;
+    }
+
+    var vantaEffect = VANTA.NET({
+      el: "#logs-vanta-bg",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xffffff,
+      backgroundColor: 0x0,
+      backgroundAlpha: 1.00,
+      points: 8.00,
+      maxDistance: 20.00,
+      spacing: 19.00,
+      showDots: true
+    });
+
+    window.addEventListener("resize", function () {
+      if (vantaEffect && typeof vantaEffect.resize === "function") {
+        vantaEffect.resize();
+      }
+    });
   });
 </script>

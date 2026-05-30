@@ -23,6 +23,7 @@ nav_order: 2
     font-size: clamp(1.8rem, 4vw, 2.2rem);
     font-weight: 600;
     line-height: 1.15;
+    text-transform: uppercase;
   }
 
   .publications-page {
@@ -43,23 +44,48 @@ nav_order: 2
     display: flex;
     flex-direction: column;
     gap: 0.18rem;
-    padding-left: 0.55rem;
-    border-left: 1px solid var(--global-divider-color);
+    width: fit-content;
+    min-width: 4.75rem;
+    box-sizing: border-box;
+    padding: 0.58rem 0.62rem;
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.56);
+    box-shadow: 0 0.7rem 1.7rem rgba(18, 31, 44, 0.16);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     font-size: 0.93rem;
     line-height: 1.25;
+    opacity: 0.72;
+    transition:
+      opacity 180ms ease,
+      background 180ms ease;
+  }
+
+  .publications-year-nav:hover {
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 0.88;
   }
 
   .publications-year-nav a {
-    color: var(--global-text-color);
-    text-decoration: none;
-    transition: color 0.15s ease-in-out, font-weight 0.15s ease-in-out;
+    display: block;
+    padding: 0.28rem 0.42rem;
+    border-radius: 6px;
+    color: #34424d;
+    text-decoration: none !important;
+    transition:
+      color 140ms ease,
+      background 140ms ease;
   }
 
   .publications-year-nav a:hover,
-  .publications-year-nav a.active {
-    color: var(--global-theme-color);
+  .publications-year-nav a:focus,
+  .publications-year-nav a.active,
+  .publications-year-nav a[aria-current="true"] {
+    color: #048ab0;
+    background: rgba(25, 185, 220, 0.12);
     font-weight: 700;
-    text-decoration: none;
+    text-decoration: none !important;
   }
 
   .publications-content {
@@ -637,7 +663,13 @@ nav_order: 2
         });
 
         yearLinks.forEach(function (link) {
-          link.classList.toggle("active", link.getAttribute("data-publication-year-link") === activeYear);
+          const isActive = link.getAttribute("data-publication-year-link") === activeYear;
+          link.classList.toggle("active", isActive);
+          if (isActive) {
+            link.setAttribute("aria-current", "true");
+          } else {
+            link.removeAttribute("aria-current");
+          }
         });
       };
 
