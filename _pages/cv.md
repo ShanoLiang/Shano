@@ -38,7 +38,7 @@ cv_nav:
     </div>
   </aside>
   <div class="shano-cv-profile-copy">
-    <h2 data-toc-skip>Shano Liang</h2>
+    <h2 data-toc-skip><span class="shano-cv-name">Shano Liang</span><span class="shano-cv-pronouns">(She/Her)</span></h2>
     <p class="shano-cv-role">PhD Candidate in Computational Media</p>
     <p class="shano-cv-eyebrow">HCI &middot; Game Studies &middot; Data Visualization &middot; Interactive Media</p>
     <p>
@@ -178,12 +178,12 @@ cv_nav:
   <div class="shano-cv-awards-grid">
     <article>
       <span>2025</span>
-      <h3 data-toc-skip>MIT Reality Hack Art Grant</h3>
+      <h3 data-toc-skip>MIT Reality Hack Art Grant&nbsp;<i class="fa-solid fa-trophy shano-cv-award-trophy" aria-hidden="true"></i></h3>
       <p>MIT Reality Hack. $500 Art Grant awarded for creative project at MIT Reality Hack.</p>
     </article>
     <article>
       <span>2025</span>
-      <h3 data-toc-skip>Award of Honorable Mention for Best Paper (1st author)</h3>
+      <h3 data-toc-skip class="shano-cv-award-highlight">Award of Honorable Mention for Best Paper (1st author)&nbsp;<i class="fa-solid fa-trophy shano-cv-award-trophy" aria-hidden="true"></i></h3>
       <p>ACM Conference on Human Factors in Computing Systems 2025 (CHI '25)</p>
     </article>
     <article>
@@ -198,32 +198,32 @@ cv_nav:
     </article>
     <article>
       <span>2019</span>
-      <h3 data-toc-skip>2nd Place, Game Jam Competition in Shanghai</h3>
+      <h3 data-toc-skip>2nd Place, Game Jam Competition in Shanghai&nbsp;<i class="fa-solid fa-trophy shano-cv-award-trophy" aria-hidden="true"></i></h3>
       <p>China Indie Game Alliance (CIGA), 48-Hour Rapid Indie Game Development Competition</p>
     </article>
     <article>
       <span>2018</span>
-      <h3 data-toc-skip>1st Place, Culture Creative Design Competition for College Students in Hubei Province</h3>
+      <h3 data-toc-skip>1st Place, Culture Creative Design Competition for College Students in Hubei Province&nbsp;<i class="fa-solid fa-trophy shano-cv-award-trophy" aria-hidden="true"></i></h3>
       <p>Hubei Provincial Education Bureau. 80,000 CNY (~$11,428) awarded.</p>
     </article>
     <article>
       <span>2018</span>
-      <h3 data-toc-skip>Outstanding Graduation Project</h3>
+      <h3 data-toc-skip>Outstanding Graduation Project&nbsp;<i class="fa-solid fa-trophy shano-cv-award-trophy" aria-hidden="true"></i></h3>
       <p>Hubei Institute of Fine Arts (HIFA). 5,000 CNY (~$714) awarded.</p>
     </article>
     <article>
       <span>2018</span>
-      <h3 data-toc-skip>1st Place, Institutional Outstanding Graduation Work</h3>
+      <h3 data-toc-skip>1st Place, Institutional Outstanding Graduation Work&nbsp;<i class="fa-solid fa-trophy shano-cv-award-trophy" aria-hidden="true"></i></h3>
       <p>Joint Exhibition of National Top Institutions of Higher Learning in Fine Arts, and Hubei Institute of Fine Arts (HIFA). 1 selected from ~2,000 graduation works.</p>
     </article>
     <article>
       <span>2017</span>
-      <h3 data-toc-skip>National Scholarship</h3>
+      <h3 data-toc-skip>National Scholarship&nbsp;<i class="fa-solid fa-trophy shano-cv-award-trophy" aria-hidden="true"></i></h3>
       <p>Hubei Provincial Education Bureau, and Hubei Institute of Fine Arts (HIFA). 1st in the Institute department; 3rd in the Institute. 20,000 CNY (~$2,857) awarded.</p>
     </article>
     <article>
       <span>2016</span>
-      <h3 data-toc-skip>3rd Place, Hubei Provincial "Chuangqingchun" College Student Entrepreneurship Competition</h3>
+      <h3 data-toc-skip>3rd Place, Hubei Provincial "Chuangqingchun" College Student Entrepreneurship Competition&nbsp;<i class="fa-solid fa-trophy shano-cv-award-trophy" aria-hidden="true"></i></h3>
       <p>Hubei Provincial Government Joint Departments, China. 10,000 CNY (~$1,428) awarded.</p>
     </article>
   </div>
