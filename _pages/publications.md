@@ -48,9 +48,9 @@ nav_order: 2
     min-width: 4.75rem;
     box-sizing: border-box;
     padding: 0.58rem 0.62rem;
-    border: 1px solid rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(var(--global-white-rgb), 0.72);
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.56);
+    background: rgba(var(--global-white-rgb), 0.56);
     box-shadow: 0 0.7rem 1.7rem rgba(18, 31, 44, 0.16);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
@@ -63,7 +63,7 @@ nav_order: 2
   }
 
   .publications-year-nav:hover {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(var(--global-white-rgb), 0.8);
     opacity: 0.88;
   }
 

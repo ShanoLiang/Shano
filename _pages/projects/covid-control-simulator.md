@@ -139,7 +139,7 @@ nav: false
 <span class="align-bottom">The Game Trailer</span>
 </p>
 </div>
-<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="700" src="https://www.youtube.com/embed/E8-1WJYjbPQ?si=V7N8P642Pu8DWAhx"></iframe>
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top project-youtube-frame" frameborder="0" height="700" src="https://www.youtube.com/embed/E8-1WJYjbPQ?si=V7N8P642Pu8DWAhx"></iframe>
 <div class="card-body">
 </div>
 </div>

@@ -93,7 +93,7 @@ nav: false
 <div class="stackar-media-card">
 <div class="stackar-media-section">
 <div class="stackar-media-frame">
-<iframe allowfullscreen="" frameborder="0" loading="lazy" src="https://www.youtube.com/embed/awycjq1M2FQ"></iframe>
+<iframe allowfullscreen="" class="project-youtube-frame" frameborder="0" loading="lazy" src="https://www.youtube.com/embed/awycjq1M2FQ"></iframe>
 </div>
 <p class="stackar-media-caption">
                                 Stack AR Demo Video
@@ -101,7 +101,7 @@ nav: false
 </div>
 <div class="stackar-media-section">
 <div class="stackar-media-frame">
-<iframe allowfullscreen="" frameborder="0" loading="lazy" src="https://www.youtube.com/embed/pAF2ckJ4YSA"></iframe>
+<iframe allowfullscreen="" class="project-youtube-frame" frameborder="0" loading="lazy" src="https://www.youtube.com/embed/pAF2ckJ4YSA"></iframe>
 </div>
 <p class="stackar-media-caption">
                                 Stack AR Presentation Video

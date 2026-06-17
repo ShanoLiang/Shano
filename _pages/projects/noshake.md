@@ -215,7 +215,7 @@ nav: false
 <span class="align-bottom">Video</span>
 </p>
 </div>
-<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="700" src="https://www.youtube.com/embed/3xEeyU7AIq0"></iframe>
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top project-youtube-frame" frameborder="0" height="700" src="https://www.youtube.com/embed/3xEeyU7AIq0"></iframe>
 <div class="card-body">
 </div>
 </div>

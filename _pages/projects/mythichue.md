@@ -76,7 +76,7 @@ nav: false
 <div class="stackar-media-card">
 <div class="stackar-media-section">
 <div class="stackar-media-frame">
-<iframe allowfullscreen="" frameborder="0" loading="lazy" src="https://www.youtube.com/embed/uO0JOHxMk-c"></iframe>
+<iframe allowfullscreen="" class="project-youtube-frame" frameborder="0" loading="lazy" src="https://www.youtube.com/embed/uO0JOHxMk-c"></iframe>
 </div>
 <p class="stackar-media-caption">
                         Mythic Hue demo video

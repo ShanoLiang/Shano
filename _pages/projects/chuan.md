@@ -105,7 +105,7 @@ nav: false
 <img class="mx-lg-auto img-fluid" height="100" src="{{ '/assets/img/projects/chuan/chuandecor02.png' | relative_url }}" width="100"/> <span class="align-bottom">Video</span>
 </p>
 </div>
-<iframe allowfullscreen="" class="bd-placeholder-img card-img-top" frameborder="0" height="700" src="https://www.youtube.com/embed/3VIlJpzU-nY?si=R3lm0R0fZSDHR9yl"></iframe>
+<iframe allowfullscreen="" class="bd-placeholder-img card-img-top project-youtube-frame" frameborder="0" height="700" src="https://www.youtube.com/embed/3VIlJpzU-nY?si=R3lm0R0fZSDHR9yl"></iframe>
 <div class="card-body">
 </div>
 </div>

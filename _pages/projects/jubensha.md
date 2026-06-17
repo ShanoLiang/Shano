@@ -149,7 +149,7 @@ nav: false
 </div>
 <div class="jubensha-study-media-section">
 <div class="jubensha-study-media-frame">
-<iframe allowfullscreen="" frameborder="0" loading="lazy" src="https://www.youtube.com/embed/R2OpDN-V_Bs"></iframe>
+<iframe allowfullscreen="" class="project-youtube-frame" frameborder="0" loading="lazy" src="https://www.youtube.com/embed/R2OpDN-V_Bs"></iframe>
 </div>
 <p class="jubensha-study-media-caption">
                                 Trailer video of <em>Collection</em> for PAX East 2022

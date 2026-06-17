@@ -227,7 +227,8 @@ ul.timeline li::before {
   --cv-ink: #101820;
   --cv-muted: #687887;
   --cv-soft-ink: #34424d;
-  --cv-paper: rgba(255, 255, 255, 0.92);
+  --cv-white-rgb: 255, 255, 255;
+  --cv-paper: rgba(var(--cv-white-rgb), 0.92);
   --cv-paper-solid: #ffffff;
   --cv-rule: rgba(18, 31, 44, 0.12);
   --cv-shadow: 0 1.1rem 2.4rem rgba(20, 32, 45, 0.1);
@@ -322,9 +323,9 @@ ul.timeline li::before {
   gap: 0.18rem;
   min-width: 7.2rem;
   padding: 0.6rem;
-  border: 1px solid rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(var(--cv-white-rgb), 0.72);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.56);
+  background: rgba(var(--cv-white-rgb), 0.56);
   box-shadow: 0 0.7rem 1.7rem rgba(18, 31, 44, 0.16);
   backdrop-filter: blur(16px);
   opacity: 0.58;
@@ -335,7 +336,7 @@ ul.timeline li::before {
 }
 
 .shano-cv-floating-nav:hover {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(var(--cv-white-rgb), 0.8);
   opacity: 0.8;
   transform: translateX(-2px);
 }
@@ -379,7 +380,7 @@ ul.timeline li::before {
   border: 1px solid rgba(18, 31, 44, 0.1);
   border-radius: 8px;
   background:
-    linear-gradient(135deg, rgba(25, 185, 220, 0.12), rgba(130, 112, 232, 0.06) 48%, rgba(255, 255, 255, 0.92) 100%),
+    linear-gradient(135deg, rgba(25, 185, 220, 0.12), rgba(130, 112, 232, 0.06) 48%, rgba(var(--cv-white-rgb), 0.92) 100%),
     var(--cv-paper-solid);
   box-shadow: var(--cv-shadow);
 }
@@ -484,7 +485,7 @@ ul.timeline li::before {
   padding: 0.9rem 0.95rem;
   border: 1px solid rgba(25, 185, 220, 0.18);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.74);
+  background: rgba(var(--cv-white-rgb), 0.74);
   box-shadow: 0 0.45rem 1.1rem rgba(18, 31, 44, 0.07);
   font-size: 0.82rem;
   font-weight: 780;
@@ -584,7 +585,7 @@ ul.timeline li::before {
   border: 1px solid rgba(18, 31, 44, 0.08);
   border-left: 4px solid var(--section-accent);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.76);
+  background: rgba(var(--cv-white-rgb), 0.76);
 }
 
 .shano-cv-entry:first-child {
@@ -651,7 +652,7 @@ ul.timeline li::before {
   border: 1px solid rgba(18, 31, 44, 0.09);
   border-left: 4px solid var(--section-accent);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.76);
+  background: rgba(var(--cv-white-rgb), 0.76);
 }
 
 .shano-cv-service-grid {
@@ -839,8 +840,8 @@ ul.timeline li::before {
 
 .shano-cv-page {
   --cv-paper-glass:
-    linear-gradient(135deg, var(--section-soft, rgba(25, 185, 220, 0.1)), rgba(255, 255, 255, 0.72) 52%, rgba(255, 255, 255, 0.94) 100%),
-    rgba(255, 255, 255, 0.9);
+    linear-gradient(135deg, var(--section-soft, rgba(25, 185, 220, 0.1)), rgba(var(--cv-white-rgb), 0.72) 52%, rgba(var(--cv-white-rgb), 0.94) 100%),
+    rgba(var(--cv-white-rgb), 0.9);
   --cv-cyan: #1ebcdb;
   --cv-education: #36a0ff;
   --cv-education-strong: #1769c5;
@@ -857,8 +858,8 @@ ul.timeline li::before {
 }
 
 .shano-cv-page .shano-cv-section {
-  background-color: rgba(255, 255, 255, 0.9);
-  background-image: linear-gradient(135deg, var(--section-soft) 0%, var(--section-glow) 42%, rgba(255, 255, 255, 0.78) 74%, rgba(255, 255, 255, 0.94) 100%);
+  background-color: rgba(var(--cv-white-rgb), 0.9);
+  background-image: linear-gradient(135deg, var(--section-soft) 0%, var(--section-glow) 42%, rgba(var(--cv-white-rgb), 0.78) 74%, rgba(var(--cv-white-rgb), 0.94) 100%);
 }
 
 .shano-cv-header {
@@ -901,8 +902,8 @@ ul.timeline li::before {
 .shano-cv-profile {
   --section-soft: rgba(30, 188, 219, 0.12);
   grid-template-columns: minmax(0, 1fr) minmax(14.5rem, 0.3fr);
-  background-color: rgba(255, 255, 255, 0.9);
-  background-image: linear-gradient(135deg, var(--section-soft, rgba(25, 185, 220, 0.1)), rgba(255, 255, 255, 0.72) 52%, rgba(255, 255, 255, 0.94) 100%);
+  background-color: rgba(var(--cv-white-rgb), 0.9);
+  background-image: linear-gradient(135deg, var(--section-soft, rgba(25, 185, 220, 0.1)), rgba(var(--cv-white-rgb), 0.72) 52%, rgba(var(--cv-white-rgb), 0.94) 100%);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 }
@@ -932,8 +933,8 @@ ul.timeline li::before {
 }
 
 .shano-cv-section {
-  background-color: rgba(255, 255, 255, 0.9);
-  background-image: linear-gradient(135deg, var(--section-soft) 0%, var(--section-glow) 42%, rgba(255, 255, 255, 0.78) 74%, rgba(255, 255, 255, 0.94) 100%);
+  background-color: rgba(var(--cv-white-rgb), 0.9);
+  background-image: linear-gradient(135deg, var(--section-soft) 0%, var(--section-glow) 42%, rgba(var(--cv-white-rgb), 0.78) 74%, rgba(var(--cv-white-rgb), 0.94) 100%);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 }
@@ -1072,7 +1073,7 @@ ul.timeline li::before {
   left: 0;
   right: 0;
   height: 0.32rem;
-  background: linear-gradient(90deg, var(--section-accent), rgba(255, 255, 255, 0.15));
+  background: linear-gradient(90deg, var(--section-accent), rgba(var(--cv-white-rgb), 0.15));
 }
 
 .shano-cv-service-grid article::after {
@@ -1117,7 +1118,7 @@ ul.timeline li::before {
   text-align: center;
   white-space: normal;
   background:
-    radial-gradient(circle at 32% 25%, rgba(255, 255, 255, 0.52), transparent 36%),
+    radial-gradient(circle at 32% 25%, rgba(var(--cv-white-rgb), 0.52), transparent 36%),
     linear-gradient(145deg, var(--section-accent), var(--section-strong));
 }
 
@@ -1391,11 +1392,11 @@ ul.timeline li::before {
 .shano-cv-skill-grid article,
 .shano-cv-interest-columns article {
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.62)),
-    rgba(255, 255, 255, 0.75);
+    linear-gradient(135deg, rgba(var(--cv-white-rgb), 0.82), rgba(var(--cv-white-rgb), 0.62)),
+    rgba(var(--cv-white-rgb), 0.75);
   box-shadow:
     0 0.45rem 1.15rem rgba(18, 31, 44, 0.055),
-    inset 0 1px 0 rgba(255, 255, 255, 0.72);
+    inset 0 1px 0 rgba(var(--cv-white-rgb), 0.72);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
@@ -1507,13 +1508,13 @@ ul.timeline li::before {
 .shano-cv-awards-grid article,
 .shano-cv-skill-grid article,
 .shano-cv-interest-columns article {
-  border-color: rgba(255, 255, 255, 0.62);
+  border-color: rgba(var(--cv-white-rgb), 0.62);
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.74) 0%, rgba(255, 255, 255, 0.42) 45%, rgba(255, 255, 255, 0.66) 100%),
-    rgba(255, 255, 255, 0.65);
+    linear-gradient(135deg, rgba(var(--cv-white-rgb), 0.74) 0%, rgba(var(--cv-white-rgb), 0.42) 45%, rgba(var(--cv-white-rgb), 0.66) 100%),
+    rgba(var(--cv-white-rgb), 0.65);
   box-shadow:
     0 0.65rem 1.45rem rgba(18, 31, 44, 0.07),
-    inset 0 1px 0 rgba(255, 255, 255, 0.88),
+    inset 0 1px 0 rgba(var(--cv-white-rgb), 0.88),
     inset 0 -1px 0 rgba(18, 31, 44, 0.04);
   backdrop-filter: blur(18px) saturate(1.35);
   -webkit-backdrop-filter: blur(18px) saturate(1.35);
@@ -1629,7 +1630,7 @@ ul.timeline li::before {
   left: -1.55rem;
   width: 0.72rem;
   height: 0.72rem;
-  border: 0.17rem solid rgba(255, 255, 255, 0.94);
+  border: 0.17rem solid rgba(var(--cv-white-rgb), 0.94);
   border-radius: 50%;
   background: var(--section-accent);
   box-shadow:
@@ -1729,8 +1730,8 @@ ul.timeline li::before {
   }
 
   .shano-cv-page .shano-cv-section {
-    background-color: rgba(255, 255, 255, 0.9);
-    background-image: linear-gradient(135deg, var(--section-soft) 0%, var(--section-glow) 54%, rgba(255, 255, 255, 0.8) 82%, rgba(255, 255, 255, 0.94) 100%);
+    background-color: rgba(var(--cv-white-rgb), 0.9);
+    background-image: linear-gradient(135deg, var(--section-soft) 0%, var(--section-glow) 54%, rgba(var(--cv-white-rgb), 0.8) 82%, rgba(var(--cv-white-rgb), 0.94) 100%);
   }
 
   .shano-cv-section--awards .shano-cv-awards-grid {
