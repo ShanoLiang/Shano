@@ -857,9 +857,8 @@ ul.timeline li::before {
 }
 
 .shano-cv-page .shano-cv-section {
-  background:
-    linear-gradient(135deg, var(--section-soft) 0%, var(--section-glow) 42%, rgba(255, 255, 255, 0.78) 74%, rgba(255, 255, 255, 0.94) 100%),
-    rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: linear-gradient(135deg, var(--section-soft) 0%, var(--section-glow) 42%, rgba(255, 255, 255, 0.78) 74%, rgba(255, 255, 255, 0.94) 100%);
 }
 
 .shano-cv-header {
@@ -902,7 +901,8 @@ ul.timeline li::before {
 .shano-cv-profile {
   --section-soft: rgba(30, 188, 219, 0.12);
   grid-template-columns: minmax(0, 1fr) minmax(14.5rem, 0.3fr);
-  background: var(--cv-paper-glass);
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: linear-gradient(135deg, var(--section-soft, rgba(25, 185, 220, 0.1)), rgba(255, 255, 255, 0.72) 52%, rgba(255, 255, 255, 0.94) 100%);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 }
@@ -932,9 +932,8 @@ ul.timeline li::before {
 }
 
 .shano-cv-section {
-  background:
-    linear-gradient(135deg, var(--section-soft) 0%, var(--section-glow) 42%, rgba(255, 255, 255, 0.78) 74%, rgba(255, 255, 255, 0.94) 100%),
-    rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: linear-gradient(135deg, var(--section-soft) 0%, var(--section-glow) 42%, rgba(255, 255, 255, 0.78) 74%, rgba(255, 255, 255, 0.94) 100%);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 }
@@ -1730,9 +1729,8 @@ ul.timeline li::before {
   }
 
   .shano-cv-page .shano-cv-section {
-    background:
-      linear-gradient(135deg, var(--section-soft) 0%, var(--section-glow) 54%, rgba(255, 255, 255, 0.8) 82%, rgba(255, 255, 255, 0.94) 100%),
-      rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
+    background-image: linear-gradient(135deg, var(--section-soft) 0%, var(--section-glow) 54%, rgba(255, 255, 255, 0.8) 82%, rgba(255, 255, 255, 0.94) 100%);
   }
 
   .shano-cv-section--awards .shano-cv-awards-grid {
