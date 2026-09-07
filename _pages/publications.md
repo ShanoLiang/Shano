@@ -27,6 +27,8 @@ nav_order: 2
   }
 
   .publications-page {
+    --publication-highlight-gradient: linear-gradient(90deg, #d45eb5, #19b9dc);
+
     max-width: 1120px;
     margin: 0 auto;
   }
@@ -172,9 +174,22 @@ nav_order: 2
     line-height: 1.3;
   }
 
-  .publication-authors strong {
-    color: var(--global-text-color);
+  .publication-authors .publication-self-author {
+    display: inline-block;
+    padding: 0.02rem 0.28rem 0.05rem;
+    border: 1px solid #111;
+    border-radius: 3px;
+    background: #111;
+    box-shadow: 0 0.08rem 0.3rem rgba(0, 0, 0, 0.18);
     font-weight: 700;
+    line-height: 1.12;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+
+  .publication-authors .publication-self-author span {
+    color: #fff;
+    -webkit-text-fill-color: #fff;
   }
 
   .publication-venue {
@@ -182,11 +197,27 @@ nav_order: 2
   }
 
   .publication-award {
+    display: inline-flex;
+    gap: 0.18rem;
+    align-items: baseline;
     margin-left: 0.35rem;
-    color: var(--global-theme-color);
+    background: var(--publication-highlight-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
     font-style: normal;
     font-weight: 700;
     white-space: nowrap;
+  }
+
+  .publication-award i {
+    display: inline-block;
+    background: var(--publication-highlight-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
   }
 
   .publication-status {
@@ -204,6 +235,18 @@ nav_order: 2
     line-height: 1.25;
     text-transform: uppercase;
     letter-spacing: 0.02em;
+  }
+
+  .publication-status--just-accepted {
+    border-color: transparent;
+    color: #fff;
+    background: var(--publication-highlight-gradient);
+    box-shadow: 0 0.16rem 0.5rem rgba(25, 185, 220, 0.18);
+    font-weight: 700;
+  }
+
+  .publication-status + .publication-links {
+    margin-top: 0.42rem;
   }
 
   .publication-links {
@@ -432,7 +475,7 @@ nav_order: 2
 
 {% assign publications = site.data.publications %}
 {% assign publication_years = publications | map: 'year' | uniq %}
-{% assign publications_last_updated = 'May 20, 2026' %}
+{% assign publications_last_updated = 'September 7, 2026' %}
 
 <div class="publications-page">
   <div class="publications-layout">
@@ -459,7 +502,12 @@ nav_order: 2
           {% assign is_under_review = true %}
         {% endif %}
 
-        <article class="publication-item{% if is_under_review %} publication-under-review{% endif %}" id="{{ publication.id }}">
+        {% assign is_just_accepted = false %}
+        {% if publication.status == 'just_accepted' %}
+          {% assign is_just_accepted = true %}
+        {% endif %}
+
+        <article class="publication-item{% if is_under_review %} publication-under-review{% endif %}{% if is_just_accepted %} publication-just-accepted{% endif %}" id="{{ publication.id }}">
           <div class="publication-thumbnail-wrap">
             {% if publication.link_url and is_under_review == false %}
               <a href="{{ publication.link_url }}" class="publication-thumbnail-link" target="_blank" rel="noopener noreferrer" aria-label="{{ publication.title | escape }}">
@@ -491,7 +539,7 @@ nav_order: 2
                 {% if is_under_review and author != 'Shano Liang' %}
                   <span class="publication-redacted">{{ author }}</span>
                 {% elsif author == 'Shano Liang' %}
-                  <strong>Shano Liang</strong>
+                  <strong class="publication-self-author"><span>Shano Liang</span></strong>
                 {% else %}
                   {{ author }}
                 {% endif %}{% unless forloop.last %}, {% endunless %}
@@ -504,7 +552,7 @@ nav_order: 2
               {% else %}
                 {{ publication.venue }}
                 {% if publication.award %}
-                  <span class="publication-award"><i class="fa-solid fa-trophy"></i> {{ publication.award }}</span>
+                  <span class="publication-award"><i class="fa-solid fa-trophy" aria-hidden="true"></i><span>{{ publication.award }}</span></span>
                 {% endif %}
               {% endif %}
             </div>
@@ -512,6 +560,9 @@ nav_order: 2
             {% if is_under_review %}
               <div class="publication-status">Under Review</div>
             {% else %}
+              {% if is_just_accepted %}
+                <div class="publication-status publication-status--just-accepted">Just Accepted</div>
+              {% endif %}
               <div class="publication-links" aria-label="Publication links">
                 {% if publication.link_url %}
                   <a href="{{ publication.link_url }}" class="publication-link-button" target="_blank" rel="noopener noreferrer">

@@ -154,6 +154,7 @@ cv_nav:
     <h2 id="service">Service</h2>
   </div>
   <div class="shano-cv-service-grid">
+    <article><span>2026</span><p><strong>Conference Reviewing</strong>, ACM Conference on Computer-Supported Cooperative Work & Social Computing (CSCW '26)</p></article>
     <article><span>2026</span><p><strong>Program Committee Associate Chair</strong>, ACM SIGCHI Annual Symposium on Computer-Human Interaction in Play 2026, Work-In-Progress (WiP) Subcommittee (CHI PLAY WIP '26)</p></article>
     <article><span>2026</span><p><strong>Conference Reviewing</strong>, ACM Designing Interactive Systems Conference (DIS '26)</p></article>
     <article><span>2026</span><p><strong>Conference Reviewing</strong>, ACM Conference on Human Factors in Computing Systems 2026 (CHI '26)</p></article>
@@ -348,7 +349,7 @@ cv_nav:
 <footer class="shano-cv-last-updated" aria-label="CV page last updated">
   <span class="shano-cv-last-rule"></span>
   <p>
-    The Page Last Updated in: <time datetime="2026-05-20">May 29, 2026</time>
+    The Page Last Updated in: <time datetime="2026-05-20">September 7, 2026</time>
     <span class="shano-cv-dots" aria-hidden="true"><span></span><span></span><span></span></span>
   </p>
 </footer>

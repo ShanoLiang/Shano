@@ -1,23 +1,5 @@
 [
   {
-    "id": "2026-XXXXXXX-XX-XXXXXXXX-XXXXXXXX-XXXXXXX-XXXX-XXXXXXXXXX-XXXXXXXXX-XXX-XXXXXXXXXX-XXXXXXXXXXXXX-XXXXXXX",
-    "year": 2026,
-    "status": "under_review",
-    "title": "XXXXXXX-XX: XXXXXXXX XXXXXXXX XXXXXXX XXXX XXXXXXXXXX, XXXXXXXXX, XXX XXXXXXXXXX XXXXXXXXXXXXX XXXXXXX",
-    "authors": ["Shano Liang", "XXX XXXX", "XXXX XXXXXXXX"],
-    "venue": "XXXX XXXXXXXXXXXX XX XXXXXXXXXXXXX XXX XXXXXXXX XXXXXXXX, 2026",
-    "image": "publications/2026_UR1_1.png"
-  },
-  {
-    "id": "2026-XXXXX-XXXXXXXXXXX-XXXXXXXXXXXXX-XXXXXXXXXX-XXX-XXXXXXXXX-XXXXXXXX-XXXXXX-XXXXXX-XXXXXXXXXXXXX-XXXXXXXXXX",
-    "year": 2026,
-    "status": "under_review",
-    "title": "XXXXX XXXXXXXXXXX XXXXXXXXXXXXX: XXXXXXXXXX XXX XXXXXXXXX XXXXXXXX XXXXXX XXXXXX XXXXXXXXXXXXX XXXXXXXXXX",
-    "authors": ["Shano Liang", "XXX XXXX", "XXXX XXXXXXXX"],
-    "venue": "XXXX XXXXXXXXXXXX XX XXXXXXXXXXXXX XXX XXXXXXXX XXXXXXXX, 2026",
-    "image": "publications/2026_UR2_1.png"
-  },
-  {
     "id": "2026-XXXXXXX-XXXXX-XXXXXXXXXX-XXXXXXXX-XXXXXXXXXX-XX-XXXXXX-XXXXXXXXXX-XXXXXXX",
     "year": 2026,
     "status": "under_review",
@@ -27,24 +9,44 @@
     "image": "publications/2026_UR3_1.png"
   },
   {
-    "id": "2026-XXXXXXXXXXX-XXXXXXXXX-XXXXXXXX-XXXXXXXXXXX-XXXXXX-XXXXXXXX-XXXXXXXXXX-XX-XXXXXXXXXXX",
+    "id": "2026-juicy-interactive-visualization-evaluating-how-excessive-feedback-design-shapes-visualization-engagement",
     "year": 2026,
-    "status": "under_review",
-    "title": "XXXXXXXXXXX & XXXXXXXXX XXXXXXXX: XXXXXXXXXXX XXXXXX XXXXXXXX XXXXXXXXXX XX XXXXXXXXXXX",
-    "authors": [
-      "Shano Liang",
-      "XXX XXXX",
-      "XXXXXXX XXXXXX-XXXXXXXXXX",
-      "XXXXXXXXX XXXX",
-      "XXXX XXXXXXX",
-      "XXXX XXXXX",
-      "XXXXXXXX X. XXXXXXX",
-      "XXXXXXX XXXXX",
-      "XXXX XXXXXXXX",
-      "XXXXXX X. XXXXX XXXXX"
-    ],
-    "venue": "XXXXXXXXXXX XX XXX XXX XX XXXXX-XXXXXXXX XXXXXXXXXXX XXX XXXX, 2026",
-    "image": "publications/2026_UR4_1.png"
+    "status": "just_accepted",
+    "title": "Juicy Interactive Visualization: Evaluating How Excessive Feedback Design Shapes Visualization Engagement",
+    "authors": ["Shano Liang", "Max Chen", "Lane Harrison"],
+    "venue": "IEEE Transactions on Visualization and Computer Graphics, 2026",
+    "abstract": "Visualization research has long examined embellishment and animation, while the design of rich interaction-contingent feedback remains under-articulated as a systematic design space. We introduce JuicyVIS, a theory-informed operationalization of juicy feedback for interactive visualization that translates ideas from game studies into a visualization-centered framework. JuicyVIS introduces three dimensions, interaction type, feedback timing, and feedback intensity, which we explore through 26 controlled prototypes, grounded in established visualization interaction categories and prior work on juicy feedback in games. We evaluate the juicy design space through three exploratory mixed-methods online studies. Results show that juicy feedback was consistently associated with higher engagement and aesthetic experience, while the clearest gains came from post-interaction feedback, not, for example, by simply increasing intensity. We discuss how juicy feedback can be thought of as a design material in visualizations, shaping how visualization interactions feel, how action consequences are perceived, and how users remain engaged with data representations.",
+    "image": "publications/2026_JuicyVIS.png"
+  },
+  {
+    "id": "2026-revisit-xr-bringing-extended-readlity-into-embeddable-trackable-and-replayable-visualization-studies",
+    "year": 2026,
+    "status": "just_accepted",
+    "title": "reVISit-XR: Bringing Extended Reality into Embeddable, Trackable, and Replayable Visualization Studies",
+    "authors": ["Shano Liang", "Max Chen", "Lane Harrison"],
+    "venue": "IEEE Transactions on Visualization and Computer Graphics, 2026",
+    "abstract": "Extended reality (XR) is increasingly a setting for empirical visualization research, where study-relevant state is distributed across headset and controller pose, scene configuration, selections, spatial layouts, and AR anchors. Existing XR tools support parts of the workflow, such as scene authoring, interaction, or session analysis, yet seldom treat an XR stimulus as a reusable component of a complete study lifecycle. We present reVISit-XR, an extension of re-VISit that makes customizable WebXR stimuli embeddable, trackable, and replayable within empirical visualization studies. reVISit-XR sequences XR scenes alongside standard study components, collects reactive task responses, captures scene-authored semantic state together with generic XR traces, and rehydrates participant sessions for later desktop and headset analysis. Organized as a reusable stimulus build package and a study integration package, it lets XR stimuli act as first-class study components. We demonstrate its scope and feasibility through seven integrated, reusable examples and a deployed study, and discuss its current capabilities and future extensions.",
+    "image": "publications/2026_reVISit-XR.png"
+  },
+  {
+    "id": "2026-implemented-and-evaluated-euphoria-transgender-gender-euphoria-principles-in-rainborough",
+    "year": 2026,
+    "status": "just_accepted",
+    "title": "Implemented & Evaluated Euphoria: Transgender Gender Euphoria Principles in Rainborough",
+    "authors": ["Shano Liang", "Max Chen", "Bastión Toledo-Altamirano", "Elizabeth Papa", "Crow Zubrick", "Thea Cloyd", "Michelle V. Cormier", "Gillian Smith", "Lane Harrison", "Phoebe O. Toups Dugas"],
+    "venue": "Proceedings of the ACM on Human-Computer Interaction CHI PLAY, 2026",
+    "abstract": "Gender euphoria refers to a range of positive feelings of satisfaction, relief, affirmation, and self-actualization that can arise when one's gender identity feels congruent with experience, expression, and recognition. Prior work has shown that games can support gender euphoria for transgender players, but less is known about how euphoria principles operate when implemented in a playable game artifact. We developed Rainborough, a research game that translates prior transgender gender euphoria design principles into interlinked narrative, parasocial, and customization systems. Rainborough centers two authored trans binary major NPC arcs, while supporting nonbinary player-character configuration and gender-diverse side characters; we treat this scope as a limitation rather than as coverage of all trans and gender-diverse euphoria. We conducted an online study with 56 trans players and used reflexive thematic analysis of free-response data, supported by descriptive ratings as contextual evidence, to explore players' responses. Findings show how Rainborough supported euphoria for some players while producing non-euphoric, ambivalent, or insufficient experiences for others. We identify design complexities and tensions around discomfort, affirmation, obscured representation, and binary-centered narrative scope, and derive design implications for future games that seek to support transgender gender euphoria.",
+    "image": "publications/2026_EuphoriaSim.png"
+  },
+  {
+    "id": "2026-evaluating-just-noticeable-differences-in-layered-opacity-visualizations",
+    "year": 2026,
+    "status": "just_accepted",
+    "title": "Evaluating Just Noticeable Differences in Layered Opacity Visualizations",
+    "authors": ["Caterina Ponti", "Shano Liang", "Lane Harrison", "Alark Joshi"],
+    "venue": "In Proceedings of the 2026 IEEE VIS Workshop on VISxVISION",
+    "abstract": "Opacity is a widely used channel in data visualization, but it remains less well understood compared to channels such as color, length, size, etc. Recent work from Meng et al. investigated the impact of opacity across competing color schemes, finding that certain color schemes were associated with better participant accuracy. We examine these effects further in a controlled two-alternative forced choice setup, to determine whether opacity differences are truly equal across possible opacity comparison ranges. In a within-subjects study with 96 trials, including two competing color schemes (best and worst from Meng et al.) and 48 opacity pairs, we find little differences between color schemes, but larger individual differences in accuracy. Further, results show stable performance in middle opacity ranges, with more errors occurring when comparing extreme values.",
+    "image": "publications/2026_Opacity.png"
   },
   {
     "id": "2026-radical-gender-neutrality-agender-euphoria-in-gaming-and-play-experiences",
