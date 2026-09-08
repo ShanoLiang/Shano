@@ -32,6 +32,38 @@ nav_order: 3
 
 <div class="col">
 <div class="card bg-white shadow-lg">
+<img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_juicyvis.png' | relative_url }}" width="100%"/>
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h1 class="project-card-title">Juicy Interactive VIS</h1>
+</div>
+<p class="card-text py-2 mb-0">
+                                JuicyVIS is a theory-informed operationalization and instantiation of juicy feedback for interactive visualization that translates the "juicy" concept from game studies into a visualization-centered framework.
+                                We build 26 controlled prototypes and evaluate the juicy design space through three online studies.
+                            </p>
+<p class="card-text py-0 mb-2">
+<small class="fw-bold">My Role:</small> Lead Author.
+                            </p> 
+<div class="mb-3">
+
+<span class="badge badge-custom-cyan">Game Design</span>
+<span class="badge badge-custom-cyan">Data Visualization</span>
+<span class="badge badge-custom-cyan">Interactive Experience</span>
+
+</div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+<div class="btn-group">
+<a class="btn btn-sm btn-outline-dark" href="https://juicy-vis-10aac.web.app/">Online Demo</a>
+<a class="btn btn-dark btn-sm" href="{{ '/projects/juicyvis/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
+</div>
+</div>
+<small class="text-muted">Completed: 2026</small>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card bg-white shadow-lg">
 <img class="bd-placeholder-img card-img-top" height="225" src="{{ '/assets/img/projects/Cover_revisitxr.png' | relative_url }}" width="100%"/>
 <div class="card-body">
 <div class="d-flex justify-content-between align-items-center">
@@ -56,7 +88,7 @@ nav_order: 3
 <a class="btn btn-dark btn-sm" href="{{ '/projects/revisitxr/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
-<small class="text-muted">In Progress</small>
+<small class="text-muted">Completed: 2026</small>
 </div>
 </div>
 </div>
@@ -87,7 +119,7 @@ nav_order: 3
 <a class="btn btn-dark btn-sm" href="{{ '/projects/revisitgames/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
-<small class="text-muted">In Progress</small>
+<small class="text-muted">Completed: 2026</small>
 </div>
 </div>
 </div>
@@ -110,7 +142,7 @@ nav_order: 3
 
 <span class="badge badge-custom-cyan">Mental Health</span>
 <span class="badge badge-custom-cyan">Trans Game Studies</span>
-<span class="badge badge-custom-cyan">Marginalized Groups</span>
+<span class="badge badge-custom-cyan">Interactive Experience</span>
 
 </div>
 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -125,7 +157,7 @@ nav_order: 3
 <a class="btn btn-dark btn-sm" href="{{ '/projects/euphoria/' | relative_url }}">More Details<i class="bi bi-caret-right-fill"></i></a>
 </div>
 </div>
-<small class="text-muted">In Progress</small>
+<small class="text-muted">Completed: 2025</small>
 </div>
 </div>
 </div>
