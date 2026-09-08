@@ -100,6 +100,13 @@ ninja.data = [{
       handler: () => {
         window.location.href = "/Shano/projects/jubensha/";
       },
+    },{id: "project-juicy-interactive-vis",
+      title: "Juicy Interactive VIS",
+      description: "",
+      section: "Projects",
+      handler: () => {
+        window.location.href = "/Shano/projects/juicyvis/";
+      },
     },{id: "project-mythic-hue",
       title: "Mythic Hue",
       description: "",
