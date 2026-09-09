@@ -196,6 +196,14 @@ nav_order: 2
     font-style: italic;
   }
 
+  .publication-venue-abbr {
+    color: #000;
+    -webkit-text-fill-color: #000;
+    font-style: normal;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
   .publication-award {
     display: inline-flex;
     gap: 0.18rem;
@@ -551,9 +559,12 @@ nav_order: 2
                 <span class="publication-redacted">{{ publication.venue }}</span>
               {% else %}
                 {{ publication.venue }}
-                {% if publication.award %}
-                  <span class="publication-award"><i class="fa-solid fa-trophy" aria-hidden="true"></i><span>{{ publication.award }}</span></span>
-                {% endif %}
+              {% endif %}
+              {% if publication.venue_abbr != blank %}
+                <span class="publication-venue-abbr">{{ publication.venue_abbr }}</span>
+              {% endif %}
+              {% if is_under_review == false and publication.award %}
+                <span class="publication-award"><i class="fa-solid fa-trophy" aria-hidden="true"></i><span>{{ publication.award }}</span></span>
               {% endif %}
             </div>
 
