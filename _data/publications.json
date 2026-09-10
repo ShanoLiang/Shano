@@ -16,7 +16,7 @@
     "title": "Juicy Interactive Visualization: Evaluating How Excessive Feedback Design Shapes Visualization Engagement",
     "authors": ["Shano Liang", "Max Chen", "Lane Harrison"],
     "venue": "IEEE Transactions on Visualization and Computer Graphics, 2026.",
-    "venue_abbr": "[IEEE VIS / TVCG]",
+    "venue_abbr": "[VIS / TVCG]",
     "abstract": "Visualization research has long examined embellishment and animation, while the design of rich interaction-contingent feedback remains under-articulated as a systematic design space. We introduce JuicyVIS, a theory-informed operationalization of juicy feedback for interactive visualization that translates ideas from game studies into a visualization-centered framework. JuicyVIS introduces three dimensions, interaction type, feedback timing, and feedback intensity, which we explore through 26 controlled prototypes, grounded in established visualization interaction categories and prior work on juicy feedback in games. We evaluate the juicy design space through three exploratory mixed-methods online studies. Results show that juicy feedback was consistently associated with higher engagement and aesthetic experience, while the clearest gains came from post-interaction feedback, not, for example, by simply increasing intensity. We discuss how juicy feedback can be thought of as a design material in visualizations, shaping how visualization interactions feel, how action consequences are perceived, and how users remain engaged with data representations.",
     "image": "publications/2026_JuicyVIS.png"
   },
@@ -27,7 +27,7 @@
     "title": "reVISit-XR: Bringing Extended Reality into Embeddable, Trackable, and Replayable Visualization Studies",
     "authors": ["Shano Liang", "Max Chen", "Lane Harrison"],
     "venue": "IEEE Transactions on Visualization and Computer Graphics, 2026.",
-    "venue_abbr": "[IEEE VIS]",
+    "venue_abbr": "[VIS / TVCG]",
     "abstract": "Extended reality (XR) is increasingly a setting for empirical visualization research, where study-relevant state is distributed across headset and controller pose, scene configuration, selections, spatial layouts, and AR anchors. Existing XR tools support parts of the workflow, such as scene authoring, interaction, or session analysis, yet seldom treat an XR stimulus as a reusable component of a complete study lifecycle. We present reVISit-XR, an extension of re-VISit that makes customizable WebXR stimuli embeddable, trackable, and replayable within empirical visualization studies. reVISit-XR sequences XR scenes alongside standard study components, collects reactive task responses, captures scene-authored semantic state together with generic XR traces, and rehydrates participant sessions for later desktop and headset analysis. Organized as a reusable stimulus build package and a study integration package, it lets XR stimuli act as first-class study components. We demonstrate its scope and feasibility through seven integrated, reusable examples and a deployed study, and discuss its current capabilities and future extensions.",
     "image": "publications/2026_reVISit-XR.png"
   },
