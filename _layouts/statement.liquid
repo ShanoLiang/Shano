@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<nav class="project-floating-back statement-floating-back" aria-label="Statement navigation">
+  <a class="project-floating-back-link" href="{{ '/statements/' | relative_url }}" aria-label="Back to Statements and Blogs">
+    <span class="project-floating-back-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" focusable="false">
+        <path d="M15.41 7.41 10.83 12l4.58 4.59L14 18l-6-6 6-6z"></path>
+      </svg>
+    </span>
+    <span>Back</span>
+  </a>
+</nav>
+
+<div class="post statement-page">
+  <header class="statement-page-toolbar">
+    <div class="statement-page-toolbar-copy">
+      <a class="statement-page-back" href="{{ '/statements/' | relative_url }}">Statements &amp; Blogs</a>
+      <h1>{{ page.title }}</h1>
+      <p>
+        {{ page.statement_type }}
+        <span aria-hidden="true">&middot;</span>
+        Created {{ page.created }}
+        <span aria-hidden="true">&middot;</span>
+        Last edited {{ page.last_updated }}
+      </p>
+    </div>
+    {% if page.statement_pdf %}
+      <a
+        href="{{ page.statement_pdf | prepend: '/assets/pdf/' | relative_url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="shano-cv-pdf-button statement-pdf-button"
+        aria-label="Open {{ page.title }} PDF"
+        title="Open {{ page.title }} PDF"
+      >
+        <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+      </a>
+    {% endif %}
+  </header>
+
+  <article class="statement-document">
+    {{ content }}
+  </article>
+</div>

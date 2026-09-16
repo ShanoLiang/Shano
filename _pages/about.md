@@ -315,6 +315,46 @@ latest_posts:
             font-size: 0.9em;
             line-height: 1;
         }
+        .profile-document-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            align-items: center;
+            margin-top: 1.35rem;
+        }
+        .profile-document-buttons .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            height: 31px;
+            min-height: 31px;
+            margin: 0;
+            padding: 0 0.5rem;
+            border: 1px solid #111 !important;
+            border-radius: 4px;
+            background-color: #fff !important;
+            box-shadow: none !important;
+            color: #111 !important;
+            font-size: 0.82rem;
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: 1 !important;
+            text-align: center;
+            text-decoration: none !important;
+            text-transform: none !important;
+            vertical-align: middle;
+            white-space: nowrap;
+        }
+
+        .profile-document-buttons .btn:hover,
+        .profile-document-buttons .btn:focus {
+            border-color: #111 !important;
+            background-color: #111 !important;
+            box-shadow: none !important;
+            color: #fff !important;
+            text-decoration: none !important;
+        }
         @media (max-width: 991.98px) {
             .about-intro-vanta {
                 min-height: 680px;
@@ -394,6 +434,11 @@ latest_posts:
                 <p class="fs-5 fw-light lh-sm mb-4">
                     I approach these questions through what I think of as media experience diagnostics that examine how design contributes to particular feelings and interpretations. I also build experiential prototypes based on these diagnoses, drawing on game and interaction design, including playful data systems, VR/AR environments, and interactive visualizations that help people explore uncertainty, consequences, and social complexity through action. My most recent reVISit-Games and reVISit-XR work also develops study infrastructure for deploying, logging, and replaying interactive system and XR experiences in empirical visualization and Human-Computer Interaction (HCI) studies.
                 </p>
+                <div class="profile-document-buttons" aria-label="Statements and curriculum vitae">
+                    <a class="btn btn-sm btn-outline-dark" href="{{ '/statements/research-statement/' | relative_url }}">Research Statement</a>
+                    <a class="btn btn-sm btn-outline-dark" href="{{ '/statements/teaching-statement/' | relative_url }}">Teaching Statement</a>
+                    <a class="btn btn-sm btn-outline-dark" href="{{ '/assets/pdf/Shano_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>
+                </div>
             </div>
         </div>
     </div>
