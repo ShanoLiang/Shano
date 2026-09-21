@@ -48,7 +48,7 @@ nav: false
                         <small class="fs-6 fw-bolder">Mythic Hue</small> begins from that ordinary act of imagination and asks what happens when the room can answer back. 
                         We are exploring low-cost alternatives to screen-heavy or equipment-heavy tabletop role-playing augmentation. 
                         The project uses everyday household objects as ambient game materials: lights, sound, appliances, and other domestic devices can respond to embodied gestures performed with everyday objects. 
-                        Rather than asking players to wear specialized devices or shift attention toward a digital interface, Mythic Hue uses movement-based sensing on handheld props to connect physical actions with changes in the surrounding environment. 
+                        Mythic Hue uses movement-based sensing on handheld props to connect physical actions with changes in the surrounding environment. 
                         A swung "sword," raised "shield," opened "spellbook," or ritualized gesture can trigger light, sound, or other smart-home effects, allowing the home itself to participate in the fiction of play.
                         </p>
 <p class="lead text-muted fs-6 lh-sm px-5">

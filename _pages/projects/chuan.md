@@ -54,7 +54,7 @@ nav: false
 <img class="mx-lg-auto img-fluid mt-5" height="60%" src="{{ '/assets/img/projects/chuan/chuandecor02.png' | relative_url }}" width="60%"/>
 </p>
 <p class="lead text-muted fs-5 lh-sm px-1 text-end">
-                            In this project, I treated pán chuàn as a tactile interaction practice rather than simply a cultural reference. 
+                            In this project, I treated pán chuàn as a tactile interaction practice (instead of simply a cultural reference). 
                             The goal was to reinterpret its hand rhythm, material intimacy, and calming tempo through an alternative controller and user interface. 
                             By sensing how the bracelet is handled, the system explores how a culturally specific handheld practice can become an embodied input method for a <small class="fs-5 fw-bold color-text-cyan">digital experience</small>.
                         </p>

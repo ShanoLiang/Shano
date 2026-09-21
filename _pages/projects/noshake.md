@@ -76,7 +76,7 @@ nav: false
 <p class="lead text-muted fs-6 lh-sm px-1 text-start">
                         As a tangible game installation, No Shake combines a custom physical controller, a rebellious vending-machine body, and a digital game built specifically for that controller. 
                         We wanted to create an alternative-controller game that felt unusual from the first touch: something that made players ask, "Am I really supposed to move this whole machine?" 
-                        To make that happen, we started from raw materials rather than a finished device. 
+                        To make that happen, we started from raw materials. 
                         We measured and drafted the cabinet structure, cut wood panels, assembled the body with nails and hardware, managed the weight distribution, planned the internal wiring and power layout, and embedded the controller core, input system, and display panel inside the machine. 
                         At some point, the game designers had effectively become <em>carpenters</em>. 
                         A confused labmate once looked at the work in progress and asked whether I was building myself a cabinet. 
@@ -109,7 +109,7 @@ nav: false
                         I textured the models in Substance Painter with realistic but pixel-art-inspired PBR materials, then developed the playable scene in Unity using the HDRP. 
                         The result was a tiny, moody miniatur dungeon hidden inside the body of a vending machine. 
                         By tilting and rocking the cabinet, players could watch the gacha ball they were trying to "purchase" travel through a trap-filled miniature environment on its way to the goal. 
-                        In other words, the machine did not simply dispense a prize! It made the prize go on a dangerous little journey first. :D
+                        In other words, the machine made the prize go on a dangerous little journey. :D
                         </p>
 <div class="noshake-inline-signs noshake-art-signs px-5">
 <img src="{{ '/assets/img/projects/noshake/Sign6.png' | relative_url }}" alt="No Shake sign 6"/>
@@ -163,7 +163,7 @@ nav: false
                         Even as a PhD candidate surrounded by papers, deadlines, reviews, and revisions, I wanted this project to celebrate something lighter: absurdity, humor, and the stubborn resilience of playful making. 
                         No Shake's art is deliberately ridiculous. 
                         For the showcase, I also made a series of parody "No Shake" signs to accompany the machine, and players laughed before they even started playing. 
-                        The project became a small public joke installed in the middle of campus life: "next to the real vending machines, there was suddenly another vending machine, except this one could be played."
+                        The project became a small public joke installed in the middle of campus life: "next to the real vending machines there was suddenly another one but is a playable vending machine."
                         </p>
 </div>
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>

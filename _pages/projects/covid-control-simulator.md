@@ -87,7 +87,7 @@ nav: false
                             Motivated by our personal experiences and the desire to help others understand the complexities of pandemic response, we set out to capture the difficult choices faced by government officials during a crisis. 
                             Based on our team's experiences and positionality as native Wuhan residents, we designed the game to immerse players in the difficult tradeoffs involved in pandemic response. 
                             The game asks players to make responsible decisions under uncertainty, showing how delayed, careless, or poorly coordinated actions can produce cascading consequences for the affected population. 
-                            Rather than presenting the pandemic only as a sequence of statistics or policy decisions, the game uses simulation and interactive systems to make the relationships among disease transmission, public communication, resource allocation, and civic responsibility more visible. 
+                            It uses simulation and interactive systems to make the relationships among disease transmission, public communication, resource allocation, and civic responsibility more visible. 
                         </p>
 </div>
 <div class="col-lg-7 px-0 text-center">
@@ -119,7 +119,7 @@ nav: false
                             Policies like mask mandates, public transportation suspension, disinfection, and quarantine measures all feed into the simulation, reflecting their real-world impact on transmission.   
                         </p>
 <p class="lead text-muted fs-6 lh-sm px-1">
-                            Game systems go beyond just disease modeling: resources such as hospital beds, medical staff, and surgical masks are tracked and directly affect both health outcomes and available actions. 
+                            Beyond just disease modeling, resources such as hospital beds, medical staff, and surgical masks are tracked and directly affect both health outcomes and available actions. 
                             A layered media system models public concern, panic, satisfaction, and government credibility, allowing players to manage information flow and citizen morale through simulated news and social media (rewritten from authentic sources). 
                             Research progress and pressure on scientists affect not only future healthcare capabilities, but also the pace at which new solutions can be deployed.
                         </p>
