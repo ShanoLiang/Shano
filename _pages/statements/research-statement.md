@@ -115,7 +115,7 @@ nav: false
 <h3 class="statement-section-title">Reference</h3>
 
 <ol class="statement-references">
-  <li><span class="statement-reference-self">Shano Liang</span>, Max Chen, et al. 2026. Implemented &amp; Evaluated Euphoria: Transgender Gender Euphoria Principles in Rainborough. Proceedings of the ACM on Human-Computer Interaction (<strong><u>CHI PLAY</u></strong>), 2023. [Just Accepted]</li>
+  <li><span class="statement-reference-self">Shano Liang</span>, Max Chen, et al. 2026. Implemented &amp; Evaluated Euphoria: Transgender Gender Euphoria Principles in Rainborough. Proceedings of the ACM on Human-Computer Interaction (<strong><u>CHI PLAY</u></strong>), 2026. [Just Accepted]</li>
   <li><span class="statement-reference-self">Shano Liang</span>, Max Chen, Lane Harrison. 2026. Juicy Interactive Visualization: Evaluating How Excessive Feedback Design Shapes Visualization Engagement. IEEE Transactions on Visualization and Computer Graphics, 2026 (<strong><u>VIS/TVCG</u></strong>). [Just Accepted]</li>
   <li><span class="statement-reference-self">Shano Liang</span>, Max Chen, Lane Harrison. 2026. reVISit-XR: Bringing Extended Reality into Embeddable, Trackable, and Replayable Visualization Studies. IEEE Transactions on Visualization and Computer Graphics, 2026 (<strong><u>VIS/TVCG</u></strong>). [Just Accepted]</li>
   <li><span class="statement-reference-self">Shano Liang</span>, et al. 2025. Designed &amp; Discovered Euphoria: Insights from Trans-Femme Players' Experiences of Gender Euphoria in Video Games. Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (<strong><u>CHI '25</u></strong>). &lt;&lt; 🏆 <strong><em>Honorable Mention Award!</em></strong> &gt;&gt;</li>
